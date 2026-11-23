@@ -87,7 +87,6 @@
   --nav-h: 64px;
   --header-h: calc(var(--ticker-h) + var(--nav-h));
   --scrollbar-w: 0px;
-  --device-shell: #0a0f0d;
 }
 
 @media (min-width: 640px) {

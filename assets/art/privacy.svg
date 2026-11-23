@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200" role="img" aria-labelledby="pv-title">
+  <title id="pv-title">IA Guardian — privacidad por diseño</title>
+  <defs>
+    <radialGradient id="pv-bg" cx="50%" cy="44%" r="70%">
+      <stop offset="0" stop-color="#0B241E"/>
+      <stop offset="1" stop-color="#081B17"/>
+    </radialGradient>
+    <radialGradient id="pv-halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#5E8F7B" stop-opacity=".15"/>
+      <stop offset=".45" stop-color="#5E8F7B" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#5E8F7B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pv-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#A9C6B8" stop-opacity=".5"/>
+      <stop offset=".45" stop-color="#A9C6B8" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#A9C6B8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pv-glow-soft" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#A9C6B8" stop-opacity=".24"/>
+      <stop offset=".5" stop-color="#A9C6B8" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#A9C6B8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pv-vignette" cx="50%" cy="48%" r="72%">
+      <stop offset=".52" stop-color="#081B17" stop-opacity="0"/>
+      <stop offset="1" stop-color="#081B17" stop-opacity=".62"/>
+    </radialGradient>
+    <pattern id="pv-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#A9C6B8" stroke-width="1" opacity=".05"/>
+    </pattern>
+    <pattern id="pv-grid-major" width="200" height="200" patternUnits="userSpaceOnUse">
+      <path d="M200 0H0V200" fill="none" stroke="#A9C6B8" stroke-width="1" opacity=".055"/>
+    </pattern>
+    <pattern id="pv-dots" width="56" height="56" patternUnits="userSpaceOnUse">
+      <circle cx="28" cy="28" r="1.3" fill="#A9C6B8" opacity=".22"/>
+    </pattern>
+    <linearGradient id="pv-card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123029"/>
+      <stop offset="1" stop-color="#0B241E"/>
+    </linearGradient>
+    <linearGradient id="pv-sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EEF2ED" stop-opacity=".06"/>
+      <stop offset=".45" stop-color="#EEF2ED" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pv-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123029" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#081B17" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="pv-fade-x" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A9C6B8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#A9C6B8" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#A9C6B8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="pv-shadow" x="-45%" y="-45%" width="190%" height="200%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity=".5"/>
+    </filter>
+    <filter id="pv-shadow-lite" x="-45%" y="-45%" width="190%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity=".45"/>
+    </filter>
+    
+    <radialGradient id="pv-dotmask" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".52" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="pv-dots-mask">
+      <rect width="1600" height="1200" fill="url(#pv-dotmask)"/>
+    </mask>
+  </defs>
+
+  <!-- fondo -->
+  <rect width="1600" height="1200" fill="url(#pv-bg)"/>
+  <rect width="1600" height="1200" fill="url(#pv-grid-major)"/>
+  <rect width="1600" height="1200" fill="url(#pv-grid)"/>
+  <rect width="1600" height="1200" fill="url(#pv-vignette)"/>
+  <circle cx="800" cy="560" r="600" fill="url(#pv-halo)"/>
+  <circle cx="812" cy="500" r="340" fill="url(#pv-halo)"/>
+  <!-- campo de puntos -->
+  <g>
+    <rect width="1600" height="1200" fill="url(#pv-dots)" mask="url(#pv-dots-mask)"/>
+  </g>
+
+  <!-- retícula de coordenadas -->
+  <g fill="none" stroke="#A9C6B8">
+    <path d="M800 0V1200M0 570H1600" stroke-opacity=".07" stroke-dasharray="1 14"/>
+    <path d="M224 561v18M296 566v8M368 566v8M440 566v8M512 561v18M584 566v8M656 566v8M728 566v8M872 566v8M944 566v8M1016 566v8M1088 561v18M1160 566v8M1232 566v8M1304 566v8M1376 561v18M791 138h18M796 210h8M796 282h8M791 354h18M796 426h8M796 498h8M796 642h8M796 714h8M791 786h18M796 858h8M796 930h8M791 1002h18" stroke-opacity=".15"/>
+    <circle cx="800" cy="570" r="4" fill="#A9C6B8" fill-opacity=".4" stroke="none"/>
+    <circle cx="800" cy="570" r="394" stroke-opacity=".07"/>
+  </g>
+
+  <!-- órbita mayor -->
+  <g transform="translate(800 570) scale(1.22) translate(-800 -570)">
+  <g fill="none" stroke-linecap="round">
+    <path d="M1036.4 385.3A300 300 0 1 1 789.53 270.18" stroke="#A9C6B8" stroke-opacity=".62" stroke-width="1.5"/>
+    <path d="M1071.93 413A314 314 0 1 1 692.61 274.94" stroke="#A9C6B8" stroke-opacity=".12" stroke-dasharray="1 10"/>
+    <circle cx="789.5" cy="270.2" r="3" fill="#A9C6B8" stroke="none" fill-opacity=".5"/>
+    <!-- órbita menor -->
+    <path d="M811.86 480.25A170 170 0 1 1 739.77 530.73" stroke="#5E8F7B" stroke-opacity=".55" stroke-width="1.5"/>
+    <circle cx="739.8" cy="530.7" r="2.6" fill="#A9C6B8" stroke="none" fill-opacity=".45"/>
+    <!-- radios de medida -->
+    <g stroke="#A9C6B8" stroke-opacity=".12">
+      <path d="M800 570L1010 640"/>
+      <circle cx="800" cy="570" r="228" stroke-opacity=".06" stroke-dasharray="1 14"/>
+    </g>
+  </g>
+
+  <!-- terminal superior: punto -->
+  <g>
+    <circle cx="1036" cy="385" r="46" fill="url(#pv-glow-soft)"/>
+    <circle cx="1036" cy="385" r="20" fill="none" stroke="#A9C6B8" stroke-opacity=".28"/>
+    <circle cx="1036" cy="385" r="9" fill="#EEF2ED" fill-opacity=".92" stroke="none"/>
+  </g>
+
+  <!-- terminal menor: candado -->
+  <g>
+    <circle cx="812" cy="478" r="170" fill="url(#pv-glow-soft)"/>
+    <circle cx="812" cy="478" r="92" fill="none" stroke="#A9C6B8" stroke-opacity=".12"/>
+    <g>
+      <path d="M787.04 449.55v-29.95a24.96 24.96 0 0 1 49.92 0V449.55" fill="none" stroke="#EEF2ED" stroke-opacity=".92" stroke-width="2" stroke-linecap="round"/>
+      <rect x="764" y="440.56" width="96" height="74.88" rx="15.36" fill="#0B241E" fill-opacity=".94" stroke="#A9C6B8" stroke-opacity=".78" stroke-width="1.8"/>
+      <rect x="769" y="445.56" width="86" height="64.88" rx="9.6" fill="none" stroke="#EEF2ED" stroke-opacity=".1"/>
+      <circle cx="812" cy="466.02" r="5.57" fill="#EEF2ED" fill-opacity=".95" stroke="none"/>
+      <rect x="809.7" y="470.82" width="4.61" height="14.98" rx="2.3" fill="#EEF2ED" fill-opacity=".85" stroke="none"/>
+    </g>
+  </g>
+
+  <!-- marcas de medida -->
+  <g fill="none" stroke="#A9C6B8" stroke-opacity=".16">
+    <path d="M500 570h22M1078 570h22"/>
+    <path d="M800 246v18M800 876v18"/>
+  </g>
+  <g fill="none" stroke="#A9C6B8" stroke-opacity=".12">
+    <rect x="1188" y="884" width="26" height="26"/>
+    <rect x="1195" y="891" width="12" height="12"/>
+  </g>
+  <g stroke="#A9C6B8" stroke-opacity=".18">
+    <path d="M300 890h40M300 884v12M340 884v12"/>
+  </g>
+  </g>
+  
+  <!-- marcas de registro -->
+  <g fill="none" stroke="#A9C6B8" stroke-width="1" stroke-opacity=".3"><path d="M52 76V52H76"/><circle cx="52" cy="52" r="1.7" fill="#A9C6B8" stroke="none" fill-opacity=".45"/><path d="M1548 76V52H1524"/><circle cx="1548" cy="52" r="1.7" fill="#A9C6B8" stroke="none" fill-opacity=".45"/><path d="M52 1124V1148H76"/><circle cx="52" cy="1148" r="1.7" fill="#A9C6B8" stroke="none" fill-opacity=".45"/><path d="M1548 1124V1148H1524"/><circle cx="1548" cy="1148" r="1.7" fill="#A9C6B8" stroke="none" fill-opacity=".45"/></g>
+  <g stroke="#A9C6B8" stroke-width="1" stroke-opacity=".18">
+    <path d="M800 40v14M800 1146v14M40 600h14M1546 600h14"/>
+    <path d="M52 400h8M52 800h8M1540 400h8M1540 800h8M400 52v8M1200 52v8M400 1148v8M1200 1148v8"/>
+  </g>
+  <g stroke="#A9C6B8" stroke-width="1" stroke-opacity=".1">
+    <path d="M148 96h32M1420 96h32M148 1104h32M1420 1104h32"/>
+  </g>
+  <!-- firma: Vínculo 24 px -->
+  <g transform="translate(1498 1094) scale(0.09375)" opacity=".35">
+    <circle cx="128" cy="128" r="88" fill="none" stroke="#A9C6B8" stroke-width="26"
+            stroke-dasharray="414 139" transform="rotate(-45 128 128)"/>
+    <circle cx="140" cy="140" r="48" fill="none" stroke="#5E8F7B" stroke-width="26"
+            stroke-dasharray="226 76" transform="rotate(135 140 140)"/>
+    <circle cx="102" cy="102" r="14" fill="#A9C6B8"/>
+    <circle cx="226" cy="226" r="12" fill="#A9C6B8"/>
+  </g>
+</svg>

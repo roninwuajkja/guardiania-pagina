@@ -324,7 +324,6 @@
   const scenes = Array.from(document.querySelectorAll("[data-scene]"));
   const sequence = document.querySelector(".sequence");
   const sequenceFrames = sequence ? Array.from(sequence.querySelectorAll(".sequence__frame")) : [];
-  const sequenceBacks = sequence ? Array.from(sequence.querySelectorAll(".sequence__back")) : [];
   const sequenceTicks = sequence ? Array.from(sequence.querySelectorAll(".sequence__rail span")) : [];
   const sequenceCurrent = sequence ? sequence.querySelector("[data-sequence-current]") : null;
   const statement = document.querySelector(".statement");
@@ -388,7 +387,6 @@
     if (index !== activeSequence) {
       activeSequence = index;
       sequenceFrames.forEach((frame, i) => frame.classList.toggle("is-active", i === index));
-      sequenceBacks.forEach((back, i) => back.classList.toggle("is-active", i === index));
       sequenceTicks.forEach((tick, i) => tick.classList.toggle("is-active", i === index));
       if (sequenceCurrent) sequenceCurrent.textContent = String(index + 1).padStart(2, "0");
     }

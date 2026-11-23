@@ -347,10 +347,6 @@
     animation: orbit-spin 120s linear infinite;
   }
 
-  html[data-motion="auto"] .sequence__back {
-    transition: opacity 900ms var(--ease-out);
-  }
-
   html[data-motion="auto"] .sequence__frame {
     transition: opacity 900ms var(--ease-out);
   }
@@ -483,12 +479,12 @@
   }
 
   @media (min-width: 640px) {
-    html[data-motion="auto"] .sequence__frame .sequence__device {
+    html[data-motion="auto"] .sequence__frame .sequence__art {
       transform: scale(1.04) translateY(12px);
       transition: transform 900ms var(--ease-out);
     }
 
-    html[data-motion="auto"] .sequence__frame.is-active .sequence__device {
+    html[data-motion="auto"] .sequence__frame.is-active .sequence__art {
       transform: scale(1) translateY(0);
     }
 
@@ -499,11 +495,6 @@
 
   html[data-motion="auto"] .promo:hover .promo__media img {
     transform: scale(1.09) translateY(var(--py, 0px));
-  }
-
-  html[data-motion="auto"] .promo--b .promo__media img,
-  html[data-motion="auto"] .promo--b:hover .promo__media img {
-    transform: none;
   }
 
   html[data-motion="auto"] .promo__cta {
@@ -689,7 +680,6 @@ html[data-motion="reduce"] .sequence__pin {
   padding: 84px 0 var(--section);
 }
 
-html[data-motion="reduce"] .sequence__backs,
 html[data-motion="reduce"] .sequence__counter,
 html[data-motion="reduce"] .sequence__rail {
   display: none;
@@ -749,39 +739,19 @@ html[data-motion="reduce"] .sequence__frame {
   pointer-events: auto;
 }
 
-html[data-motion="reduce"] .sequence__frame::after {
-  display: none;
-}
-
-html[data-motion="reduce"] .sequence__device {
+html[data-motion="reduce"] .sequence__art {
   position: relative;
   top: auto;
   right: auto;
-  left: auto;
   width: 100%;
+  max-height: none;
+  aspect-ratio: 4 / 3;
   transform: none;
 }
 
-html[data-motion="reduce"] .sequence__device--web {
-  max-width: none;
+html[data-motion="reduce"] .sequence__art img {
   width: 100%;
-}
-
-html[data-motion="reduce"] .sequence__device--web img {
-  width: 100%;
-  max-width: none;
-  max-height: none;
-}
-
-html[data-motion="reduce"] .sequence__device--phone {
-  width: max-content;
-  max-width: 100%;
-  margin-inline: auto;
-}
-
-html[data-motion="reduce"] .sequence__device--phone img {
-  max-height: 70svh;
-  max-width: 100%;
+  height: 100%;
 }
 
 html[data-motion="reduce"] .sequence__foot {
@@ -897,7 +867,6 @@ html[data-motion="reduce"] .ticker__copy > span:nth-child(n + 4) {
     padding: 84px 0 var(--section);
   }
 
-  .sequence__backs,
   .sequence__counter,
   .sequence__rail {
     display: none;
@@ -957,38 +926,19 @@ html[data-motion="reduce"] .ticker__copy > span:nth-child(n + 4) {
     pointer-events: auto;
   }
 
-  .sequence__frame::after {
-    display: none;
-  }
-
-  .sequence__device {
+  .sequence__art {
     position: relative;
     top: auto;
     left: auto;
     width: 100%;
+    max-height: none;
+    aspect-ratio: 4 / 3;
     transform: none;
   }
 
-  .sequence__device--web {
-    max-width: none;
+  .sequence__art img {
     width: 100%;
-  }
-
-  .sequence__device--web img {
-    width: 100%;
-    max-width: none;
-    max-height: none;
-  }
-
-  .sequence__device--phone {
-    width: max-content;
-    max-width: 100%;
-    margin-inline: auto;
-  }
-
-  .sequence__device--phone img {
-    max-height: 70svh;
-    max-width: 100%;
+    height: 100%;
   }
 
   .sequence__foot {
@@ -1031,6 +981,11 @@ html.js-fallback .faq__trigger {
     transform: none;
   }
 
+  html[data-motion="auto"] .sequence__frame .sequence__art,
+  html[data-motion="auto"] .sequence__frame.is-active .sequence__art {
+    transform: none;
+  }
+
   html[data-motion="auto"] .statement__line--rule::after {
     transform: scaleX(1);
   }
@@ -1055,7 +1010,6 @@ html.js-fallback .faq__trigger {
     padding: 84px 0 var(--section);
   }
 
-  .sequence__backs,
   .sequence__counter,
   .sequence__rail {
     display: none;
@@ -1115,39 +1069,20 @@ html.js-fallback .faq__trigger {
     pointer-events: auto;
   }
 
-  .sequence__frame::after {
-    display: none;
-  }
-
-  .sequence__device {
+  .sequence__art {
     position: relative;
     top: auto;
     right: auto;
     left: auto;
     width: 100%;
+    max-height: none;
+    aspect-ratio: 4 / 3;
     transform: none;
   }
 
-  .sequence__device--web {
-    max-width: none;
+  .sequence__art img {
     width: 100%;
-  }
-
-  .sequence__device--web img {
-    width: 100%;
-    max-width: none;
-    max-height: none;
-  }
-
-  .sequence__device--phone {
-    width: max-content;
-    max-width: 100%;
-    margin-inline: auto;
-  }
-
-  .sequence__device--phone img {
-    max-height: 70svh;
-    max-width: 100%;
+    height: 100%;
   }
 
   .sequence__foot {

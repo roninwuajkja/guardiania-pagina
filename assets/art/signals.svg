@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200" role="img" aria-labelledby="s-title">
+  <title id="s-title">IA Guardian — la conversación no sale</title>
+  <defs>
+    <radialGradient id="s-bg" cx="50%" cy="44%" r="70%">
+      <stop offset="0" stop-color="#0B241E"/>
+      <stop offset="1" stop-color="#081B17"/>
+    </radialGradient>
+    <radialGradient id="s-halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#5E8F7B" stop-opacity=".15"/>
+      <stop offset=".45" stop-color="#5E8F7B" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#5E8F7B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="s-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#A9C6B8" stop-opacity=".5"/>
+      <stop offset=".45" stop-color="#A9C6B8" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#A9C6B8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="s-glow-soft" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#A9C6B8" stop-opacity=".24"/>
+      <stop offset=".5" stop-color="#A9C6B8" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#A9C6B8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="s-vignette" cx="50%" cy="48%" r="72%">
+      <stop offset=".52" stop-color="#081B17" stop-opacity="0"/>
+      <stop offset="1" stop-color="#081B17" stop-opacity=".62"/>
+    </radialGradient>
+    <pattern id="s-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#A9C6B8" stroke-width="1" opacity=".05"/>
+    </pattern>
+    <pattern id="s-grid-major" width="200" height="200" patternUnits="userSpaceOnUse">
+      <path d="M200 0H0V200" fill="none" stroke="#A9C6B8" stroke-width="1" opacity=".055"/>
+    </pattern>
+    <pattern id="s-dots" width="56" height="56" patternUnits="userSpaceOnUse">
+      <circle cx="28" cy="28" r="1.3" fill="#A9C6B8" opacity=".22"/>
+    </pattern>
+    <linearGradient id="s-card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123029"/>
+      <stop offset="1" stop-color="#0B241E"/>
+    </linearGradient>
+    <linearGradient id="s-sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EEF2ED" stop-opacity=".06"/>
+      <stop offset=".45" stop-color="#EEF2ED" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="s-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123029" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#081B17" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="s-fade-x" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A9C6B8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#A9C6B8" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#A9C6B8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="s-shadow" x="-45%" y="-45%" width="190%" height="200%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity=".5"/>
+    </filter>
+    <filter id="s-shadow-lite" x="-45%" y="-45%" width="190%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity=".45"/>
+    </filter>
+    
+    <radialGradient id="s-halo-warm" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8D620F" stop-opacity=".18"/>
+      <stop offset=".5" stop-color="#8D620F" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#8D620F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- fondo -->
+  <rect width="1600" height="1200" fill="url(#s-bg)"/>
+  <rect width="1600" height="1200" fill="url(#s-grid-major)"/>
+  <rect width="1600" height="1200" fill="url(#s-grid)"/>
+  <rect width="1600" height="1200" fill="url(#s-vignette)"/>
+  <circle cx="600" cy="600" r="470" fill="url(#s-halo)"/>
+  <circle cx="540" cy="600" r="320" fill="url(#s-halo)"/>
+  <!-- límite de lo que no sale -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M806 632.66A268 268 0 1 1 806 567.34" stroke="#A9C6B8" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="1 10"/>
+    <g stroke="#A9C6B8" stroke-opacity=".26">
+      <path d="M806 633l9 5M806 567l9-5"/>
+        <path d="M722.43 782.43L736.58 796.58"/><path d="M357.57 782.43L343.42 796.58"/><path d="M357.57 417.57L343.42 403.42"/><path d="M722.43 417.57L736.58 403.42"/>
+    </g>
+    <!-- puerta ámbar -->
+    <circle cx="806" cy="567" r="34" fill="url(#s-halo-warm)" stroke="none"/>
+    <circle cx="806" cy="567" r="13" fill="none" stroke="#8D620F" stroke-opacity=".45"/>
+    <circle cx="806" cy="567" r="4" fill="#8D620F" stroke="none"/>
+  </g>
+
+  <!-- teléfono -->
+  <g filter="url(#s-shadow-lite)">
+    <rect x="388" y="340" width="200" height="520" rx="30" fill="#123029" stroke="#A9C6B8" stroke-opacity=".5" stroke-width="2"/>
+  </g>
+  <rect x="397" y="349" width="182" height="502" rx="22" fill="#081B17" fill-opacity=".92" stroke="#A9C6B8" stroke-opacity=".1"/>
+  <rect x="466" y="354" width="44" height="4" rx="2" fill="#A9C6B8" stroke="none" fill-opacity=".26"/>
+  <rect x="468" y="832" width="40" height="3" rx="1.5" fill="#A9C6B8" stroke="none" fill-opacity=".18"/>
+  <!-- conversación retenida -->
+  <g fill="#A9C6B8" stroke="none">
+    <rect x="420" y="400" width="128" height="6" rx="3" fill-opacity=".2"/>
+    <rect x="420" y="416" width="86" height="6" rx="3" fill-opacity=".14"/>
+    <rect x="420" y="432" width="104" height="6" rx="3" fill-opacity=".18"/>
+    <g fill-opacity=".16">
+      <circle cx="428" cy="476" r="3"/><circle cx="448" cy="476" r="3"/><circle cx="468" cy="476" r="3"/>
+      <circle cx="488" cy="476" r="3"/><circle cx="508" cy="476" r="3"/>
+    </g>
+    <rect x="420" y="508" width="62" height="5" rx="2.5" fill-opacity=".1"/>
+  </g>
+  <g fill="none" stroke="#A9C6B8" stroke-opacity=".1">
+    <rect x="420" y="392" width="140" height="56" rx="10"/>
+  </g>
+
+  <!-- arcos -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M631.1 544.84A70 70 0 0 1 631.1 655.16" stroke="#A9C6B8" stroke-opacity=".55" stroke-width="1.5"/>
+    <path d="M659.42 508.59A116 116 0 0 1 659.42 691.41" stroke="#A9C6B8" stroke-opacity=".4" stroke-width="1.5"/>
+    <path d="M687.74 472.34A162 162 0 0 1 687.74 727.66" stroke="#A9C6B8" stroke-opacity=".26" stroke-width="1.5"/>
+    <path d="M716.06 436.09A208 208 0 0 1 716.06 763.91" stroke="#A9C6B8" stroke-opacity=".16" stroke-width="1.5"/>
+  </g>
+
+  <!-- vector que sale -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M616 600H966" stroke="#EEF2ED" stroke-opacity=".9" stroke-width="2.4"/>
+    <path d="M956 588l14 12-14 12" stroke="#EEF2ED" stroke-opacity=".9" stroke-width="2"/>
+    <path d="M986 600h22" stroke="#EEF2ED" stroke-opacity=".55" stroke-width="2" stroke-dasharray="6 8"/>
+  </g>
+  <g fill="#A9C6B8" stroke="none">
+    <circle cx="1024" cy="608" r="2.6" fill-opacity=".55"/>
+    <circle cx="1042" cy="620" r="2.2" fill-opacity=".45"/>
+    <circle cx="1058" cy="636" r="3" fill-opacity=".6"/>
+    <circle cx="1074" cy="652" r="2.4" fill-opacity=".4"/>
+  </g>
+  <circle cx="1024" cy="608" r="8" fill="none" stroke="#A9C6B8" stroke-opacity=".2"/>
+  <circle cx="1082" cy="664" r="3.6" fill="#EEF2ED" fill-opacity=".8" stroke="none"/>
+
+  <!-- vector derivado: barras -->
+  <g>
+    <path d="M1072 710H1248" stroke="#A9C6B8" stroke-opacity=".22"/>
+    <g stroke="#A9C6B8" stroke-opacity=".16">
+      <path d="M1072 704v12M1248 704v12"/>
+    </g>
+    <rect x="1090" y="570" width="16" height="140" fill="#A9C6B8" fill-opacity=".16" stroke="none"/>
+    <rect x="1122" y="626" width="16" height="84" fill="#A9C6B8" fill-opacity=".16" stroke="none"/>
+    <rect x="1154" y="510" width="16" height="200" fill="#A9C6B8" fill-opacity=".32" stroke="none"/>
+    <rect x="1186" y="598" width="16" height="112" fill="#A9C6B8" fill-opacity=".16" stroke="none"/>
+    <rect x="1218" y="648" width="16" height="62" fill="#A9C6B8" fill-opacity=".16" stroke="none"/>
+    <rect x="1154" y="505" width="16" height="3" fill="#EEF2ED" fill-opacity=".9" stroke="none"/>
+    <path d="M1098 710v-140M1130 710v-84M1162 710v-200M1194 710v-112M1226 710v-62" stroke="#A9C6B8" stroke-opacity=".1" stroke-dasharray="1 5"/>
+  </g>
+
+  <!-- fragmentos descartados -->
+  <g fill="none" stroke="#A9C6B8" stroke-opacity=".12">
+    <rect x="300" y="740" width="8" height="8" rx="1"/>
+    <rect x="330" y="772" width="6" height="6" rx="1"/>
+    <rect x="356" y="726" width="5" height="5" rx="1"/>
+  </g>
+
+  <!-- medidas -->
+  <g stroke="#A9C6B8" stroke-opacity=".14">
+    <path d="M388 892h200M388 886v12M588 886v12"/>
+    <path d="M800 892v-16"/>
+  </g>
+  <circle cx="540" cy="600" r="5" fill="none" stroke="#A9C6B8" stroke-opacity=".22"/>
+  <path d="M540 586v8M540 606v8M526 600h8M546 600h8" stroke="#A9C6B8" stroke-opacity=".2"/>
+  
+  <!-- marcas de registro -->
+  <g fill="none" stroke="#A9C6B8" stroke-width="1" stroke-opacity=".3"><path d="M52 76V52H76"/><circle cx="52" cy="52" r="1.7" fill="#A9C6B8" stroke="none" fill-opacity=".45"/><path d="M1548 76V52H1524"/><circle cx="1548" cy="52" r="1.7" fill="#A9C6B8" stroke="none" fill-opacity=".45"/><path d="M52 1124V1148H76"/><circle cx="52" cy="1148" r="1.7" fill="#A9C6B8" stroke="none" fill-opacity=".45"/><path d="M1548 1124V1148H1524"/><circle cx="1548" cy="1148" r="1.7" fill="#A9C6B8" stroke="none" fill-opacity=".45"/></g>
+  <g stroke="#A9C6B8" stroke-width="1" stroke-opacity=".18">
+    <path d="M800 40v14M800 1146v14M40 600h14M1546 600h14"/>
+    <path d="M52 400h8M52 800h8M1540 400h8M1540 800h8M400 52v8M1200 52v8M400 1148v8M1200 1148v8"/>
+  </g>
+  <g stroke="#A9C6B8" stroke-width="1" stroke-opacity=".1">
+    <path d="M148 96h32M1420 96h32M148 1104h32M1420 1104h32"/>
+  </g>
+  <!-- firma: Vínculo 24 px -->
+  <g transform="translate(1498 1094) scale(0.09375)" opacity=".35">
+    <circle cx="128" cy="128" r="88" fill="none" stroke="#A9C6B8" stroke-width="26"
+            stroke-dasharray="414 139" transform="rotate(-45 128 128)"/>
+    <circle cx="140" cy="140" r="48" fill="none" stroke="#5E8F7B" stroke-width="26"
+            stroke-dasharray="226 76" transform="rotate(135 140 140)"/>
+    <circle cx="102" cy="102" r="14" fill="#A9C6B8"/>
+    <circle cx="226" cy="226" r="12" fill="#A9C6B8"/>
+  </g>
+</svg>
