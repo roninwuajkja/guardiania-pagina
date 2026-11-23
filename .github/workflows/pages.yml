@@ -28,12 +28,11 @@ jobs:
 
       - name: Preparar sitio
         run: |
-          mkdir -p _site/assets/screens
+          mkdir -p _site/assets
           cp index.html legal.html _site/
           cp -r styles scripts _site/
-          cp -r assets/brand assets/fonts _site/assets/
+          cp -r assets/brand assets/fonts assets/art _site/assets/
           cp assets/qr-apk.svg _site/assets/
-          cp assets/screens/*.webp _site/assets/screens/
 
       - name: Subir artefacto
         uses: actions/upload-pages-artifact@v3
