@@ -1,8 +1,8 @@
-﻿{
+{
     "run_id": "2026-11-22-landing-guardian-ia",
     "project_path": "C:\\Users\\Usuario\\Desktop\\Guardian IA Pagina",
     "created_at": "2026-11-22T00:00:00-03:00",
-    "updated_at": "2026-11-23T16:58:39-03:00",
+    "updated_at": "2026-11-23T17:05:04-03:00",
     "stage": "DONE",
     "ui": true,
     "assets": true,
@@ -53,6 +53,6 @@
         "remote": "https://github.com/roninwuajkja/guardiania-pagina",
         "visibility": "public",
         "pages": "https://roninwuajkja.github.io/guardiania-pagina/",
-        "workflow_run": 45196993318
+        "workflow_run": 45255354027
     }
 }

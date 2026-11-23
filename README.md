@@ -80,6 +80,7 @@ No hay service worker, redirecciones, variables de entorno ni reescrituras. Mant
 - Menú con `<dialog>` nativo: foco atrapado, cierre con Escape, retorno de foco y bloqueo de scroll.
 - FAQ con `aria-expanded`, una respuesta abierta a la vez e `inert` en paneles cerrados.
 - `prefers-reduced-motion` desactiva loader animado, pin y reveals; los 4 frames quedan apilados y todo el contenido es legible.
+- La declaración `#idea` usa un track de 320vh en escritorio: líneas, regla, párrafo, cifras y órbita avanzan con el scroll (scrubbed). En móvil, movimiento reducido y sin JS se muestra estática y completa.
 - El toggle «Movimiento» persiste en `localStorage` (`ia-guardian-motion`) y actualiza `aria-pressed`.
 - Sin JS, el fallback retira el loader a los 3 s y muestra el contenido. El loader se muestra una vez por sesión (`sessionStorage`).
 - Verificado con axe-core 4.14.1 con las reglas por defecto (incluye `label-content-name-mismatch`) además de WCAG 2.0/2.1/2.2 A y AA: 0 violaciones en home y legal a 390 y 1440 px, con menú abierto y en modo reducido. Contraste medido: 15,8:1, 8,9:1 y 5,1:1.

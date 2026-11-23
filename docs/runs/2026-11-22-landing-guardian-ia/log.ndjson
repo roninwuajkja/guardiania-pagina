@@ -25,3 +25,6 @@
 {"action":"pages.enabled","ts":"2026-11-23T11:44:30","stage":"SHIP","result":"ok","evidence":"gh api POST pages build_type=workflow","gate":"G6"}
 {"action":"pages.deploy","ts":"2026-11-23T11:44:30","stage":"SHIP","result":"pass","evidence":"run 45196993318 success; build 5s deploy 9s","gate":"G6"}
 {"action":"pages.verify","ts":"2026-11-23T11:44:30","stage":"SHIP","result":"pass","evidence":"home 200 38096B; legal 200 12809B; assets 200; 0 consola/requests; 8 tiles; descarga correcta","gate":"G6"}
+{"ts": "2026-11-23T17:03:00-03:00", "stage": "BUILD", "gate": "D2", "action": "statement.scroll", "result": "pass", "evidence": "track 320vh; scrub por --p en lineas/regla/lead/figuras/contadores/orbita; banda de 3 etapas; #idea-enter al 31% con p=0.407 y lead 0.912 a 1440; secuencia con arte 560x420 y pie top 462; 0 solapes/overflow/errores; axe 0"}
+{"ts": "2026-11-23T17:04:00-03:00", "stage": "SHIP", "gate": "G6", "action": "pages.deploy", "result": "pass", "evidence": "commit 4fd4fd9; run 45255354027 success"}
+{"ts": "2026-11-23T17:05:00-03:00", "stage": "SHIP", "gate": "G6", "action": "pages.verify", "result": "pass", "evidence": "publico 1440: statement 2880px, p=0.700 con 0/38/1, arte 560x420, pie top 462; 390: arte 324x243, pila intacta; 0 overflow, 0 consola, 0 requests fallidos"}
