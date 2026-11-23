@@ -248,7 +248,7 @@
         </div>
       </div>
 
-      <a class="hero__scroll" href="#idea" aria-label="Desliza para bajar a la idea">
+      <a class="hero__scroll" href="#idea-enter" aria-label="Desliza para bajar a la idea">
         <span>DESLIZA</span>
         <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg>
       </a>
@@ -256,19 +256,20 @@
 
     <section class="statement" id="idea" data-scene aria-labelledby="statement-title">
       <div class="statement__pin">
+        <div class="statement__orbit statement__orbit--outer" aria-hidden="true"></div>
         <div class="statement__orbit" aria-hidden="true"><span></span></div>
         <div class="statement__glow" aria-hidden="true"></div>
 
         <div class="statement__inner container">
-          <p class="eyebrow" data-reveal style="--d: 0ms">La idea</p>
-          <h2 class="statement__title" id="statement-title" data-reveal style="--d: 60ms">
+          <p class="eyebrow">La idea</p>
+          <h2 class="statement__title" id="statement-title">
             <span class="statement__line"><span>LA CONVERSACIÓN</span></span>
             <span class="statement__line statement__line--rule"><span><span class="statement__no">NO</span> SALE DEL</span></span>
             <span class="statement__line"><span>TELÉFONO.</span></span>
           </h2>
-          <p class="statement__lead" data-reveal style="--d: 260ms">IA Guardian analiza en el dispositivo de tu hijo, descarta el texto y envía solo un vector de señales. Tú recibes alertas que explican qué pasó, sin exponer conversaciones.</p>
+          <p class="statement__lead">IA Guardian analiza en el dispositivo de tu hijo, descarta el texto y envía solo un vector de señales. Tú recibes alertas que explican qué pasó, sin exponer conversaciones.</p>
 
-          <ul class="statement__figures" data-reveal style="--d: 380ms">
+          <ul class="statement__figures">
             <li>
               <span class="statement__figure-num" data-count="0">0</span>
               <span class="statement__figure-label">textos enviados</span>
@@ -283,7 +284,20 @@
             </li>
           </ul>
         </div>
+
+        <div class="statement__steps" aria-hidden="true">
+          <div class="statement__steps-track">
+            <span class="statement__steps-fill"></span>
+            <span class="statement__steps-marker"></span>
+          </div>
+          <div class="statement__steps-labels">
+            <span>ANÁLISIS LOCAL</span>
+            <span>EL TEXTO SE DESCARTA</span>
+            <span>SOLO UN VECTOR</span>
+          </div>
+        </div>
       </div>
+      <span class="statement__enter" id="idea-enter" aria-hidden="true"></span>
     </section>
 
     <section class="sequence" id="producto" tabindex="-1" data-scene aria-labelledby="sequence-title">

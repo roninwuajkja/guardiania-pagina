@@ -1,57 +1,58 @@
 ﻿{
-    "run_id":  "2026-11-22-landing-guardian-ia",
-    "project_path":  "C:\\Users\\Usuario\\Desktop\\Guardian IA Pagina",
-    "created_at":  "2026-11-22T00:00:00-03:00",
-    "updated_at":  "2026-11-23T11:44:21",
-    "stage":  "DONE",
-    "ui":  true,
-    "assets":  true,
-    "issues":  false,
-    "release":  false,
-    "gates":  {
-                  "G0":  "pass",
-                  "G1":  "pass",
-                  "D1":  "pass",
-                  "G2":  "pass",
-                  "D2":  "pass",
-                  "G3":  "pass",
-                  "D3":  "pass",
-                  "G4":  "pass",
-                  "G5":  "pass",
-                  "G6":  "pass"
-              },
-    "gate_evidence":  {
-                          "G0":  "Directiva del usuario: landing de presentaciÃƒÂ³n y descarga, ruta fija, referencia rockstargames.com/VI. Alcance en BRIEF.md.",
-                          "G1":  "PLAN.md con fases, riesgos y criterios verificables.",
-                          "D1":  "DISENO.md con tokens, copy y sistema de movimiento; REFERENCIA.md con el anÃƒÂ¡lisis del sitio de referencia.",
-                          "G2":  "html-validate exit 0; css-tree 4/4 OK; node --check OK; 0 console.error, 0 pageerror, 0 requests fallidos; 25 assets locales.",
-                          "D2":  "10 secciones, loader, ticker, nav, menu dialog, hero-collage 8 fragmentos, declaracion sticky, secuencia 4 frames, senales, promos, limites, descarga, FAQ, footer y legal.",
-                          "G3":  "Playwright 390/768/1440/2560 sin overflow; menu y FAQ OK; reduced motion OK; axe 0 violaciones; enlaces 200; LCP 2476 ms, CLS 0.00006, 707 KB.",
-                          "D3":  "AUDITORIA-UI.md: re-auditoria PASS con 0 CRITICAL, 0 HIGH y 0 MEDIUM; ticker reduced 640-919 confirmado a 390/768/1440. Solo quedan LOW de pulido.",
-                          "G4":  "GOLDFISH.md: APTO G4 con 0 BLOCKER. Los 4 HIGH de publicacion se cerraron y verificaron: contacto por GitHub Issues sin mailto muerto, copy de privacidad preciso, axe default 0 en home/legal, legal con responsable/fecha/terceros. Evidencia en CORRECCIONES-GOLDFISH.md y TEST-EVIDENCE.md.",
-                          "G5":  "VERDICT.md: PASS. G2/G3/G4/D3 en verde, sin critical/high abiertos; deuda aceptada documentada.",
-                          "G6":  "Repo publico roninwuajkja/guardiania-pagina creado y Pages desplegado: https://roninwuajkja.github.io/guardiania-pagina/ (run 45196993318 success). Verificacion publica: home/legal/assets 200, 0 errores de consola, 8 tiles, descarga correcta."
-                      },
-    "attempts":  {
-                     "fix_loops":  0,
-                     "polish_rounds":  4,
-                     "note":  "Las rondas de pulido fueron hallazgos propios antes del veredicto, no bucles de un FAIL de G5."
-                 },
-    "artifacts":  {
-                      "brief":  "BRIEF.md",
-                      "plan":  "PLAN.md",
-                      "design":  "DISENO.md",
-                      "reference":  "REFERENCIA.md",
-                      "test_evidence":  "TEST-EVIDENCE.md",
-                      "report":  "report.json",
-                      "perf":  "perf.json",
-                      "screenshots":  "capturas/"
-                  },
-    "repo":  {
-                 "path":  "C:\\Users\\Usuario\\Desktop\\Guardian IA Pagina",
-                 "remote":  "https://github.com/roninwuajkja/guardiania-pagina",
-                 "visibility":  "public",
-                 "pages":  "https://roninwuajkja.github.io/guardiania-pagina/",
-                 "workflow_run":  45196993318
-             }
+    "run_id": "2026-11-22-landing-guardian-ia",
+    "project_path": "C:\\Users\\Usuario\\Desktop\\Guardian IA Pagina",
+    "created_at": "2026-11-22T00:00:00-03:00",
+    "updated_at": "2026-11-23T16:58:39-03:00",
+    "stage": "DONE",
+    "ui": true,
+    "assets": true,
+    "issues": false,
+    "release": false,
+    "gates": {
+        "G0": "pass",
+        "G1": "pass",
+        "D1": "pass",
+        "G2": "pass",
+        "D2": "pass",
+        "G3": "pass",
+        "D3": "pass",
+        "G4": "pass",
+        "G5": "pass",
+        "G6": "pass"
+    },
+    "gate_evidence": {
+        "G0": "Directiva del usuario: landing de presentaciÃƒÂ³n y descarga, ruta fija, referencia rockstargames.com/VI. Alcance en BRIEF.md.",
+        "G1": "PLAN.md con fases, riesgos y criterios verificables.",
+        "D1": "DISENO.md con tokens, copy y sistema de movimiento; REFERENCIA.md con el anÃƒÂ¡lisis del sitio de referencia.",
+        "G2": "html-validate exit 0; css-tree 4/4 OK; node --check OK; 0 console.error, 0 pageerror, 0 requests fallidos; 25 assets locales.",
+        "D2": "10 secciones, loader, ticker, nav, menu dialog, hero-collage 8 fragmentos, declaracion sticky, secuencia 4 frames, senales, promos, limites, descarga, FAQ, footer y legal. IteraciÃ³n 2026-11-23: declaraciÃ³n con track de 320vh, animaciÃ³n scrubbed por scroll, banda de etapas y entrada #idea-enter; pie de la secuencia a 462px y arte 560x420, verificados en cinco viewports.",
+        "G3": "Playwright 390/768/1440/2560 sin overflow; menu y FAQ OK; reduced motion OK; axe 0 violaciones; enlaces 200; LCP 2476 ms, CLS 0.00006, 707 KB.",
+        "D3": "AUDITORIA-UI.md: re-auditoria PASS con 0 CRITICAL, 0 HIGH y 0 MEDIUM; ticker reduced 640-919 confirmado a 390/768/1440. Solo quedan LOW de pulido.",
+        "G4": "GOLDFISH.md: APTO G4 con 0 BLOCKER. Los 4 HIGH de publicacion se cerraron y verificaron: contacto por GitHub Issues sin mailto muerto, copy de privacidad preciso, axe default 0 en home/legal, legal con responsable/fecha/terceros. Evidencia en CORRECCIONES-GOLDFISH.md y TEST-EVIDENCE.md.",
+        "G5": "VERDICT.md: PASS. G2/G3/G4/D3 en verde, sin critical/high abiertos; deuda aceptada documentada.",
+        "G6": "Repo publico roninwuajkja/guardiania-pagina creado y Pages desplegado: https://roninwuajkja.github.io/guardiania-pagina/ (run 45196993318 success). Verificacion publica: home/legal/assets 200, 0 errores de consola, 8 tiles, descarga correcta."
+    },
+    "attempts": {
+        "fix_loops": 0,
+        "polish_rounds": 4,
+        "note": "Las rondas de pulido fueron hallazgos propios antes del veredicto, no bucles de un FAIL de G5."
+    },
+    "artifacts": {
+        "brief": "BRIEF.md",
+        "plan": "PLAN.md",
+        "design": "DISENO.md",
+        "reference": "REFERENCIA.md",
+        "test_evidence": "TEST-EVIDENCE.md",
+        "report": "report.json",
+        "perf": "perf.json",
+        "screenshots": "capturas/",
+        "iteration_scroll": "ITERACION-2026-11-23.md + capturas/scroll-secuencia/"
+    },
+    "repo": {
+        "path": "C:\\Users\\Usuario\\Desktop\\Guardian IA Pagina",
+        "remote": "https://github.com/roninwuajkja/guardiania-pagina",
+        "visibility": "public",
+        "pages": "https://roninwuajkja.github.io/guardiania-pagina/",
+        "workflow_run": 45196993318
+    }
 }

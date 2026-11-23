@@ -115,3 +115,36 @@ El usuario reportó que los teléfonos de las ilustraciones eran demasiado largo
 
 - LCP **2,69 s** (mediana de 3 pasadas; 4G 1,6 Mbps/150 ms, CPU 4×), CLS 0,00006, **403 KB en 20 requests**. El elemento LCP es el lockup del hero; el loader quedó en 1500 ms y el lockup entra sin retardo con fade de 400 ms. Sigue 0,19 s sobre el objetivo de 2,5 s por la ruta crítica CSS/fuentes y la rasterización de los seis SVG del collage; se acepta como costo de la densidad visual.
 - 12 imágenes de arte por página, 0 referencias a capturas, 8 tiles, sin solape arte/pie, axe 0 en home/legal, `html-validate`/`css-tree`/`node --check` OK.
+
+
+## Iteración: declaración con scroll scrubbed y pie de la secuencia
+
+El usuario pidió que «La idea» tuviera más recorrido y una animación más ligada al scroll, y que en «Así se ve la guardia» los textos no quedaran tan abajo y las imágenes de la derecha se ajustaran.
+
+### Declaración
+
+- Track de **320vh** (antes 180vh) con pin de 100svh en escritorio ≥1024 con movimiento.
+- La entrada pasó de transición por tiempo a secuencia **scrubbed** por `--p`: líneas del título 0.04–0.16 / 0.10–0.22 / 0.16–0.28; regla 0.24–0.36; lead 0.34–0.46; figuras 0.46–0.64; contadores 38 (0.46–0.68) y 1 (0.52–0.72); órbita 0.60–0.98.
+- Se añadió un segundo anillo concéntrico inverso y una **banda de progreso** de tres etapas (`ANÁLISIS LOCAL` · `EL TEXTO SE DESCARTA` · `SOLO UN VECTOR`) con relleno y marcador atados al scroll.
+- Los contadores de la declaración salieron del `IntersectionObserver`: en desktop los mueve el progreso; en mobile/reduced conservan 0 / 38 / 1.
+- La entrada del héroe apunta a `#idea-enter` (31 % de la sección) para no aterrizar en el estado vacío de la animación; el clic queda en `--p ≈ 0.41` con título y lead visibles.
+- Mobile <1024, reduced motion y sin JS: height auto, pin relativo, contenido completo y banda oculta.
+
+### Secuencia
+
+- Arte de cada frame reducido de 720×540 a **560×420** (4:3), con altura fluida por `100svh` para 1366/1024.
+- Pie reposicionado: ya no cuelga de `bottom: 56px`; se centra con el arte. A 1440×900 su `top` pasa de 667 a **462 px**; a 1366/1024 queda en 420–447 px.
+- Sin intersecciones título/arte, título/pie ni arte/pie en 1440×900, 1366×768, 1024×768, 390×844 y 2560×1440.
+- Mobile conserva la pila arte/pie; no se tocaron los SVG, el copy, la descarga ni el legal.
+
+### Verificación
+
+- 0 overflow, 0 errores de consola y 0 requests fallidos en los cinco viewports.
+- axe-core 4.14.1, reglas por defecto: 0 violaciones en home y legal.
+- `html-validate` 11.21.1 exit 0; `css-tree` 3.2.1 OK en los cuatro CSS; `node --check scripts/main.js` exit 0.
+- Reduced motion y sin JS: declaración completa y legible; secuencia apilada; sin huecos.
+- Evidencia: `capturas/scroll-secuencia/` (capturas por viewport, estados de scroll, reduced, no-JS, `reporte.json` y `RESUMEN.md`).
+
+## Nota de alcance
+
+Esta iteración es visual y de interacción; no cambia el copy, la descarga, el legal ni los assets. Los gates D3/G4/G5 del run siguen vigentes para el contenido.

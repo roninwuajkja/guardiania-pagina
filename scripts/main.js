@@ -5,6 +5,8 @@
   const reduceQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
   const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
   const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+  const stepValue = (value, start, end) => clamp((value - start) / (end - start), 0, 1);
+  const easeOut = (value) => 1 - Math.pow(1 - value, 3);
   const motionEnabled = () => doc.dataset.motion !== "reduce";
   if (reduceQuery.matches) doc.dataset.motion = "reduce";
 
@@ -217,6 +219,8 @@
     }
 
     syncSequenceExposure(window.innerWidth < 640 || !motionEnabled(), activeSequence);
+    measure();
+    requestUpdate();
   }
 
   if (motionToggle) {
@@ -234,7 +238,9 @@
 
   /* Reveal and counter observers. */
   const revealItems = Array.from(document.querySelectorAll("[data-reveal]"));
-  const counters = Array.from(document.querySelectorAll("[data-count]"));
+  const counters = Array.from(document.querySelectorAll("[data-count]")).filter(
+    (element) => !element.closest(".statement")
+  );
 
   function animateCounter(element) {
     const target = Number(element.dataset.count || 0);
@@ -327,7 +333,8 @@
   const sequenceTicks = sequence ? Array.from(sequence.querySelectorAll(".sequence__rail span")) : [];
   const sequenceCurrent = sequence ? sequence.querySelector("[data-sequence-current]") : null;
   const statement = document.querySelector(".statement");
-  const statementReveals = statement ? Array.from(statement.querySelectorAll("[data-reveal]")) : [];
+  const statementCounter38 = statement ? statement.querySelector('[data-count="38"]') : null;
+  const statementCounter1 = statement ? statement.querySelector('[data-count="1"]') : null;
   const promos = Array.from(document.querySelectorAll(".promo"));
   const navLinks = Array.from(document.querySelectorAll("[data-navlink]"));
   const sections = Array.from(document.querySelectorAll("main section[id]"));
@@ -340,6 +347,54 @@
   let frameRequest = 0;
   let resizeTimer = 0;
   let sequenceExposure = "";
+  let statementScrub = false;
+
+  function syncStatement(progress) {
+    if (!statement) return;
+    const scrub = window.innerWidth >= 1024 && motionEnabled();
+
+    if (!scrub) {
+      if (!statementScrub) return;
+      statementScrub = false;
+      [
+        "--sp-line-1",
+        "--sp-line-2",
+        "--sp-line-3",
+        "--sp-rule",
+        "--sp-lead",
+        "--sp-figures",
+        "--sp-orbit"
+      ].forEach((name) => statement.style.removeProperty(name));
+      if (statementCounter38) {
+        statementCounter38.textContent = statementCounter38.dataset.count || "38";
+      }
+      if (statementCounter1) {
+        statementCounter1.textContent = statementCounter1.dataset.count || "1";
+      }
+      return;
+    }
+
+    statementScrub = true;
+    const p = clamp(progress, 0, 1);
+    const set = (name, value) => statement.style.setProperty(name, value.toFixed(3));
+
+    set("--sp-line-1", easeOut(stepValue(p, 0.04, 0.16)));
+    set("--sp-line-2", easeOut(stepValue(p, 0.1, 0.22)));
+    set("--sp-line-3", easeOut(stepValue(p, 0.16, 0.28)));
+    set("--sp-rule", stepValue(p, 0.24, 0.36));
+    set("--sp-lead", easeOut(stepValue(p, 0.34, 0.46)));
+    set("--sp-figures", easeOut(stepValue(p, 0.46, 0.64)));
+    set("--sp-orbit", stepValue(p, 0.6, 0.98));
+
+    if (statementCounter38) {
+      const value = String(Math.round(38 * stepValue(p, 0.46, 0.68)));
+      if (statementCounter38.textContent !== value) statementCounter38.textContent = value;
+    }
+    if (statementCounter1) {
+      const value = String(Math.round(stepValue(p, 0.52, 0.72)));
+      if (statementCounter1.textContent !== value) statementCounter1.textContent = value;
+    }
+  }
 
   function syncSequenceExposure(stacked, index) {
     if (!sequenceFrames.length) return;
@@ -428,9 +483,7 @@
       const progress = clamp((y - metric.top) / travel, 0, 1);
       metric.el.style.setProperty("--p", progress.toFixed(3));
       if (metric.el === sequence) updateSequence(progress);
-      if (metric.el === statement && progress > 0.05) {
-        statementReveals.forEach((element) => element.classList.add("is-in"));
-      }
+      if (metric.el === statement) syncStatement(progress);
     });
 
     if (window.innerWidth >= 1024 && motionEnabled()) {

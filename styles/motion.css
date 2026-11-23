@@ -304,47 +304,13 @@
     transform: translateY(0);
   }
 
-  html[data-motion="auto"] .statement .will-reveal {
-    transition-duration: 300ms;
-  }
-
-  html[data-motion="auto"] .statement__figures.will-reveal {
-    transition-delay: 0ms;
-  }
-
-  html[data-motion="auto"] .statement__title.will-reveal {
-    opacity: 1;
-    transform: none;
-  }
-
-  html[data-motion="auto"] .statement__line > span {
-    transform: translateY(112%);
-    transition: transform 900ms var(--ease-out);
-  }
-
-  html[data-motion="auto"] .statement__line:nth-child(2) > span {
-    transition-delay: 90ms;
-  }
-
-  html[data-motion="auto"] .statement__line:nth-child(3) > span {
-    transition-delay: 180ms;
-  }
-
-  html[data-motion="auto"] .statement__title.is-in .statement__line > span {
-    transform: translateY(0);
-  }
-
-  html[data-motion="auto"] .statement__line--rule::after {
-    transform: scaleX(0);
-    transition: transform 900ms var(--ease-out) 560ms;
-  }
-
-  html[data-motion="auto"] .statement__title.is-in .statement__line--rule::after {
-    transform: scaleX(1);
-  }
-
   html[data-motion="auto"] .statement__orbit {
     animation: orbit-spin 120s linear infinite;
+  }
+
+  html[data-motion="auto"] .statement__orbit--outer {
+    animation-direction: reverse;
+    animation-duration: 170s;
   }
 
   html[data-motion="auto"] .sequence__frame {
@@ -487,9 +453,57 @@
     html[data-motion="auto"] .sequence__frame.is-active .sequence__art {
       transform: scale(1) translateY(0);
     }
+  }
 
+  @media (min-width: 1024px) {
     html[data-motion="auto"] .statement__inner {
-      transform: scale(calc(0.98 + (var(--p, 0) * 0.04)));
+      transform: scale(calc(0.992 + (var(--p, 0) * 0.008)));
+    }
+
+    html[data-motion="auto"] .statement__title .statement__line:nth-child(1) > span {
+      transform: translateY(calc((1 - var(--sp-line-1, 0)) * 112%));
+    }
+
+    html[data-motion="auto"] .statement__title .statement__line:nth-child(2) > span {
+      transform: translateY(calc((1 - var(--sp-line-2, 0)) * 112%));
+    }
+
+    html[data-motion="auto"] .statement__title .statement__line:nth-child(3) > span {
+      transform: translateY(calc((1 - var(--sp-line-3, 0)) * 112%));
+    }
+
+    html[data-motion="auto"] .statement__line > span,
+    html[data-motion="auto"] .statement__line--rule::after {
+      transition: none;
+    }
+
+    html[data-motion="auto"] .statement__line--rule::after {
+      transform: scaleX(var(--sp-rule, 0));
+    }
+
+    html[data-motion="auto"] .statement__lead {
+      opacity: var(--sp-lead, 0);
+      transform: translateY(calc((1 - var(--sp-lead, 0)) * 14px));
+    }
+
+    html[data-motion="auto"] .statement__figures {
+      opacity: var(--sp-figures, 0);
+      transform: translateY(calc((1 - var(--sp-figures, 0)) * 18px));
+    }
+
+    html[data-motion="auto"] .statement__orbit {
+      animation: none;
+      transform: translate(-50%, -50%) rotate(calc(50deg + (var(--sp-orbit, 0) * 160deg)));
+    }
+
+    html[data-motion="auto"] .statement__orbit--outer {
+      animation: none;
+      transform: translate(-50%, -50%) rotate(calc(26deg - (var(--sp-orbit, 0) * 44deg)));
+    }
+
+    html[data-motion="auto"] .statement__glow {
+      opacity: calc(0.55 + (var(--p, 0) * 0.45));
+      transform: translate(-50%, calc(-50% - (var(--p, 0) * 20px))) scale(calc(1 + (var(--p, 0) * 0.04)));
     }
   }
 
@@ -754,12 +768,22 @@ html[data-motion="reduce"] .sequence__art img {
   height: 100%;
 }
 
+html[data-motion="reduce"] .statement__steps {
+  display: none;
+}
+
+html[data-motion="reduce"] .statement__enter {
+  top: 0;
+}
+
 html[data-motion="reduce"] .sequence__foot {
   position: relative;
+  top: auto;
   bottom: auto;
   left: auto;
   max-width: none;
   padding: 0 4px 6px;
+  transform: none;
 }
 
 html[data-motion="reduce"] .sequence__foot h3 {
@@ -943,9 +967,11 @@ html[data-motion="reduce"] .ticker__copy > span:nth-child(n + 4) {
 
   .sequence__foot {
     position: relative;
+    top: auto;
     bottom: auto;
     left: auto;
     padding: 0 4px 6px;
+    transform: none;
   }
 
   .will-reveal,
@@ -975,8 +1001,10 @@ html.js-fallback .faq__trigger {
 }
 
 @media (scripting: none) {
+  html[data-motion="auto"] .statement__title .statement__line:nth-child(1) > span,
+  html[data-motion="auto"] .statement__title .statement__line:nth-child(2) > span,
+  html[data-motion="auto"] .statement__title .statement__line:nth-child(3) > span,
   html[data-motion="auto"] .statement__line > span,
-  html[data-motion="auto"] .statement__title .statement__line > span,
   html[data-motion="auto"] .download__title .download__line > span {
     transform: none;
   }
@@ -984,6 +1012,31 @@ html.js-fallback .faq__trigger {
   html[data-motion="auto"] .sequence__frame .sequence__art,
   html[data-motion="auto"] .sequence__frame.is-active .sequence__art {
     transform: none;
+  }
+
+  html[data-motion="auto"] .statement {
+    height: auto;
+  }
+
+  html[data-motion="auto"] .statement__pin {
+    position: relative;
+    height: auto;
+    min-height: 0;
+    padding-block: 100px;
+  }
+
+  html[data-motion="auto"] .statement__lead,
+  html[data-motion="auto"] .statement__figures {
+    opacity: 1;
+    transform: none;
+  }
+
+  html[data-motion="auto"] .statement__steps {
+    display: none;
+  }
+
+  html[data-motion="auto"] .statement__enter {
+    top: 0;
   }
 
   html[data-motion="auto"] .statement__line--rule::after {
@@ -1087,10 +1140,12 @@ html.js-fallback .faq__trigger {
 
   .sequence__foot {
     position: relative;
+    top: auto;
     bottom: auto;
     left: auto;
     max-width: none;
     padding: 0 4px 6px;
+    transform: none;
   }
 
   .faq__panel {

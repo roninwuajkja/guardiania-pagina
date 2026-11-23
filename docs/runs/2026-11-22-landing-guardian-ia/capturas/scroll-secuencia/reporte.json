@@ -1,0 +1,3067 @@
+{
+  "run": "2026-11-22-landing-guardian-ia",
+  "fecha": "2026-11-23",
+  "url": "http://127.0.0.1:8123",
+  "viewports": [
+    {
+      "id": "1440x900",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "geometry": {
+        "statementTop": 900,
+        "statementHeight": 2880,
+        "statementTravel": 1980,
+        "statementVh": 320,
+        "sequenceHeight": 3780,
+        "sequenceTravel": 2880
+      },
+      "statement": [
+        {
+          "progress": 0,
+          "screenshot": "1440x900-idea-000.png",
+          "scrollY": 900,
+          "p": "0.000",
+          "vars": {
+            "line1": "0.000",
+            "line2": "0.000",
+            "line3": "0.000",
+            "rule": "0.000",
+            "lead": "0.000",
+            "figures": "0.000",
+            "orbit": "0.000"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 900,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 900
+          },
+          "title": {
+            "top": 191.2,
+            "bottom": 516.6,
+            "left": 244.1,
+            "right": 1195.9,
+            "width": 951.9,
+            "height": 325.4
+          },
+          "lead": {
+            "top": 564.2,
+            "bottom": 651.9,
+            "left": 428.4,
+            "right": 1011.6,
+            "width": 583.2,
+            "height": 87.7
+          },
+          "figures": {
+            "top": 723.3,
+            "bottom": 836.4,
+            "left": 343,
+            "right": 1097,
+            "width": 753.9,
+            "height": 113
+          },
+          "steps": {
+            "top": 853.3,
+            "bottom": 880,
+            "left": 340,
+            "right": 1100,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 16.9,
+          "counters": [
+            "0",
+            "0",
+            "0"
+          ],
+          "labelOpacity": [
+            1,
+            0.7,
+            0.7
+          ],
+          "leadOpacity": 0,
+          "figuresOpacity": 0,
+          "ruleTransform": "matrix(0, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 119.735)",
+            "matrix(1, 0, 0, 1, 0, 119.735)",
+            "matrix(1, 0, 0, 1, 0, 119.735)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 0.4,
+          "screenshot": "1440x900-idea-040.png",
+          "scrollY": 1692,
+          "p": "0.400",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "0.875",
+            "figures": "0.000",
+            "orbit": "0.000"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 900,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 900
+          },
+          "title": {
+            "top": 190.3,
+            "bottom": 516.7,
+            "left": 242.5,
+            "right": 1197.5,
+            "width": 955,
+            "height": 326.4
+          },
+          "lead": {
+            "top": 552.3,
+            "bottom": 640.3,
+            "left": 427.5,
+            "right": 1012.5,
+            "width": 585.1,
+            "height": 88
+          },
+          "figures": {
+            "top": 724.1,
+            "bottom": 837.5,
+            "left": 341.8,
+            "right": 1098.2,
+            "width": 756.4,
+            "height": 113.4
+          },
+          "steps": {
+            "top": 853.3,
+            "bottom": 880,
+            "left": 340,
+            "right": 1100,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 15.8,
+          "counters": [
+            "0",
+            "0",
+            "0"
+          ],
+          "labelOpacity": [
+            1,
+            0.82,
+            0.7
+          ],
+          "leadOpacity": 0.875,
+          "figuresOpacity": 0,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 0.7,
+          "screenshot": "1440x900-idea-070.png",
+          "scrollY": 2286,
+          "p": "0.700",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "1.000",
+            "figures": "1.000",
+            "orbit": "0.263"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 900,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 900
+          },
+          "title": {
+            "top": 189.6,
+            "bottom": 516.8,
+            "left": 241.4,
+            "right": 1198.6,
+            "width": 957.3,
+            "height": 327.2
+          },
+          "lead": {
+            "top": 550.7,
+            "bottom": 638.9,
+            "left": 426.8,
+            "right": 1013.2,
+            "width": 586.5,
+            "height": 88.2
+          },
+          "figures": {
+            "top": 706.7,
+            "bottom": 820.4,
+            "left": 340.9,
+            "right": 1099.1,
+            "width": 758.2,
+            "height": 113.7
+          },
+          "steps": {
+            "top": 853.3,
+            "bottom": 880,
+            "left": 340,
+            "right": 1100,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 32.9,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            0.7,
+            0.925,
+            0.76
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 1,
+          "screenshot": "1440x900-idea-100.png",
+          "scrollY": 2880,
+          "p": "1.000",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "1.000",
+            "figures": "1.000",
+            "orbit": "1.000"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 900,
+            "left": 0,
+            "right": 1440,
+            "width": 1440,
+            "height": 900
+          },
+          "title": {
+            "top": 188.9,
+            "bottom": 516.9,
+            "left": 240.2,
+            "right": 1199.8,
+            "width": 959.6,
+            "height": 328
+          },
+          "lead": {
+            "top": 550.9,
+            "bottom": 639.3,
+            "left": 426,
+            "right": 1013.9,
+            "width": 587.9,
+            "height": 88.4
+          },
+          "figures": {
+            "top": 707.3,
+            "bottom": 821.2,
+            "left": 340,
+            "right": 1100,
+            "width": 760,
+            "height": 114
+          },
+          "steps": {
+            "top": 853.3,
+            "bottom": 880,
+            "left": 340,
+            "right": 1100,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 32.1,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            0.7,
+            0.7,
+            1
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        }
+      ],
+      "sequence": [
+        {
+          "progress": 0.1,
+          "screenshot": "1440x900-producto-01.png",
+          "scene": 1,
+          "active": "0",
+          "head": {
+            "top": 170,
+            "bottom": 317.7,
+            "left": 86.4,
+            "right": 1353.6,
+            "width": 1267.2,
+            "height": 147.7
+          },
+          "art": {
+            "top": 340,
+            "bottom": 760,
+            "left": 793.6,
+            "right": 1353.6,
+            "width": 560,
+            "height": 420
+          },
+          "foot": {
+            "top": 461.6,
+            "bottom": 638.4,
+            "left": 86.4,
+            "right": 506.4,
+            "width": 420,
+            "height": 176.8
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 1295.1,
+            "right": 1353.6,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 1241.6,
+            "right": 1353.6,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 860.6,
+            "bottom": 876,
+            "left": 86.4,
+            "right": 256.8,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 140,
+          "footBottomGap": 261.6,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.35,
+          "screenshot": "1440x900-producto-02.png",
+          "scene": 2,
+          "active": "1",
+          "head": {
+            "top": 170,
+            "bottom": 317.7,
+            "left": 86.4,
+            "right": 1353.6,
+            "width": 1267.2,
+            "height": 147.7
+          },
+          "art": {
+            "top": 340,
+            "bottom": 760,
+            "left": 793.6,
+            "right": 1353.6,
+            "width": 560,
+            "height": 420
+          },
+          "foot": {
+            "top": 461.6,
+            "bottom": 638.4,
+            "left": 86.4,
+            "right": 506.4,
+            "width": 420,
+            "height": 176.8
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 1295.1,
+            "right": 1353.6,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 1241.6,
+            "right": 1353.6,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 860.6,
+            "bottom": 876,
+            "left": 86.4,
+            "right": 256.8,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 140,
+          "footBottomGap": 261.6,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.6,
+          "screenshot": "1440x900-producto-03.png",
+          "scene": 3,
+          "active": "2",
+          "head": {
+            "top": 170,
+            "bottom": 317.7,
+            "left": 86.4,
+            "right": 1353.6,
+            "width": 1267.2,
+            "height": 147.7
+          },
+          "art": {
+            "top": 340,
+            "bottom": 760,
+            "left": 793.6,
+            "right": 1353.6,
+            "width": 560,
+            "height": 420
+          },
+          "foot": {
+            "top": 461.6,
+            "bottom": 638.4,
+            "left": 86.4,
+            "right": 506.4,
+            "width": 420,
+            "height": 176.8
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 1295.1,
+            "right": 1353.6,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 1241.6,
+            "right": 1353.6,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 860.6,
+            "bottom": 876,
+            "left": 86.4,
+            "right": 256.8,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 140,
+          "footBottomGap": 261.6,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.85,
+          "screenshot": "1440x900-producto-04.png",
+          "scene": 4,
+          "active": "3",
+          "head": {
+            "top": 170,
+            "bottom": 317.7,
+            "left": 86.4,
+            "right": 1353.6,
+            "width": 1267.2,
+            "height": 147.7
+          },
+          "art": {
+            "top": 340,
+            "bottom": 760,
+            "left": 793.6,
+            "right": 1353.6,
+            "width": 560,
+            "height": 420
+          },
+          "foot": {
+            "top": 438.6,
+            "bottom": 661.4,
+            "left": 86.4,
+            "right": 506.4,
+            "width": 420,
+            "height": 222.8
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 1295.1,
+            "right": 1353.6,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 1241.6,
+            "right": 1353.6,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 860.6,
+            "bottom": 876,
+            "left": 86.4,
+            "right": 256.8,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 140,
+          "footBottomGap": 238.6,
+          "overflowX": 0
+        }
+      ],
+      "overflowX": 0,
+      "consoleErrors": [],
+      "requestFailures": [],
+      "axe": {
+        "violations": [],
+        "passes": 45,
+        "incomplete": 1
+      }
+    },
+    {
+      "id": "1366x768",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "geometry": {
+        "statementTop": 768,
+        "statementHeight": 2457.6,
+        "statementTravel": 1689.6,
+        "statementVh": 320,
+        "sequenceHeight": 2918.4,
+        "sequenceTravel": 2150.4
+      },
+      "statement": [
+        {
+          "progress": 0,
+          "screenshot": "1366x768-idea-000.png",
+          "scrollY": 768,
+          "p": "0.000",
+          "vars": {
+            "line1": "0.000",
+            "line2": "0.000",
+            "line3": "0.000",
+            "rule": "0.000",
+            "lead": "0.000",
+            "figures": "0.000",
+            "orbit": "0.000"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 768,
+            "left": 0,
+            "right": 1366,
+            "width": 1366,
+            "height": 768
+          },
+          "title": {
+            "top": 194,
+            "bottom": 453.1,
+            "left": 304,
+            "right": 1062,
+            "width": 758.1,
+            "height": 259.1
+          },
+          "lead": {
+            "top": 488.9,
+            "bottom": 563.3,
+            "left": 408.4,
+            "right": 957.6,
+            "width": 549.2,
+            "height": 74.4
+          },
+          "figures": {
+            "top": 599,
+            "bottom": 701.6,
+            "left": 306,
+            "right": 1060,
+            "width": 753.9,
+            "height": 102.6
+          },
+          "steps": {
+            "top": 727.3,
+            "bottom": 754,
+            "left": 303,
+            "right": 1063,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 25.7,
+          "counters": [
+            "0",
+            "0",
+            "0"
+          ],
+          "labelOpacity": [
+            1,
+            0.7,
+            0.7
+          ],
+          "leadOpacity": 0,
+          "figuresOpacity": 0,
+          "ruleTransform": "matrix(0, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 95.3575)",
+            "matrix(1, 0, 0, 1, 0, 95.3575)",
+            "matrix(1, 0, 0, 1, 0, 95.3575)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 0.4,
+          "screenshot": "1366x768-idea-040.png",
+          "scrollY": 1444,
+          "p": "0.400",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "0.876",
+            "figures": "0.000",
+            "orbit": "0.000"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 768,
+            "left": 0,
+            "right": 1366,
+            "width": 1366,
+            "height": 768
+          },
+          "title": {
+            "top": 193.3,
+            "bottom": 453.3,
+            "left": 302.7,
+            "right": 1063.2,
+            "width": 760.5,
+            "height": 259.9
+          },
+          "lead": {
+            "top": 476.9,
+            "bottom": 551.5,
+            "left": 407.5,
+            "right": 958.5,
+            "width": 551,
+            "height": 74.6
+          },
+          "figures": {
+            "top": 599.5,
+            "bottom": 702.5,
+            "left": 304.8,
+            "right": 1061.2,
+            "width": 756.4,
+            "height": 102.9
+          },
+          "steps": {
+            "top": 727.3,
+            "bottom": 754,
+            "left": 303,
+            "right": 1063,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 24.8,
+          "counters": [
+            "0",
+            "0",
+            "0"
+          ],
+          "labelOpacity": [
+            1,
+            0.82,
+            0.7
+          ],
+          "leadOpacity": 0.876,
+          "figuresOpacity": 0,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 0.7,
+          "screenshot": "1366x768-idea-070.png",
+          "scrollY": 1951,
+          "p": "0.700",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "1.000",
+            "figures": "1.000",
+            "orbit": "0.264"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 768,
+            "left": 0,
+            "right": 1366,
+            "width": 1366,
+            "height": 768
+          },
+          "title": {
+            "top": 192.8,
+            "bottom": 453.3,
+            "left": 301.8,
+            "right": 1064.2,
+            "width": 762.3,
+            "height": 260.6
+          },
+          "lead": {
+            "top": 475.3,
+            "bottom": 550.1,
+            "left": 406.8,
+            "right": 959.2,
+            "width": 552.3,
+            "height": 74.8
+          },
+          "figures": {
+            "top": 582,
+            "bottom": 685.2,
+            "left": 303.9,
+            "right": 1062.1,
+            "width": 758.2,
+            "height": 103.2
+          },
+          "steps": {
+            "top": 727.3,
+            "bottom": 754,
+            "left": 303,
+            "right": 1063,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 42.1,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            0.7,
+            0.925,
+            0.76
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 1,
+          "screenshot": "1366x768-idea-100.png",
+          "scrollY": 2458,
+          "p": "1.000",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "1.000",
+            "figures": "1.000",
+            "orbit": "1.000"
+          },
+          "pin": {
+            "top": -0.4,
+            "bottom": 767.6,
+            "left": 0,
+            "right": 1366,
+            "width": 1366,
+            "height": 768
+          },
+          "title": {
+            "top": 191.8,
+            "bottom": 453,
+            "left": 300.9,
+            "right": 1065.1,
+            "width": 764.2,
+            "height": 261.2
+          },
+          "lead": {
+            "top": 475,
+            "bottom": 550,
+            "left": 406.2,
+            "right": 959.8,
+            "width": 553.7,
+            "height": 75
+          },
+          "figures": {
+            "top": 582,
+            "bottom": 685.5,
+            "left": 303,
+            "right": 1063,
+            "width": 760,
+            "height": 103.4
+          },
+          "steps": {
+            "top": 726.9,
+            "bottom": 753.6,
+            "left": 303,
+            "right": 1063,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 41.5,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            0.7,
+            0.7,
+            1
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        }
+      ],
+      "sequence": [
+        {
+          "progress": 0.1,
+          "screenshot": "1366x768-producto-01.png",
+          "scene": 1,
+          "active": "0",
+          "head": {
+            "top": 170,
+            "bottom": 313.4,
+            "left": 82,
+            "right": 1284,
+            "width": 1202.1,
+            "height": 143.4
+          },
+          "art": {
+            "top": 340,
+            "bottom": 672,
+            "left": 841.4,
+            "right": 1284,
+            "width": 442.6,
+            "height": 332
+          },
+          "foot": {
+            "top": 420,
+            "bottom": 592,
+            "left": 82,
+            "right": 502,
+            "width": 420,
+            "height": 172
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 1225.5,
+            "right": 1284,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 1172,
+            "right": 1284,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 728.6,
+            "bottom": 744,
+            "left": 82,
+            "right": 252.4,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 96,
+          "footBottomGap": 176,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.35,
+          "screenshot": "1366x768-producto-02.png",
+          "scene": 2,
+          "active": "1",
+          "head": {
+            "top": 170,
+            "bottom": 313.4,
+            "left": 82,
+            "right": 1284,
+            "width": 1202.1,
+            "height": 143.4
+          },
+          "art": {
+            "top": 340,
+            "bottom": 672,
+            "left": 841.4,
+            "right": 1284,
+            "width": 442.6,
+            "height": 332
+          },
+          "foot": {
+            "top": 420,
+            "bottom": 592,
+            "left": 82,
+            "right": 502,
+            "width": 420,
+            "height": 172
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 1225.5,
+            "right": 1284,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 1172,
+            "right": 1284,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 728.6,
+            "bottom": 744,
+            "left": 82,
+            "right": 252.4,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 96,
+          "footBottomGap": 176,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.6,
+          "screenshot": "1366x768-producto-03.png",
+          "scene": 3,
+          "active": "2",
+          "head": {
+            "top": 170,
+            "bottom": 313.4,
+            "left": 82,
+            "right": 1284,
+            "width": 1202.1,
+            "height": 143.4
+          },
+          "art": {
+            "top": 340,
+            "bottom": 672,
+            "left": 841.4,
+            "right": 1284,
+            "width": 442.6,
+            "height": 332
+          },
+          "foot": {
+            "top": 420,
+            "bottom": 592,
+            "left": 82,
+            "right": 502,
+            "width": 420,
+            "height": 172
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 1225.5,
+            "right": 1284,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 1172,
+            "right": 1284,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 728.6,
+            "bottom": 744,
+            "left": 82,
+            "right": 252.4,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 96,
+          "footBottomGap": 176,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.85,
+          "screenshot": "1366x768-producto-04.png",
+          "scene": 4,
+          "active": "3",
+          "head": {
+            "top": 170,
+            "bottom": 313.4,
+            "left": 82,
+            "right": 1284,
+            "width": 1202.1,
+            "height": 143.4
+          },
+          "art": {
+            "top": 340,
+            "bottom": 672,
+            "left": 841.4,
+            "right": 1284,
+            "width": 442.6,
+            "height": 332
+          },
+          "foot": {
+            "top": 420,
+            "bottom": 592,
+            "left": 82,
+            "right": 502,
+            "width": 420,
+            "height": 172
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 1225.5,
+            "right": 1284,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 1172,
+            "right": 1284,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 728.6,
+            "bottom": 744,
+            "left": 82,
+            "right": 252.4,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 96,
+          "footBottomGap": 176,
+          "overflowX": 0
+        }
+      ],
+      "overflowX": 0,
+      "consoleErrors": [],
+      "requestFailures": [],
+      "axe": {
+        "violations": [],
+        "passes": 45,
+        "incomplete": 1
+      }
+    },
+    {
+      "id": "1024x768",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "geometry": {
+        "statementTop": 768,
+        "statementHeight": 2457.6,
+        "statementTravel": 1689.6,
+        "statementVh": 320,
+        "sequenceHeight": 2918.4,
+        "sequenceTravel": 2150.4
+      },
+      "statement": [
+        {
+          "progress": 0,
+          "screenshot": "1024x768-idea-000.png",
+          "scrollY": 768,
+          "p": "0.000",
+          "vars": {
+            "line1": "0.000",
+            "line2": "0.000",
+            "line3": "0.000",
+            "rule": "0.000",
+            "lead": "0.000",
+            "figures": "0.000",
+            "orbit": "0.000"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 768,
+            "left": 0,
+            "right": 1024,
+            "width": 1024,
+            "height": 768
+          },
+          "title": {
+            "top": 201.3,
+            "bottom": 460.4,
+            "left": 133,
+            "right": 891,
+            "width": 758.1,
+            "height": 259.1
+          },
+          "lead": {
+            "top": 496.1,
+            "bottom": 567.5,
+            "left": 248.3,
+            "right": 775.7,
+            "width": 527.5,
+            "height": 71.4
+          },
+          "figures": {
+            "top": 603.2,
+            "bottom": 694.3,
+            "left": 135,
+            "right": 889,
+            "width": 753.9,
+            "height": 91.1
+          },
+          "steps": {
+            "top": 727.3,
+            "bottom": 754,
+            "left": 132,
+            "right": 892,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 33,
+          "counters": [
+            "0",
+            "0",
+            "0"
+          ],
+          "labelOpacity": [
+            1,
+            0.7,
+            0.7
+          ],
+          "leadOpacity": 0,
+          "figuresOpacity": 0,
+          "ruleTransform": "matrix(0, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 95.3575)",
+            "matrix(1, 0, 0, 1, 0, 95.3575)",
+            "matrix(1, 0, 0, 1, 0, 95.3575)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 0.4,
+          "screenshot": "1024x768-idea-040.png",
+          "scrollY": 1444,
+          "p": "0.400",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "0.876",
+            "figures": "0.000",
+            "orbit": "0.000"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 768,
+            "left": 0,
+            "right": 1024,
+            "width": 1024,
+            "height": 768
+          },
+          "title": {
+            "top": 200.6,
+            "bottom": 460.5,
+            "left": 131.7,
+            "right": 892.2,
+            "width": 760.5,
+            "height": 259.9
+          },
+          "lead": {
+            "top": 484.2,
+            "bottom": 555.8,
+            "left": 247.4,
+            "right": 776.6,
+            "width": 529.2,
+            "height": 71.7
+          },
+          "figures": {
+            "top": 603.8,
+            "bottom": 695.2,
+            "left": 133.8,
+            "right": 890.2,
+            "width": 756.4,
+            "height": 91.4
+          },
+          "steps": {
+            "top": 727.3,
+            "bottom": 754,
+            "left": 132,
+            "right": 892,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 32.1,
+          "counters": [
+            "0",
+            "0",
+            "0"
+          ],
+          "labelOpacity": [
+            1,
+            0.82,
+            0.7
+          ],
+          "leadOpacity": 0.876,
+          "figuresOpacity": 0,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 0.7,
+          "screenshot": "1024x768-idea-070.png",
+          "scrollY": 1951,
+          "p": "0.700",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "1.000",
+            "figures": "1.000",
+            "orbit": "0.264"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 768,
+            "left": 0,
+            "right": 1024,
+            "width": 1024,
+            "height": 768
+          },
+          "title": {
+            "top": 200.1,
+            "bottom": 460.6,
+            "left": 130.8,
+            "right": 893.2,
+            "width": 762.3,
+            "height": 260.6
+          },
+          "lead": {
+            "top": 482.6,
+            "bottom": 554.4,
+            "left": 246.8,
+            "right": 777.2,
+            "width": 530.5,
+            "height": 71.8
+          },
+          "figures": {
+            "top": 586.3,
+            "bottom": 677.9,
+            "left": 132.9,
+            "right": 891.1,
+            "width": 758.2,
+            "height": 91.6
+          },
+          "steps": {
+            "top": 727.3,
+            "bottom": 754,
+            "left": 132,
+            "right": 892,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 49.4,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            0.7,
+            0.925,
+            0.76
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 1,
+          "screenshot": "1024x768-idea-100.png",
+          "scrollY": 2458,
+          "p": "1.000",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "1.000",
+            "figures": "1.000",
+            "orbit": "1.000"
+          },
+          "pin": {
+            "top": -0.4,
+            "bottom": 767.6,
+            "left": 0,
+            "right": 1024,
+            "width": 1024,
+            "height": 768
+          },
+          "title": {
+            "top": 199.1,
+            "bottom": 460.3,
+            "left": 129.9,
+            "right": 894.1,
+            "width": 764.2,
+            "height": 261.2
+          },
+          "lead": {
+            "top": 482.3,
+            "bottom": 554.3,
+            "left": 246.1,
+            "right": 777.9,
+            "width": 531.7,
+            "height": 72
+          },
+          "figures": {
+            "top": 586.3,
+            "bottom": 678.1,
+            "left": 132,
+            "right": 892,
+            "width": 760,
+            "height": 91.8
+          },
+          "steps": {
+            "top": 726.9,
+            "bottom": 753.6,
+            "left": 132,
+            "right": 892,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 48.8,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            0.7,
+            0.7,
+            1
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        }
+      ],
+      "sequence": [
+        {
+          "progress": 0.1,
+          "screenshot": "1024x768-producto-01.png",
+          "scene": 1,
+          "active": "0",
+          "head": {
+            "top": 170,
+            "bottom": 293.7,
+            "left": 61.4,
+            "right": 962.6,
+            "width": 901.1,
+            "height": 123.7
+          },
+          "art": {
+            "top": 340,
+            "bottom": 672,
+            "left": 519.9,
+            "right": 962.6,
+            "width": 442.6,
+            "height": 332
+          },
+          "foot": {
+            "top": 447.3,
+            "bottom": 564.7,
+            "left": 61.4,
+            "right": 409.6,
+            "width": 348.2,
+            "height": 117.4
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 904,
+            "right": 962.6,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 850.6,
+            "right": 962.6,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 728.6,
+            "bottom": 744,
+            "left": 61.4,
+            "right": 231.9,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 96,
+          "footBottomGap": 203.3,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.35,
+          "screenshot": "1024x768-producto-02.png",
+          "scene": 2,
+          "active": "1",
+          "head": {
+            "top": 170,
+            "bottom": 293.7,
+            "left": 61.4,
+            "right": 962.6,
+            "width": 901.1,
+            "height": 123.7
+          },
+          "art": {
+            "top": 340,
+            "bottom": 672,
+            "left": 519.9,
+            "right": 962.6,
+            "width": 442.6,
+            "height": 332
+          },
+          "foot": {
+            "top": 430.9,
+            "bottom": 581.1,
+            "left": 61.4,
+            "right": 409.6,
+            "width": 348.2,
+            "height": 150.2
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 904,
+            "right": 962.6,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 850.6,
+            "right": 962.6,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 728.6,
+            "bottom": 744,
+            "left": 61.4,
+            "right": 231.9,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 96,
+          "footBottomGap": 186.9,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.6,
+          "screenshot": "1024x768-producto-03.png",
+          "scene": 3,
+          "active": "2",
+          "head": {
+            "top": 170,
+            "bottom": 293.7,
+            "left": 61.4,
+            "right": 962.6,
+            "width": 901.1,
+            "height": 123.7
+          },
+          "art": {
+            "top": 340,
+            "bottom": 672,
+            "left": 519.9,
+            "right": 962.6,
+            "width": 442.6,
+            "height": 332
+          },
+          "foot": {
+            "top": 430.9,
+            "bottom": 581.1,
+            "left": 61.4,
+            "right": 409.6,
+            "width": 348.2,
+            "height": 150.2
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 904,
+            "right": 962.6,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 850.6,
+            "right": 962.6,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 728.6,
+            "bottom": 744,
+            "left": 61.4,
+            "right": 231.9,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 96,
+          "footBottomGap": 186.9,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.85,
+          "screenshot": "1024x768-producto-04.png",
+          "scene": 4,
+          "active": "3",
+          "head": {
+            "top": 170,
+            "bottom": 293.7,
+            "left": 61.4,
+            "right": 962.6,
+            "width": 901.1,
+            "height": 123.7
+          },
+          "art": {
+            "top": 340,
+            "bottom": 672,
+            "left": 519.9,
+            "right": 962.6,
+            "width": 442.6,
+            "height": 332
+          },
+          "foot": {
+            "top": 430.9,
+            "bottom": 581.1,
+            "left": 61.4,
+            "right": 409.6,
+            "width": 348.2,
+            "height": 150.2
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 904,
+            "right": 962.6,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 850.6,
+            "right": 962.6,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 728.6,
+            "bottom": 744,
+            "left": 61.4,
+            "right": 231.9,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 96,
+          "footBottomGap": 186.9,
+          "overflowX": 0
+        }
+      ],
+      "overflowX": 0,
+      "consoleErrors": [],
+      "requestFailures": [],
+      "axe": {
+        "violations": [],
+        "passes": 45,
+        "incomplete": 1
+      }
+    },
+    {
+      "id": "390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "geometry": {
+        "statementTop": 852.9,
+        "statementHeight": 617.6,
+        "statementTravel": -226.4,
+        "statementVh": 73.2,
+        "sequenceHeight": 2260.8,
+        "sequenceTravel": 1416.8
+      },
+      "statement": [
+        {
+          "progress": 0,
+          "screenshot": "390x844-idea-000.png",
+          "scrollY": 773,
+          "p": "0.000",
+          "vars": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "rule": "",
+            "lead": "",
+            "figures": "",
+            "orbit": ""
+          },
+          "pin": {
+            "top": 79.9,
+            "bottom": 697.5,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 617.6
+          },
+          "title": {
+            "top": 222,
+            "bottom": 325.7,
+            "left": 43.4,
+            "right": 346.6,
+            "width": 303.3,
+            "height": 103.7
+          },
+          "lead": {
+            "top": 351.7,
+            "bottom": 457.1,
+            "left": 20,
+            "right": 370,
+            "width": 350,
+            "height": 105.4
+          },
+          "figures": {
+            "top": 493.1,
+            "bottom": 597.5,
+            "left": 20,
+            "right": 370,
+            "width": 350,
+            "height": 104.4
+          },
+          "steps": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0
+          },
+          "stepsDisplay": "none",
+          "figureGap": null,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            1,
+            0.7,
+            0.7
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "none",
+          "titleTransforms": [
+            "none",
+            "none",
+            "none"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 0.4,
+          "screenshot": "390x844-idea-040.png",
+          "scrollY": 1020,
+          "p": "1.000",
+          "vars": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "rule": "",
+            "lead": "",
+            "figures": "",
+            "orbit": ""
+          },
+          "pin": {
+            "top": -167.1,
+            "bottom": 450.5,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 617.6
+          },
+          "title": {
+            "top": -25,
+            "bottom": 78.7,
+            "left": 43.4,
+            "right": 346.6,
+            "width": 303.3,
+            "height": 103.7
+          },
+          "lead": {
+            "top": 104.7,
+            "bottom": 210.1,
+            "left": 20,
+            "right": 370,
+            "width": 350,
+            "height": 105.4
+          },
+          "figures": {
+            "top": 246.1,
+            "bottom": 350.5,
+            "left": 20,
+            "right": 370,
+            "width": 350,
+            "height": 104.4
+          },
+          "steps": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0
+          },
+          "stepsDisplay": "none",
+          "figureGap": null,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            0.7,
+            0.7,
+            1
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "none",
+          "titleTransforms": [
+            "none",
+            "none",
+            "none"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 0.7,
+          "screenshot": "390x844-idea-070.png",
+          "scrollY": 1205,
+          "p": "1.000",
+          "vars": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "rule": "",
+            "lead": "",
+            "figures": "",
+            "orbit": ""
+          },
+          "pin": {
+            "top": -352.1,
+            "bottom": 265.5,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 617.6
+          },
+          "title": {
+            "top": -210,
+            "bottom": -106.3,
+            "left": 43.4,
+            "right": 346.6,
+            "width": 303.3,
+            "height": 103.7
+          },
+          "lead": {
+            "top": -80.3,
+            "bottom": 25.1,
+            "left": 20,
+            "right": 370,
+            "width": 350,
+            "height": 105.4
+          },
+          "figures": {
+            "top": 61.1,
+            "bottom": 165.5,
+            "left": 20,
+            "right": 370,
+            "width": 350,
+            "height": 104.4
+          },
+          "steps": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0
+          },
+          "stepsDisplay": "none",
+          "figureGap": null,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            0.7,
+            0.7,
+            1
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "none",
+          "titleTransforms": [
+            "none",
+            "none",
+            "none"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 1,
+          "screenshot": "390x844-idea-100.png",
+          "scrollY": 1391,
+          "p": "1.000",
+          "vars": {
+            "line1": "",
+            "line2": "",
+            "line3": "",
+            "rule": "",
+            "lead": "",
+            "figures": "",
+            "orbit": ""
+          },
+          "pin": {
+            "top": -538.1,
+            "bottom": 79.5,
+            "left": 0,
+            "right": 390,
+            "width": 390,
+            "height": 617.6
+          },
+          "title": {
+            "top": -396,
+            "bottom": -292.3,
+            "left": 43.4,
+            "right": 346.6,
+            "width": 303.3,
+            "height": 103.7
+          },
+          "lead": {
+            "top": -266.3,
+            "bottom": -160.9,
+            "left": 20,
+            "right": 370,
+            "width": 350,
+            "height": 105.4
+          },
+          "figures": {
+            "top": -124.9,
+            "bottom": -20.5,
+            "left": 20,
+            "right": 370,
+            "width": 350,
+            "height": 104.4
+          },
+          "steps": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0
+          },
+          "stepsDisplay": "none",
+          "figureGap": null,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            0.7,
+            0.7,
+            1
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "none",
+          "titleTransforms": [
+            "none",
+            "none",
+            "none"
+          ],
+          "overflowX": 0
+        }
+      ],
+      "sequence": [
+        {
+          "scene": 1,
+          "active": true,
+          "art": {
+            "top": 137.1,
+            "bottom": 380.1,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 243
+          },
+          "foot": {
+            "top": 402.1,
+            "bottom": 544.7,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 142.6
+          },
+          "ratio": 1.333,
+          "demo": {
+            "top": 1982,
+            "bottom": 1997.3,
+            "left": 23.4,
+            "right": 366.6,
+            "width": 343.2,
+            "height": 15.4
+          },
+          "overlapArtFoot": 0,
+          "overflowX": 0,
+          "screenshot": "390x844-producto-01.png"
+        },
+        {
+          "scene": 3,
+          "active": false,
+          "art": {
+            "top": 137.1,
+            "bottom": 380.1,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 243
+          },
+          "foot": {
+            "top": 402.1,
+            "bottom": 548.5,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 146.4
+          },
+          "ratio": 1.333,
+          "demo": {
+            "top": 1055,
+            "bottom": 1070.3,
+            "left": 23.4,
+            "right": 366.6,
+            "width": 343.2,
+            "height": 15.4
+          },
+          "overlapArtFoot": 0,
+          "overflowX": 0,
+          "screenshot": "390x844-producto-03.png"
+        }
+      ],
+      "overflowX": 0,
+      "consoleErrors": [],
+      "requestFailures": [],
+      "axe": {
+        "violations": [],
+        "passes": 44,
+        "incomplete": 1
+      }
+    },
+    {
+      "id": "2560x1440",
+      "viewport": {
+        "width": 2560,
+        "height": 1440
+      },
+      "geometry": {
+        "statementTop": 1461.6,
+        "statementHeight": 4608,
+        "statementTravel": 3168,
+        "statementVh": 320,
+        "sequenceHeight": 6048,
+        "sequenceTravel": 4608
+      },
+      "statement": [
+        {
+          "progress": 0,
+          "screenshot": "2560x1440-idea-000.png",
+          "scrollY": 1462,
+          "p": "0.000",
+          "vars": {
+            "line1": "0.000",
+            "line2": "0.000",
+            "line3": "0.000",
+            "rule": "0.000",
+            "lead": "0.000",
+            "figures": "0.000",
+            "orbit": "0.000"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 1440,
+            "left": 0,
+            "right": 2560,
+            "width": 2560,
+            "height": 1440
+          },
+          "title": {
+            "top": 396.4,
+            "bottom": 846.3,
+            "left": 621.9,
+            "right": 1938.1,
+            "width": 1316.2,
+            "height": 449.9
+          },
+          "lead": {
+            "top": 893.9,
+            "bottom": 986.2,
+            "left": 973.1,
+            "right": 1586.9,
+            "width": 613.9,
+            "height": 92.3
+          },
+          "figures": {
+            "top": 1057.6,
+            "bottom": 1171.3,
+            "left": 903,
+            "right": 1657,
+            "width": 753.9,
+            "height": 113.7
+          },
+          "steps": {
+            "top": 1393.3,
+            "bottom": 1420,
+            "left": 900,
+            "right": 1660,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 222.1,
+          "counters": [
+            "0",
+            "0",
+            "0"
+          ],
+          "labelOpacity": [
+            1,
+            0.7,
+            0.7
+          ],
+          "leadOpacity": 0,
+          "figuresOpacity": 0,
+          "ruleTransform": "matrix(0, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 165.568)",
+            "matrix(1, 0, 0, 1, 0, 165.568)",
+            "matrix(1, 0, 0, 1, 0, 165.568)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 0.4,
+          "screenshot": "2560x1440-idea-040.png",
+          "scrollY": 2729,
+          "p": "0.400",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "0.875",
+            "figures": "0.000",
+            "orbit": "0.000"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 1440,
+            "left": 0,
+            "right": 2560,
+            "width": 2560,
+            "height": 1440
+          },
+          "title": {
+            "top": 395.2,
+            "bottom": 846.6,
+            "left": 619.8,
+            "right": 1940.2,
+            "width": 1320.4,
+            "height": 451.4
+          },
+          "lead": {
+            "top": 882.2,
+            "bottom": 974.7,
+            "left": 972.1,
+            "right": 1587.9,
+            "width": 615.9,
+            "height": 92.6
+          },
+          "figures": {
+            "top": 1058.6,
+            "bottom": 1172.6,
+            "left": 901.8,
+            "right": 1658.2,
+            "width": 756.4,
+            "height": 114
+          },
+          "steps": {
+            "top": 1393.3,
+            "bottom": 1420,
+            "left": 900,
+            "right": 1660,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 220.7,
+          "counters": [
+            "0",
+            "0",
+            "0"
+          ],
+          "labelOpacity": [
+            1,
+            0.82,
+            0.7
+          ],
+          "leadOpacity": 0.875,
+          "figuresOpacity": 0,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 0.7,
+          "screenshot": "2560x1440-idea-070.png",
+          "scrollY": 3679,
+          "p": "0.700",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "1.000",
+            "figures": "1.000",
+            "orbit": "0.263"
+          },
+          "pin": {
+            "top": 0,
+            "bottom": 1440,
+            "left": 0,
+            "right": 2560,
+            "width": 2560,
+            "height": 1440
+          },
+          "title": {
+            "top": 394.3,
+            "bottom": 846.8,
+            "left": 618.2,
+            "right": 1941.8,
+            "width": 1323.6,
+            "height": 452.5
+          },
+          "lead": {
+            "top": 880.7,
+            "bottom": 973.5,
+            "left": 971.3,
+            "right": 1588.7,
+            "width": 617.3,
+            "height": 92.8
+          },
+          "figures": {
+            "top": 1041.3,
+            "bottom": 1155.7,
+            "left": 900.9,
+            "right": 1659.1,
+            "width": 758.2,
+            "height": 114.3
+          },
+          "steps": {
+            "top": 1393.3,
+            "bottom": 1420,
+            "left": 900,
+            "right": 1660,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 237.7,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            0.7,
+            0.925,
+            0.76
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        },
+        {
+          "progress": 1,
+          "screenshot": "2560x1440-idea-100.png",
+          "scrollY": 4630,
+          "p": "1.000",
+          "vars": {
+            "line1": "1.000",
+            "line2": "1.000",
+            "line3": "1.000",
+            "rule": "1.000",
+            "lead": "1.000",
+            "figures": "1.000",
+            "orbit": "1.000"
+          },
+          "pin": {
+            "top": -0.4,
+            "bottom": 1439.6,
+            "left": 0,
+            "right": 2560,
+            "width": 2560,
+            "height": 1440
+          },
+          "title": {
+            "top": 393.1,
+            "bottom": 846.6,
+            "left": 616.6,
+            "right": 1943.4,
+            "width": 1326.8,
+            "height": 453.6
+          },
+          "lead": {
+            "top": 880.6,
+            "bottom": 973.6,
+            "left": 970.6,
+            "right": 1589.4,
+            "width": 618.8,
+            "height": 93
+          },
+          "figures": {
+            "top": 1041.6,
+            "bottom": 1156.2,
+            "left": 900,
+            "right": 1660,
+            "width": 760,
+            "height": 114.6
+          },
+          "steps": {
+            "top": 1392.9,
+            "bottom": 1419.6,
+            "left": 900,
+            "right": 1660,
+            "width": 760,
+            "height": 26.7
+          },
+          "stepsDisplay": "block",
+          "figureGap": 236.7,
+          "counters": [
+            "0",
+            "38",
+            "1"
+          ],
+          "labelOpacity": [
+            0.7,
+            0.7,
+            1
+          ],
+          "leadOpacity": 1,
+          "figuresOpacity": 1,
+          "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "titleTransforms": [
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)",
+            "matrix(1, 0, 0, 1, 0, 0)"
+          ],
+          "overflowX": 0
+        }
+      ],
+      "sequence": [
+        {
+          "progress": 0.1,
+          "screenshot": "2560x1440-producto-01.png",
+          "scene": 1,
+          "active": "0",
+          "head": {
+            "top": 170,
+            "bottom": 324,
+            "left": 400,
+            "right": 2160,
+            "width": 1760,
+            "height": 154
+          },
+          "art": {
+            "top": 340,
+            "bottom": 760,
+            "left": 1600,
+            "right": 2160,
+            "width": 560,
+            "height": 420
+          },
+          "foot": {
+            "top": 461,
+            "bottom": 639,
+            "left": 400,
+            "right": 820,
+            "width": 420,
+            "height": 177.9
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 2101.5,
+            "right": 2160,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 2048,
+            "right": 2160,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 1400.6,
+            "bottom": 1416,
+            "left": 400,
+            "right": 570.4,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 680,
+          "footBottomGap": 801,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.35,
+          "screenshot": "2560x1440-producto-02.png",
+          "scene": 2,
+          "active": "1",
+          "head": {
+            "top": 170,
+            "bottom": 324,
+            "left": 400,
+            "right": 2160,
+            "width": 1760,
+            "height": 154
+          },
+          "art": {
+            "top": 340,
+            "bottom": 760,
+            "left": 1600,
+            "right": 2160,
+            "width": 560,
+            "height": 420
+          },
+          "foot": {
+            "top": 461,
+            "bottom": 639,
+            "left": 400,
+            "right": 820,
+            "width": 420,
+            "height": 177.9
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 2101.5,
+            "right": 2160,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 2048,
+            "right": 2160,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 1400.6,
+            "bottom": 1416,
+            "left": 400,
+            "right": 570.4,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 680,
+          "footBottomGap": 801,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.6,
+          "screenshot": "2560x1440-producto-03.png",
+          "scene": 3,
+          "active": "2",
+          "head": {
+            "top": 170,
+            "bottom": 324,
+            "left": 400,
+            "right": 2160,
+            "width": 1760,
+            "height": 154
+          },
+          "art": {
+            "top": 340,
+            "bottom": 760,
+            "left": 1600,
+            "right": 2160,
+            "width": 560,
+            "height": 420
+          },
+          "foot": {
+            "top": 461,
+            "bottom": 639,
+            "left": 400,
+            "right": 820,
+            "width": 420,
+            "height": 177.9
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 2101.5,
+            "right": 2160,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 2048,
+            "right": 2160,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 1400.6,
+            "bottom": 1416,
+            "left": 400,
+            "right": 570.4,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 680,
+          "footBottomGap": 801,
+          "overflowX": 0
+        },
+        {
+          "progress": 0.85,
+          "screenshot": "2560x1440-producto-04.png",
+          "scene": 4,
+          "active": "3",
+          "head": {
+            "top": 170,
+            "bottom": 324,
+            "left": 400,
+            "right": 2160,
+            "width": 1760,
+            "height": 154
+          },
+          "art": {
+            "top": 340,
+            "bottom": 760,
+            "left": 1600,
+            "right": 2160,
+            "width": 560,
+            "height": 420
+          },
+          "foot": {
+            "top": 437.7,
+            "bottom": 662.3,
+            "left": 400,
+            "right": 820,
+            "width": 420,
+            "height": 224.5
+          },
+          "counter": {
+            "top": 174,
+            "bottom": 191.8,
+            "left": 2101.5,
+            "right": 2160,
+            "width": 58.5,
+            "height": 17.8
+          },
+          "rail": {
+            "top": 204,
+            "bottom": 207,
+            "left": 2048,
+            "right": 2160,
+            "width": 112,
+            "height": 3
+          },
+          "demo": {
+            "top": 1400.6,
+            "bottom": 1416,
+            "left": 400,
+            "right": 570.4,
+            "width": 170.4,
+            "height": 15.4
+          },
+          "ratio": 1.333,
+          "overlapHeadArt": 0,
+          "overlapHeadFoot": 0,
+          "overlapArtFoot": 0,
+          "artBottomGap": 680,
+          "footBottomGap": 777.7,
+          "overflowX": 0
+        }
+      ],
+      "overflowX": 0,
+      "consoleErrors": [],
+      "requestFailures": [],
+      "axe": {
+        "violations": [],
+        "passes": 45,
+        "incomplete": 1
+      }
+    }
+  ],
+  "reducedMotion": [
+    {
+      "viewport": "1440x900",
+      "motion": "reduce",
+      "statementHeight": 834.4,
+      "pinPosition": "relative",
+      "pin": {
+        "top": 900,
+        "bottom": 1734.4,
+        "left": 0,
+        "right": 1440,
+        "width": 1440,
+        "height": 834.4
+      },
+      "title": {
+        "top": 1042.1,
+        "bottom": 1370.1,
+        "left": 240.2,
+        "right": 1199.8,
+        "width": 959.6,
+        "height": 328
+      },
+      "lead": {
+        "top": 1396.1,
+        "bottom": 1484.5,
+        "left": 426,
+        "right": 1013.9,
+        "width": 587.9,
+        "height": 88.4
+      },
+      "figures": {
+        "top": 1520.5,
+        "bottom": 1634.4,
+        "left": 340,
+        "right": 1100,
+        "width": 760,
+        "height": 114
+      },
+      "leadOpacity": 1,
+      "figuresOpacity": 1,
+      "lineTransforms": [
+        "none",
+        "none",
+        "none"
+      ],
+      "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "stepsDisplay": "none",
+      "counters": [
+        "0",
+        "38",
+        "1"
+      ],
+      "contentGap": 100,
+      "sequencePinPosition": "relative",
+      "sequenceFrames": [
+        {
+          "opacity": 1,
+          "position": "relative",
+          "footTop": "0px",
+          "footTransform": "none",
+          "art": {
+            "top": 1996.6,
+            "bottom": 3027.1,
+            "left": 33,
+            "right": 1407,
+            "width": 1374,
+            "height": 1030.5
+          },
+          "foot": {
+            "top": 3049.1,
+            "bottom": 3172.9,
+            "left": 33,
+            "right": 1407,
+            "width": 1374,
+            "height": 123.8
+          }
+        },
+        {
+          "opacity": 1,
+          "position": "relative",
+          "footTop": "0px",
+          "footTransform": "none",
+          "art": {
+            "top": 3226.9,
+            "bottom": 4257.4,
+            "left": 33,
+            "right": 1407,
+            "width": 1374,
+            "height": 1030.5
+          },
+          "foot": {
+            "top": 4279.4,
+            "bottom": 4403.2,
+            "left": 33,
+            "right": 1407,
+            "width": 1374,
+            "height": 123.8
+          }
+        },
+        {
+          "opacity": 1,
+          "position": "relative",
+          "footTop": "0px",
+          "footTransform": "none",
+          "art": {
+            "top": 4457.2,
+            "bottom": 5487.7,
+            "left": 33,
+            "right": 1407,
+            "width": 1374,
+            "height": 1030.5
+          },
+          "foot": {
+            "top": 5509.7,
+            "bottom": 5633.5,
+            "left": 33,
+            "right": 1407,
+            "width": 1374,
+            "height": 123.8
+          }
+        },
+        {
+          "opacity": 1,
+          "position": "relative",
+          "footTop": "0px",
+          "footTransform": "none",
+          "art": {
+            "top": 5687.5,
+            "bottom": 6718,
+            "left": 33,
+            "right": 1407,
+            "width": 1374,
+            "height": 1030.5
+          },
+          "foot": {
+            "top": 6740,
+            "bottom": 6863.8,
+            "left": 33,
+            "right": 1407,
+            "width": 1374,
+            "height": 123.8
+          }
+        }
+      ],
+      "overflowX": 0
+    },
+    {
+      "viewport": "390x844",
+      "motion": "reduce",
+      "statementHeight": 617.6,
+      "pinPosition": "relative",
+      "pin": {
+        "top": 852.9,
+        "bottom": 1470.5,
+        "left": 0,
+        "right": 390,
+        "width": 390,
+        "height": 617.6
+      },
+      "title": {
+        "top": 995,
+        "bottom": 1098.7,
+        "left": 43.4,
+        "right": 346.6,
+        "width": 303.3,
+        "height": 103.7
+      },
+      "lead": {
+        "top": 1124.7,
+        "bottom": 1230.1,
+        "left": 20,
+        "right": 370,
+        "width": 350,
+        "height": 105.4
+      },
+      "figures": {
+        "top": 1266.1,
+        "bottom": 1370.5,
+        "left": 20,
+        "right": 370,
+        "width": 350,
+        "height": 104.4
+      },
+      "leadOpacity": 1,
+      "figuresOpacity": 1,
+      "lineTransforms": [
+        "none",
+        "none",
+        "none"
+      ],
+      "ruleTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "stepsDisplay": "none",
+      "counters": [
+        "0",
+        "38",
+        "1"
+      ],
+      "contentGap": 100,
+      "sequencePinPosition": "relative",
+      "sequenceFrames": [
+        {
+          "opacity": 1,
+          "position": "relative",
+          "footTop": "0px",
+          "footTransform": "none",
+          "art": {
+            "top": 1775.1,
+            "bottom": 2018.1,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 243
+          },
+          "foot": {
+            "top": 2040.1,
+            "bottom": 2182.7,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 142.6
+          }
+        },
+        {
+          "opacity": 1,
+          "position": "relative",
+          "footTop": "0px",
+          "footTransform": "none",
+          "art": {
+            "top": 2236.7,
+            "bottom": 2479.7,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 243
+          },
+          "foot": {
+            "top": 2501.7,
+            "bottom": 2648.1,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 146.4
+          }
+        },
+        {
+          "opacity": 1,
+          "position": "relative",
+          "footTop": "0px",
+          "footTransform": "none",
+          "art": {
+            "top": 2702.1,
+            "bottom": 2945.1,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 243
+          },
+          "foot": {
+            "top": 2967.1,
+            "bottom": 3113.5,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 146.4
+          }
+        },
+        {
+          "opacity": 1,
+          "position": "relative",
+          "footTop": "0px",
+          "footTransform": "none",
+          "art": {
+            "top": 3167.5,
+            "bottom": 3410.5,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 243
+          },
+          "foot": {
+            "top": 3432.5,
+            "bottom": 3579,
+            "left": 33,
+            "right": 357,
+            "width": 324,
+            "height": 146.4
+          }
+        }
+      ],
+      "overflowX": 0
+    }
+  ],
+  "noJs": [
+    {
+      "viewport": "1440x900",
+      "screenshots": [
+        "1440x900-idea-nojs.png",
+        "1440x900-producto-nojs.png"
+      ]
+    },
+    {
+      "viewport": "390x844",
+      "screenshots": [
+        "390x844-idea-nojs.png",
+        "390x844-producto-nojs.png"
+      ]
+    }
+  ],
+  "axe": [
+    {
+      "page": "index.html",
+      "viewport": "1440x900",
+      "violations": [],
+      "passes": 45,
+      "incomplete": 1
+    },
+    {
+      "page": "index.html",
+      "viewport": "1366x768",
+      "violations": [],
+      "passes": 45,
+      "incomplete": 1
+    },
+    {
+      "page": "index.html",
+      "viewport": "1024x768",
+      "violations": [],
+      "passes": 45,
+      "incomplete": 1
+    },
+    {
+      "page": "index.html",
+      "viewport": "390x844",
+      "violations": [],
+      "passes": 44,
+      "incomplete": 1
+    },
+    {
+      "page": "index.html",
+      "viewport": "2560x1440",
+      "violations": [],
+      "passes": 45,
+      "incomplete": 1
+    },
+    {
+      "page": "legal.html",
+      "viewport": "1440x900",
+      "violations": [],
+      "passes": 35,
+      "incomplete": 1,
+      "consoleErrors": [],
+      "requestFailures": []
+    },
+    {
+      "page": "legal.html",
+      "viewport": "390x844",
+      "violations": [],
+      "passes": 35,
+      "incomplete": 1,
+      "consoleErrors": [],
+      "requestFailures": []
+    }
+  ],
+  "staticChecks": {},
+  "notes": []
+}
