@@ -34,6 +34,17 @@ Se regeneraron las cuatro pantallas que no cuadraban con el resto:
 - El subtítulo de la secuencia aclara «Cuatro pantallas de la demo local. Datos sintéticos.».
 - El README documenta que son reconstrucciones de demo, no capturas de producción, y cómo regenerarlas.
 
+## Unificación de la marca (segunda pasada)
+
+El primer cambio dejó el corte del favicon solo en el nav; el loader, el menú, el ticker, el watermark de descarga, la placa del póster y los lockups del hero/footer seguían usando el símbolo completo. Se unificó todo el chrome:
+
+- `.symbol-mask` (loader, ticker, menú, placa, watermark) usa `b-vinculo-symbol-small.svg`.
+- Los lockups `b-vinculo-horizontal-reverse.svg` y `b-vinculo-stacked-reverse.svg` usan el corte pequeño junto al wordmark.
+- `favicon.ico` y `apple-touch-icon.png` se regeneraron desde el corte pequeño; `favicon.svg` ya lo usaba.
+- El símbolo completo solo permanece dentro de las pantallas de la app (UI del producto en las capturas), no en el chrome de la landing.
+
+Verificado en loader, hero, menú y footer a 1440: el glyph es el mismo del favicon, sin overflow ni errores. `html-validate` y `css-tree` OK.
+
 ## Verificación
 
 - 1440×900 y 390×844: 0 errores de consola, 0 requests fallidos, 0 imágenes rotas, sin overflow.
