@@ -43,7 +43,7 @@ de señales, promocards, hoja clara de límites, descarga con QR y metadatos, FA
 | D3 | pass | `AUDITORIA-UI.md`: re-auditoría PASS, 0 CRITICAL, 0 HIGH y 0 MEDIUM |
 | G4 | pass | `GOLDFISH.md`: APTO con 0 BLOCKER; los 4 HIGH de publicación quedaron cerrados y la revalidación 2026-11-23 confirma 0 HIGH abiertos. Evidencia en `CORRECCIONES-GOLDFISH.md`. |
 | G5 | pass | `VERDICT.md`: PASS; scorecard 4/4/4/4/4/5/4 y deuda aceptada documentada |
-| G6 | pendiente | Publicación |
+| G6 | pass | Repo público `roninwuajkja/guardiania-pagina` y Pages desplegado en https://roninwuajkja.github.io/guardiania-pagina/ |
 
 ## Publicación
 
@@ -72,3 +72,15 @@ separado y no cambia módulos de arquitectura.
 
 ## CI (2026-11-23T14:38:59.409Z)
 - Omitido: stack no reconocido
+
+## Repositorio (2026-11-23T14:41:06.237Z)
+- URL: https://github.com/roninwuajkja/guardiania-pagina
+- Visibilidad: public
+- Owner: roninwuajkja
+
+## Pages (2026-11-23T14:42Z)
+- URL: https://roninwuajkja.github.io/guardiania-pagina/
+- Repo: https://github.com/roninwuajkja/guardiania-pagina
+- Workflow: `.github/workflows/pages.yml`; run 45196993318, build 5 s + deploy 9 s, success.
+- Primer intento 45196855124: fallo al crear el sitio Pages con el `GITHUB_TOKEN`. Se habilito Pages por API (`build_type=workflow`) y se relanzo el workflow.
+- Verificacion publica: home 200 (38.096 B), legal 200 (12.809 B), CSS/JS/WebP/SVG 200; Playwright 390/1440: 0 errores de consola, 0 requests fallidos, sin overflow, 8 tiles, descarga al APK correcta; legal sin `mailto:` y con 3 enlaces a GitHub Issues.

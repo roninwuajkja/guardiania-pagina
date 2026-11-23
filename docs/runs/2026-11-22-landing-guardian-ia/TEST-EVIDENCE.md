@@ -169,6 +169,16 @@ Extras del goldfish:
 
 Pendiente de revalidación por el goldfish al cierre de este documento.
 
+## G6 — Publicación
+
+- Repo público: <https://github.com/roninwuajkja/guardiania-pagina>
+- Sitio: <https://roninwuajkja.github.io/guardiania-pagina/>
+- Workflow `.github/workflows/pages.yml`, run `45196993318`: build 5 s + deploy 9 s, success.
+- Primer run `45196855124` falló al crear el sitio Pages con el `GITHUB_TOKEN`; se habilitó Pages por API (`build_type=workflow`) y se relanzó.
+- Verificación pública: home 200 (38.096 B), `legal.html` 200 (12.809 B), CSS/JS/WebP/SVG 200.
+- Playwright sobre la URL pública, 390×844 y 1440×900: 0 errores de consola, 0 requests fallidos, sin overflow, 8 tiles, descarga al APK correcta; legal con 0 `mailto:` y 3 enlaces a GitHub Issues.
+- Capturas: `capturas/public-home-1440.png`, `capturas/public-legal-1440.png`.
+
 ## Cobertura de flujos críticos
 
 | Flujo | Cubierto |

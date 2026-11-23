@@ -18,3 +18,10 @@
 {"ts":"2026-11-23T14:38:31.487Z","stage":"state","gate":"-","action":"update","result":"ok","evidence":"{\"gates\":{\"G0\":\"pass\",\"G1\":\"pass\",\"D1\":\"pass\",\"G2\":\"pass\",\"D2\":\"pass\",\"G3\":\"pass\",\"D3\":\"pass\",\"G4\":\"pass\",\"G5\":\"pass\",\"G6\":\"pending\"},\"stage\":\"ship\"}"}
 {"ts":"2026-11-23T14:38:59.409Z","stage":"ship","gate":"G6","action":"CI","result":"ok","evidence":"- Omitido: stack no reconocido"}
 {"ts":"2026-11-23T14:38:59.410Z","stage":"state","gate":"-","action":"update","result":"ok","evidence":"{\"gates\":{\"G0\":\"pass\",\"G1\":\"pass\",\"D1\":\"pass\",\"G2\":\"pass\",\"D2\":\"pass\",\"G3\":\"pass\",\"D3\":\"pass\",\"G4\":\"pass\",\"G5\":\"pass\",\"G6\":\"pending\"},\"stage\":\"ship\"}"}
+{"ts":"2026-11-23T14:41:06.236Z","stage":"state","gate":"-","action":"update","result":"ok","evidence":"{\"repo\":{\"path\":\"C:\\\\Users\\\\Usuario\\\\Desktop\\\\Guardian IA Pagina\",\"remote\":\"https://github.com/roninwuajkja/guardiania-pagina\",\"visibility\":\"public\"}}"}
+{"ts":"2026-11-23T14:41:06.237Z","stage":"ship","gate":"G6","action":"Repositorio","result":"ok","evidence":"- URL: https://github.com/roninwuajkja/guardiania-pagina"}
+{"ts":"2026-11-23T14:41:06.237Z","stage":"state","gate":"-","action":"update","result":"ok","evidence":"{\"gates\":{\"G0\":\"pass\",\"G1\":\"pass\",\"D1\":\"pass\",\"G2\":\"pass\",\"D2\":\"pass\",\"G3\":\"pass\",\"D3\":\"pass\",\"G4\":\"pass\",\"G5\":\"pass\",\"G6\":\"pending\"},\"stage\":\"ship\"}"}
+{"action":"repo.created","ts":"2026-11-23T11:44:30","stage":"SHIP","result":"ok","evidence":"https://github.com/roninwuajkja/guardiania-pagina (public)","gate":"G6"}
+{"action":"pages.enabled","ts":"2026-11-23T11:44:30","stage":"SHIP","result":"ok","evidence":"gh api POST pages build_type=workflow","gate":"G6"}
+{"action":"pages.deploy","ts":"2026-11-23T11:44:30","stage":"SHIP","result":"pass","evidence":"run 45196993318 success; build 5s deploy 9s","gate":"G6"}
+{"action":"pages.verify","ts":"2026-11-23T11:44:30","stage":"SHIP","result":"pass","evidence":"home 200 38096B; legal 200 12809B; assets 200; 0 consola/requests; 8 tiles; descarga correcta","gate":"G6"}

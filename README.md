@@ -57,7 +57,9 @@ Select-String -Path index.html,legal.html -Pattern "1\.7\.17"
 
 ## Publicación
 
-Es un sitio estático: se publica la carpeta tal cual, sin compilar. La carpeta incluye `.github/workflows/pages.yml`, que publica **solo** `index.html`, `legal.html`, `assets/`, `styles/` y `scripts/`. Para activarlo: sube el repositorio a GitHub, entra en **Settings → Pages** y elige **GitHub Actions** como fuente; el workflow se dispara con cada push a `main` o a mano.
+**Sitio publicado:** <https://roninwuajkja.github.io/guardiania-pagina/> · **Repositorio:** <https://github.com/roninwuajkja/guardiania-pagina> (público).
+
+Es un sitio estático: se publica la carpeta tal cual, sin compilar. La carpeta incluye `.github/workflows/pages.yml`, que publica **solo** `index.html`, `legal.html`, `assets/`, `styles/` y `scripts/`. Si lo recreas: sube el repositorio a GitHub, entra en **Settings → Pages** y elige **GitHub Actions** como fuente; el workflow se dispara con cada push a `main` o a mano.
 
 El workflow no publica `docs/runs/` ni el README, así que la evidencia interna del run no queda expuesta en el sitio. También puedes servir la raíz de la rama si prefieres no usar Actions, pero en ese caso `docs/` quedaría público.
 
