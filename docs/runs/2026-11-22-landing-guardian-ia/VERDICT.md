@@ -79,3 +79,7 @@ El residual de copy de la tarjeta de señales es `MEDIUM`, no `HIGH`: no afirma 
 **Ship (G6).** Actualizar `SHIP.md` con G4/G5 en pass y publicar en el repositorio que confirme el usuario; no hay que reabrir G2, G3, G4 ni D3.
 
 Antes de operar con datos reales de menores (fuera de este demo): corregir el `MEDIUM` de copy de la tarjeta de señales y formalizar responsable legal, domicilio y un canal confidencial de derechos. Eso es deuda de producción, no del ship de la landing.
+
+---
+
+_Verificación realizada sin modificar código ni assets del sitio. El único artefacto escrito por este veredicto es este `VERDICT.md`._
