@@ -16,3 +16,5 @@
 {"action":"reaudit.requested","ts":"2026-11-23T11:00:06","stage":"AUDITORIA","result":"pending","evidence":"auditor-ui ses_df7a1cef4ffe7O4quwDc5buCiu","gate":"D3"}
 {"ts":"2026-11-23T14:38:31.486Z","stage":"ship","gate":"G6","action":"Preflight","result":"ok","evidence":"- G5: pass"}
 {"ts":"2026-11-23T14:38:31.487Z","stage":"state","gate":"-","action":"update","result":"ok","evidence":"{\"gates\":{\"G0\":\"pass\",\"G1\":\"pass\",\"D1\":\"pass\",\"G2\":\"pass\",\"D2\":\"pass\",\"G3\":\"pass\",\"D3\":\"pass\",\"G4\":\"pass\",\"G5\":\"pass\",\"G6\":\"pending\"},\"stage\":\"ship\"}"}
+{"ts":"2026-11-23T14:38:59.409Z","stage":"ship","gate":"G6","action":"CI","result":"ok","evidence":"- Omitido: stack no reconocido"}
+{"ts":"2026-11-23T14:38:59.410Z","stage":"state","gate":"-","action":"update","result":"ok","evidence":"{\"gates\":{\"G0\":\"pass\",\"G1\":\"pass\",\"D1\":\"pass\",\"G2\":\"pass\",\"D2\":\"pass\",\"G3\":\"pass\",\"D3\":\"pass\",\"G4\":\"pass\",\"G5\":\"pass\",\"G6\":\"pending\"},\"stage\":\"ship\"}"}

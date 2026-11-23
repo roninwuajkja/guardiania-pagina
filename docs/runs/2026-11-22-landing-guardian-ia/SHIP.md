@@ -39,7 +39,7 @@ de señales, promocards, hoja clara de límites, descarga con QR y metadatos, FA
 | D1 | pass | `DISENO.md` y `REFERENCIA.md` |
 | G2 | pass | HTML/CSS/JS válidos; 0 errores de consola; 0 overflow; `TEST-EVIDENCE.md` |
 | D2 | pass | 10 secciones y componentes con estados; `DISENO.md` |
-| G3 | pass | Playwright, axe, enlaces, LCP 2.460 ms y CLS 0,00006 |
+| G3 | pass | Playwright, axe, enlaces, LCP 2.476 ms y CLS 0,00006 |
 | D3 | pass | `AUDITORIA-UI.md`: re-auditoría PASS, 0 CRITICAL, 0 HIGH y 0 MEDIUM |
 | G4 | pass | `GOLDFISH.md`: APTO con 0 BLOCKER; los 4 HIGH de publicación quedaron cerrados y la revalidación 2026-11-23 confirma 0 HIGH abiertos. Evidencia en `CORRECCIONES-GOLDFISH.md`. |
 | G5 | pass | `VERDICT.md`: PASS; scorecard 4/4/4/4/4/5/4 y deuda aceptada documentada |
@@ -69,3 +69,6 @@ separado y no cambia módulos de arquitectura.
 - Repo git: ok
 - Rama actual: main
 - Secretos: ninguno detectado
+
+## CI (2026-11-23T14:38:59.409Z)
+- Omitido: stack no reconocido
