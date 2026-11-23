@@ -513,3 +513,26 @@ No se agregan imágenes generadas ni de terceros. Los logos de Android se repres
 - [ ] 360/768/1440/2560 sin overflow.
 - [ ] Reduced motion y toggle manual.
 - [ ] Cero dependencias externas.
+
+
+---
+
+## 1.7 Superficies de papel (iteración 2026-11-23)
+
+El pine sigue siendo el lienzo; las secciones de contenido ganan islas de papel para bajar la saturación sin perder la identidad.
+
+```css
+--card-bg: #F7F9F4;
+--card-line: rgba(16, 32, 27, 0.14);
+--card-line-strong: rgba(16, 32, 27, 0.28);
+--card-shadow: 0 24px 60px -40px rgba(0, 0, 0, 0.55);
+```
+
+- Señales: tres cards de papel, tinta pine, bubble oscuro como acento.
+- Promos: cuerpo de papel y arte oscuro, costura de 1px.
+- Descarga: bloque de descarga en card de papel; QR en tile blanco.
+- FAQ: lista en card de papel; ítem abierto con velo sage-100.
+- Límites: la hoja existente sigue en `--paper`.
+- Hero, declaración y secuencia permanecen oscuros: son el bloque cinematográfico.
+
+Reglas: ink/ink-2/pine-600/pine-700 sobre `--card-bg`; sage-500 no se usa para texto pequeño; el foco visible en papel es pine-700.

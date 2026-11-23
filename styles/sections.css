@@ -1370,14 +1370,17 @@ html.is-loading .loader {
   padding: 32px;
   flex-direction: column;
   align-items: flex-start;
-  border: 1px solid var(--line);
+  border: 1px solid var(--card-line);
   border-radius: var(--r-card);
-  background: var(--pine-800);
+  background: var(--card-bg);
+  color: var(--ink);
+  box-shadow: var(--card-shadow);
 }
 
 .signal-card h3 {
   font-size: var(--d-s);
   text-transform: uppercase;
+  color: var(--ink);
 }
 
 .signal-card > p {
@@ -1385,13 +1388,27 @@ html.is-loading .loader {
   margin-top: 14px;
   font-size: 15.5px;
   line-height: 1.55;
-  color: var(--muted);
+  color: var(--ink-2);
 }
 
 .signal-card .link-arrow {
   margin-top: auto;
   padding-top: 20px;
-  color: var(--sage-300);
+  color: var(--pine-700);
+}
+
+.signal-card .link-arrow:hover {
+  color: var(--pine-900);
+}
+
+.signal-card :focus-visible {
+  outline-color: var(--pine-700);
+}
+
+.signal-card:has(:focus-visible) {
+  border-color: var(--card-line-strong);
+  outline: 2px solid var(--pine-700);
+  outline-offset: -2px;
 }
 
 .signal-visual {
@@ -1448,7 +1465,7 @@ html.is-loading .loader {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--sage-300);
+  background: var(--pine-600);
 }
 
 .signal-visual--rules {
@@ -1470,14 +1487,14 @@ html.is-loading .loader {
   font-family: var(--font-mono);
   font-size: 8.5px;
   letter-spacing: 0.1em;
-  color: var(--muted);
+  color: var(--ink-2);
 }
 
 .signal-rule__line {
   display: block;
   width: 100%;
   height: 1px;
-  background: var(--line-strong);
+  background: var(--card-line-strong);
   transform-origin: left center;
 }
 
@@ -1488,7 +1505,7 @@ html.is-loading .loader {
 .signal-ring {
   width: 96px;
   height: 96px;
-  color: var(--sage-300);
+  color: var(--pine-600);
   overflow: visible;
 }
 
@@ -1578,27 +1595,56 @@ html.is-loading .loader {
   align-items: flex-start;
   justify-content: center;
   gap: 24px;
+  background: var(--card-bg);
+  color: var(--ink);
+}
+
+.promo--a .promo__body {
+  border-left: 1px solid var(--card-line);
 }
 
 .promo--b .promo__body {
   order: 1;
+  border-right: 1px solid var(--card-line);
+}
+
+.promo__body .eyebrow {
+  color: var(--pine-600);
 }
 
 .promo__body h3 {
   font-size: clamp(2rem, 3.4vw, 3.2rem);
   line-height: 0.94;
   text-transform: uppercase;
+  color: var(--ink);
 }
 
 .promo__body > p:not(.eyebrow) {
   max-width: 44ch;
   font-size: 16.5px;
   line-height: 1.6;
-  color: var(--muted);
+  color: var(--ink-2);
+}
+
+.promo__body :focus-visible {
+  outline-color: var(--pine-700);
 }
 
 .promo__cta {
   margin-top: 8px;
+}
+
+.promo__cta.btn--ghost {
+  background: transparent;
+  border-color: var(--card-line-strong);
+  color: var(--pine-900);
+}
+
+.promo__cta.btn--ghost:hover,
+.promo__cta.btn--ghost:focus-visible {
+  background: var(--pine-900);
+  border-color: var(--pine-900);
+  color: var(--paper);
 }
 
 /* --------------------------------------------------------------------------
@@ -1840,9 +1886,19 @@ html.is-loading .loader {
 .download__row {
   display: flex;
   margin-top: clamp(44px, 6vw, 72px);
+  padding: clamp(24px, 3.5vw, 44px);
   align-items: center;
   justify-content: space-between;
   gap: clamp(32px, 6vw, 80px);
+  border: 1px solid var(--card-line);
+  border-radius: var(--r-card);
+  background: var(--card-bg);
+  color: var(--ink);
+  box-shadow: var(--card-shadow);
+}
+
+.download__row :focus-visible {
+  outline-color: var(--pine-700);
 }
 
 .download__action {
@@ -1865,18 +1921,20 @@ html.is-loading .loader {
   gap: 6px;
   font-size: 14px;
   font-weight: 500;
-  color: var(--sage-300);
+  color: var(--pine-700);
   text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--sage-300) 32%, transparent);
+  text-decoration-color: color-mix(in srgb, var(--pine-700) 32%, transparent);
   text-underline-offset: 0.3em;
 }
 
 .download__release:hover {
-  text-decoration-color: var(--sage-300);
+  color: var(--pine-900);
+  text-decoration-color: var(--pine-900);
 }
 
 .download__meta {
   font-size: 11.5px;
+  color: var(--ink-2);
 }
 
 .download__verify {
@@ -1893,9 +1951,9 @@ html.is-loading .loader {
   cursor: pointer;
   font-size: 13.5px;
   font-weight: 500;
-  color: var(--sage-300);
+  color: var(--pine-700);
   text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--sage-300) 32%, transparent);
+  text-decoration-color: color-mix(in srgb, var(--pine-700) 32%, transparent);
   text-underline-offset: 0.3em;
 }
 
@@ -1911,11 +1969,12 @@ html.is-loading .loader {
 }
 
 .download__verify summary:hover {
-  text-decoration-color: var(--sage-300);
+  color: var(--pine-900);
+  text-decoration-color: var(--pine-900);
 }
 
 .download__verify[open] summary {
-  color: var(--paper);
+  color: var(--pine-900);
 }
 
 .download__verify-body {
@@ -1925,15 +1984,16 @@ html.is-loading .loader {
   gap: 8px;
   margin-top: 8px;
   padding: 14px 16px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--card-line);
   border-radius: var(--r-media);
-  background: color-mix(in srgb, var(--pine-900) 60%, transparent);
+  background: var(--paper);
 }
 
 .download__verify-body p {
   max-width: 100%;
   margin: 0;
   overflow-wrap: anywhere;
+  color: var(--ink-2);
 }
 
 .download__verify-body code {
@@ -1941,7 +2001,7 @@ html.is-loading .loader {
   margin-top: 4px;
   font-size: 11px;
   line-height: 1.5;
-  color: var(--paper);
+  color: var(--ink);
   user-select: all;
   word-break: break-all;
 }
@@ -1956,10 +2016,10 @@ html.is-loading .loader {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  border: 1px solid var(--card-line);
   border-radius: var(--r-media);
-  background: var(--paper);
+  background: #fff;
   color: var(--ink);
-  box-shadow: 0 24px 60px -34px color-mix(in srgb, var(--pine-950) 90%, transparent);
 }
 
 .download__qr img {
@@ -1980,7 +2040,7 @@ html.is-loading .loader {
   line-height: 1.5;
   letter-spacing: 0.01em;
   text-align: center;
-  color: var(--ink-2);
+  color: var(--ink);
   overflow-wrap: anywhere;
 }
 
@@ -2070,11 +2130,40 @@ html.is-loading .loader {
 }
 
 .faq__list {
-  border-top: 1px solid var(--line);
+  padding: 8px clamp(20px, 3vw, 36px);
+  border: 1px solid var(--card-line);
+  border-radius: var(--r-card);
+  background: var(--card-bg);
+  color: var(--ink);
+  box-shadow: var(--card-shadow);
 }
 
 .faq__item {
-  border-bottom: 1px solid var(--line);
+  position: relative;
+  border-bottom: 1px solid var(--card-line);
+}
+
+.faq__item:last-child {
+  border-bottom: 0;
+}
+
+.faq__item > * {
+  position: relative;
+  z-index: 1;
+}
+
+.faq__item.is-open::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 4px -12px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--sage-100) 45%, transparent);
+  pointer-events: none;
+}
+
+.faq__list :focus-visible {
+  outline-color: var(--pine-700);
 }
 
 .faq__q {
@@ -2100,11 +2189,11 @@ html.is-loading .loader {
   font-weight: 500;
   line-height: 1.35;
   letter-spacing: -0.01em;
-  color: var(--paper);
+  color: var(--ink);
 }
 
 .faq__trigger:hover {
-  color: var(--sage-300);
+  color: var(--pine-600);
 }
 
 .faq__icon {
@@ -2150,7 +2239,7 @@ html.is-loading .loader {
   padding: 0 44px 24px 0;
   font-size: 16px;
   line-height: 1.6;
-  color: var(--muted);
+  color: var(--ink-2);
 }
 
 .faq__item.is-open .faq__panel {
@@ -2910,6 +2999,13 @@ html.is-loading .loader {
   .promo__body {
     padding: 28px;
     gap: 18px;
+  }
+
+  .promo--a .promo__body,
+  .promo--b .promo__body {
+    border-right: 0;
+    border-left: 0;
+    border-top: 1px solid var(--card-line);
   }
 
   .limits {

@@ -148,3 +148,26 @@ El usuario pidió que «La idea» tuviera más recorrido y una animación más l
 ## Nota de alcance
 
 Esta iteración es visual y de interacción; no cambia el copy, la descarga, el legal ni los assets. Los gates D3/G4/G5 del run siguen vigentes para el contenido.
+
+
+## Iteración: sistema «papel sobre pine»
+
+El usuario pidió reducir la saturación verde con cards de fondo blanco. Se mantuvo el hero, la declaración y la secuencia como bloque cinematográfico oscuro, y se introdujeron superficies de papel en las secciones de contenido.
+
+### Superficies
+
+- Tokens nuevos: `--card-bg #F7F9F4`, `--card-line rgba(16,32,27,.14)`, `--card-line-strong rgba(16,32,27,.28)`, `--card-shadow`.
+- **Señales:** tres cards de papel con tinta pine, borde fino y sombra contenida. El bubble oscuro se conserva como acento; puntos y anillo pasan a pine-600; reglas y etiquetas a ink-2/pine.
+- **Promos:** el cuerpo de cada promo es papel (55/45 y 45/55) y el arte sigue oscuro; costura de 1px y CTA outline que se rellena en pine al hover.
+- **Descarga:** el bloque de descarga pasa a una card de papel con padding; QR en tile blanco; enlaces, meta y verificación en pine/ink.
+- **FAQ:** la lista es una card de papel; el ítem abierto usa un velo sage-100 y conserva el layout.
+- La hoja de límites sigue en `--paper`; el hero, la declaración, la secuencia, el copy, los SVG, el QR y el legal no cambian.
+
+### Verificación
+
+- 0 overflow, 0 errores de consola y 0 requests fallidos a 1440×900, 1366×768, 1024×768, 768×900, 390×844 y 2560×1440.
+- axe-core 4.14.1 con reglas por defecto: 0 violaciones en home y legal a 1440 y 390.
+- Contraste: ink/card-bg 15,92:1; ink-2/card-bg 8,99:1; pine-600/card-bg 6,91:1; pine-700/card-bg 9,45:1.
+- Movimiento reducido y sin JS: cards claras, texto legible, sin overflow.
+- `html-validate` exit 0; `css-tree` 4/4; `node --check scripts/main.js` exit 0.
+- Evidencia: `capturas/papel/` (capturas por viewport, foco, hover, FAQ abierta, reduced, no-JS, `reporte.json` y `RESUMEN.md`).
