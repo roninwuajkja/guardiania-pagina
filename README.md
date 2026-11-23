@@ -1,6 +1,6 @@
 # IA Guardian — landing de descarga
 
-Página estática de **IA Guardian**, app de control parental para Android. Explica qué hace la app —analiza señales en el dispositivo, descarta el texto y envía solo un vector derivado—, muestra capturas del producto con datos sintéticos y lleva al APK v1.7.17 publicado en GitHub Releases.
+Página estática de **IA Guardian**, app de control parental para Android. Explica qué hace la app —analiza señales en el dispositivo, descarta el texto y envía solo un vector derivado—, muestra pantallas de la interfaz con datos sintéticos y lleva al APK v1.7.17 publicado en GitHub Releases.
 
 Proyecto de título 2026, Chile. La landing no tiene backend, analítica, cookies ni publicidad. El motor de riesgo no es un diagnóstico.
 
@@ -27,7 +27,8 @@ Abre <http://127.0.0.1:4173/> y <http://127.0.0.1:4173/legal.html>. Es la misma 
 | `styles/motion.css` | Loader, reveals, secuencia fijada, parallax y estados de movimiento reducido. |
 | `scripts/main.js` | Loader, nav, menú, toggle de movimiento, reveals, contadores, secuencia y FAQ. |
 | `assets/brand/` | Marca propia: lockups, símbolos, favicons e iconos PWA. |
-| `assets/screens/` | Capturas de la app en PNG y WebP, más respaldos de 48 px (`*-bg.webp`). |
+| `assets/screens/` | Pantallas de la interfaz en PNG y WebP, más respaldos de 48 px (`*-bg.webp`). Son reconstrucciones de demo con datos sintéticos, no capturas de producción. |
+| `tools/screens/` | Fuentes HTML/CSS de esas pantallas y el script `render.cjs` que las captura con Playwright. Se conserva para poder regenerarlas. |
 | `assets/fonts/` | Archivo Variable y Spline Sans Mono, autoalojadas en WOFF2. |
 | `assets/qr-apk.svg` | QR de descarga del APK. |
 | `.github/workflows/pages.yml` | Publica el sitio en GitHub Pages sin compilar; excluye `docs/` y el README. |
@@ -53,7 +54,7 @@ Select-String -Path index.html,legal.html -Pattern "1\.7\.17"
 | Peso, Android mínimo y ABIs | Línea `download__meta` en `#descarga` (hoy: 17,9 MB · Android 8.0+ · arm64-v8a · armeabi-v7a). |
 | QR | Regenerar `assets/qr-apk.svg` con `qrcode` apuntando al nuevo asset y revisar la leyenda bajo el QR. |
 | Checksum | Actualizar el `<details>` «Verificar el APK» en `#descarga` con el SHA-256 del asset y la huella SHA-256 del certificado. |
-| Capturas | Reemplazar los archivos de `assets/screens/`. Mantén las dimensiones declaradas en `width`/`height` de cada `<img>` para no introducir CLS; actualiza también los `*-bg.webp`. |
+| Pantallas | Regenerar con `node tools/screens/render.cjs` (requiere Playwright) y convertir con `python tools/screens/convert.py`; o reemplazar los archivos manteniendo las dimensiones declaradas en cada `<img>` para no introducir CLS. Actualiza también los `*-bg.webp`. |
 
 ## Publicación
 
@@ -67,7 +68,7 @@ No hay service worker, redirecciones, variables de entorno ni reescrituras. Mant
 
 ## Assets y fuentes
 
-- **Capturas:** provienen de la app IA Guardian y usan datos sintéticos, rotulados en la secuencia como «DEMO · DATOS SINTÉTICOS». El BRIEF indica que salen de `docs/screenshots` del repositorio de la app; aquí se sirven en WebP, con PNG de origen.
+- **Pantallas:** son reconstrucciones de la interfaz de IA Guardian con datos sintéticos, generadas desde `tools/screens/` y rotuladas en la secuencia como «DEMO · DATOS SINTÉTICOS». No son capturas de producción: las cuentas (Camila, Matías, Sofía) son ficticias y el panel se representa en modo demo. Se sirven en WebP, con PNG de origen.
 - **Marca:** los archivos `b-vinculo-*`, favicons e iconos PWA son marca propia del proyecto.
 - **Fuentes:** Archivo Variable (latín y latín extendido) para display/UI y Spline Sans Mono para etiquetas y microcopy. Se sirven desde `assets/fonts/`, sin CDN; están bajo SIL Open Font License 1.1 y el texto de la licencia está en `assets/fonts/OFL-Archivo.txt` y `assets/fonts/OFL-SplineSansMono.txt`.
 - **QR:** generado con la librería `qrcode`; según `TEST-EVIDENCE.md` §3.2 apunta al mismo asset del release. La leyenda visible muestra `github.com/roninwuajkja/guardiania/releases`.
@@ -99,11 +100,12 @@ La evidencia completa está en `docs/runs/2026-11-22-landing-guardian-ia/`:
 - `TEST-EVIDENCE.md` — alcance, resultados y limitaciones de la suite.
 - `AUDITORIA-UI.md` — auditoría visual independiente, re-auditoría y veredicto D3.
 - `CORRECCIONES.md` — cierre medido de los hallazgos.
+- `ITERACION-2026-11-23.md` — icono del favicon y pantallas nuevas con cuentas coherentes.
 - `report.json` — salida cruda de Playwright (consola, overflow, axe, menú).
 - `perf.json` — medición de rendimiento con red 4G simulada y CPU 4×.
 - `capturas/` — capturas de home, producto, privacidad, descarga, menú y legal en 390, 768, 1440 y 2560 px.
 - `BRIEF.md`, `PLAN.md`, `DISENO.md`, `REFERENCIA.md`, `log.ndjson` y `state.json` (etapa y gates del run).
 
-Resumen verificado el 2026-11-23: HTML válido, CSS y JS parseables, 0 errores de consola, 0 requests fallidos, 23 `<img>` con `alt`, 4 CTA al APK en la home, enlaces externos con 200, 0 violaciones de axe con reglas por defecto, APK real y firmado (v2/v3, RSA 4096), SHA-256 `2719ee…8524`, LCP 2.476 ms en frío (mediana 2.036 ms), CLS 0,00006 y 712 KB en 23 requests. Auditoría UI independiente con re-auditoría PASS (0 critical, 0 high, 0 medium). El script de humo no está versionado en esta carpeta; los resultados quedan en los JSON del run.
+Resumen verificado el 2026-11-23: HTML válido, CSS y JS parseables, 0 errores de consola, 0 requests fallidos, 23 `<img>` con `alt`, 4 CTA al APK en la home, enlaces externos con 200, 0 violaciones de axe con reglas por defecto, APK real y firmado (v2/v3, RSA 4096), SHA-256 `2719ee…8524`, LCP 2,46–2,51 s (mediana 2,49 s) en frío, CLS 0,00006 y 791 KB en 24 requests. Auditoría UI independiente con re-auditoría PASS (0 critical, 0 high, 0 medium). El script de humo no está versionado en esta carpeta; los resultados quedan en los JSON del run.
 
 _Última actualización de este README: 2026-11-23._

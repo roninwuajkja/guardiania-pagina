@@ -91,10 +91,16 @@ html.is-scrolled .nav {
   display: inline-flex;
   align-items: center;
   min-height: 44px;
+  padding-inline: 5px;
+  margin-inline: -5px;
+}
+
+.nav .brand-lockup {
+  display: none;
 }
 
 .nav .brand-symbol {
-  display: none;
+  display: block;
 }
 
 .nav__actions {

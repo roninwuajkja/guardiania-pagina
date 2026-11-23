@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<title>Vincular dispositivo · IA Guardian</title>
+<link rel="stylesheet" href="web.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <img src="../../assets/brand/b-vinculo-symbol-reverse.svg" alt="">
+      <div><strong>IA Guardian</strong><span>PRIVACIDAD POR DISEÑO</span></div>
+    </div>
+    <nav class="nav">
+      <a href="#"><svg viewBox="0 0 20 20"><rect x="3" y="3" width="5" height="5"/><rect x="12" y="3" width="5" height="5"/><rect x="3" y="12" width="5" height="5"/><rect x="12" y="12" width="5" height="5"/></svg>Resumen</a>
+      <a class="active" href="#"><svg viewBox="0 0 20 20"><path d="M8 12a4 4 0 0 0 5.7 0l2-2a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M12 8a4 4 0 0 0-5.7 0l-2 2a4 4 0 0 0 5.7 5.7l1-1"/></svg>Vincular</a>
+      <a href="#"><svg viewBox="0 0 20 20"><rect x="6" y="2.5" width="8" height="15" rx="2"/><path d="M8.5 5h3"/></svg>Dispositivos</a>
+      <a href="#"><svg viewBox="0 0 20 20"><path d="M4 15h12l-1.6-2.2V8a4.4 4.4 0 0 0-8.8 0v4.8L4 15z"/><path d="M8 17.5h4"/></svg>Alertas<span class="badge">4</span></a>
+    </nav>
+    <div class="privacy-note">
+      <svg viewBox="0 0 20 20"><rect x="4" y="8" width="12" height="9" rx="2"/><path d="M7 8V6a3 3 0 0 1 6 0v2"/></svg>
+      <span>Nunca recibimos el texto de los mensajes. Solo señales derivadas.</span>
+    </div>
+    <div class="sidebar-bottom">
+      <div class="user"><div class="avatar">CR</div><div><strong>Camila Rojas</strong><span>demo@guardiania.cl</span></div></div>
+      <div class="side-icons">
+        <svg viewBox="0 0 20 20"><path d="M15 12.5A6.5 6.5 0 1 1 7.5 5a5 5 0 0 0 7.5 7.5z"/></svg>
+        <svg viewBox="0 0 20 20"><path d="M8 4H4v12h4"/><path d="M12 7l3 3-3 3"/><path d="M15 10H8"/></svg>
+      </div>
+      <div class="demo">DEMO · DATOS SINTÉTICOS</div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="topbar">
+      <div><p class="eyebrow">Vinculación</p><h1>Vincular un dispositivo</h1></div>
+      <div class="topbar-right"><span class="pill"><span class="dot"></span>Sincronizado hace 20 min</span></div>
+    </div>
+    <div class="divider"></div>
+
+    <p class="eyebrow" style="margin-top: 28px;">Vinculación en curso</p>
+    <h2 class="pairing-title">Muestra este código.</h2>
+    <p class="pairing-sub">Escanea el QR con la app IA Guardian del teléfono, o escribe el código manual. Se confirma aquí, en vivo.</p>
+
+    <div class="pairing-grid">
+      <section class="qr-card">
+        <div class="qr-label">PARA MATÍAS · 13 AÑOS</div>
+        <div class="qr-frame"><img src="qr-pairing.png" alt="Código QR de vinculación para Matías"></div>
+        <div class="code-card">
+          <div><span>CÓDIGO MANUAL</span><strong>970 016</strong></div>
+          <div class="copy"><svg viewBox="0 0 20 20"><rect x="7" y="7" width="9" height="9" rx="1.5"/><path d="M13 7V5.5A1.5 1.5 0 0 0 11.5 4h-7A1.5 1.5 0 0 0 3 5.5v7A1.5 1.5 0 0 0 4.5 14H7"/></svg></div>
+        </div>
+        <div class="expiry"><span class="ring"></span>Vence en 10:00</div>
+        <p class="qr-foot">El código es de un solo uso. Si alguien más lo ve, cancélalo y genera otro.</p>
+      </section>
+
+      <section class="instructions">
+        <p class="eyebrow">En el teléfono del menor</p>
+        <h3>Cómo vincular</h3>
+        <p>La app se instala con el tutor presente. El menor ve qué se comparte y qué no.</p>
+        <div class="steps">
+          <div class="step"><span class="step-num">01</span><div><strong>Abre IA Guardian</strong><span>En el teléfono, elige «Vincular con un código».</span></div></div>
+          <div class="step"><span class="step-num">02</span><div><strong>Escanea el QR o escribe el código</strong><span>El QR está a la izquierda. El código manual sirve si la cámara falla.</span></div></div>
+          <div class="step"><span class="step-num">03</span><div><strong>Confirma en este panel</strong><span>La pantalla cambia sola cuando la vinculación queda activa.</span></div></div>
+        </div>
+        <div class="waiting"><span class="dot"></span>Esperando al teléfono de Matías…</div>
+        <div class="privacy-line"><svg viewBox="0 0 20 20"><rect x="4" y="8" width="12" height="9" rx="2"/><path d="M7 8V6a3 3 0 0 1 6 0v2"/></svg><span>Solo se comparten señales derivadas: categoría, minutos de uso y conteos. Nunca el texto de un mensaje.</span></div>
+        <a class="cancel" href="#">Cancelar vinculación</a>
+      </section>
+    </div>
+
+    <footer class="page-foot">
+      <div class="left"><svg viewBox="0 0 20 20"><rect x="4" y="8" width="12" height="9" rx="2"/><path d="M7 8V6a3 3 0 0 1 6 0v2"/></svg><span>GuardianIA procesa en el teléfono y envía solo un vector de señales. Sin texto, sin fotos, sin contactos en claro.</span></div>
+      <a href="#">Revisar alertas</a>
+    </footer>
+  </main>
+</div>
+</body>
+</html>

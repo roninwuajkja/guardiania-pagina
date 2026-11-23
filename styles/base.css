@@ -355,8 +355,8 @@ main section[tabindex="-1"]:focus {
   width: 34px;
   height: 34px;
   background: var(--paper);
-  -webkit-mask: url("../assets/brand/b-vinculo-symbol.svg") center / contain no-repeat;
-  mask: url("../assets/brand/b-vinculo-symbol.svg") center / contain no-repeat;
+  -webkit-mask: url("../assets/brand/b-vinculo-symbol-small.svg") center / contain no-repeat;
+  mask: url("../assets/brand/b-vinculo-symbol-small.svg") center / contain no-repeat;
 }
 
 .symbol-mask {
