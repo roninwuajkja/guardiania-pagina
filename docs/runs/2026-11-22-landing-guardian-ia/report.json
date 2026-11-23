@@ -1,0 +1,435 @@
+{
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "checks": {
+    "mobile": {
+      "metrics": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 12048,
+        "images": [
+          {
+            "src": "b-vinculo-horizontal-reverse.svg",
+            "w": 700,
+            "complete": true
+          },
+          {
+            "src": "web-overview.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-status.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-alerts.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-pairing.webp",
+            "w": 1100,
+            "complete": true
+          },
+          {
+            "src": "web-pairing.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-mobile.webp",
+            "w": 780,
+            "complete": true
+          },
+          {
+            "src": "b-vinculo-horizontal-reverse.svg",
+            "w": 700,
+            "complete": true
+          },
+          {
+            "src": "b-vinculo-stacked-reverse.svg",
+            "w": 520,
+            "complete": true
+          },
+          {
+            "src": "web-overview-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "web-alerts-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "android-pairing-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "android-status-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "web-overview.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-alerts.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-pairing.webp",
+            "w": 1100,
+            "complete": true
+          },
+          {
+            "src": "android-status.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-overview.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-status.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "qr-apk.svg",
+            "w": 150,
+            "complete": true
+          },
+          {
+            "src": "b-vinculo-horizontal-reverse.svg",
+            "w": 700,
+            "complete": true
+          }
+        ],
+        "h1": 1,
+        "loader": false,
+        "heroReady": true,
+        "downloadHref": [
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk"
+        ],
+        "cssLoaded": "rgb(8, 27, 23)"
+      },
+      "overflowX": false,
+      "brokenImages": [],
+      "menuOpen": true,
+      "menuClosed": true,
+      "downloadHref": "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+      "axe": []
+    },
+    "desktop": {
+      "metrics": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 13233,
+        "images": [
+          {
+            "src": "b-vinculo-horizontal-reverse.svg",
+            "w": 700,
+            "complete": true
+          },
+          {
+            "src": "web-overview.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-status.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-alerts.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-pairing.webp",
+            "w": 1100,
+            "complete": true
+          },
+          {
+            "src": "web-pairing.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-mobile.webp",
+            "w": 780,
+            "complete": true
+          },
+          {
+            "src": "b-vinculo-horizontal-reverse.svg",
+            "w": 700,
+            "complete": true
+          },
+          {
+            "src": "b-vinculo-stacked-reverse.svg",
+            "w": 520,
+            "complete": true
+          },
+          {
+            "src": "web-overview-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "web-alerts-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "android-pairing-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "android-status-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "web-overview.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-alerts.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-pairing.webp",
+            "w": 1100,
+            "complete": false
+          },
+          {
+            "src": "android-status.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-overview.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-status.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "qr-apk.svg",
+            "w": 150,
+            "complete": true
+          },
+          {
+            "src": "b-vinculo-horizontal-reverse.svg",
+            "w": 700,
+            "complete": true
+          }
+        ],
+        "h1": 1,
+        "loader": false,
+        "heroReady": true,
+        "downloadHref": [
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk"
+        ],
+        "cssLoaded": "rgb(8, 27, 23)"
+      },
+      "overflowX": false,
+      "brokenImages": [],
+      "menuOpen": true,
+      "menuClosed": true,
+      "downloadHref": "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+      "axe": []
+    },
+    "reducedMotion": {
+      "motionAttr": "reduce",
+      "loaderPresent": false,
+      "statementVisible": true,
+      "heroOpacity": "1",
+      "bodyOverflow": "clip visible"
+    },
+    "wide": {
+      "metrics": {
+        "scrollWidth": 2560,
+        "clientWidth": 2560,
+        "scrollHeight": 17134,
+        "images": [
+          {
+            "src": "b-vinculo-horizontal-reverse.svg",
+            "w": 700,
+            "complete": true
+          },
+          {
+            "src": "web-overview.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-status.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-alerts.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-pairing.webp",
+            "w": 1100,
+            "complete": true
+          },
+          {
+            "src": "web-pairing.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-mobile.webp",
+            "w": 780,
+            "complete": true
+          },
+          {
+            "src": "b-vinculo-horizontal-reverse.svg",
+            "w": 700,
+            "complete": true
+          },
+          {
+            "src": "b-vinculo-stacked-reverse.svg",
+            "w": 520,
+            "complete": true
+          },
+          {
+            "src": "web-overview-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "web-alerts-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "android-pairing-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "android-status-bg.webp",
+            "w": 48,
+            "complete": true
+          },
+          {
+            "src": "web-overview.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-alerts.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-pairing.webp",
+            "w": 1100,
+            "complete": true
+          },
+          {
+            "src": "android-status.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "web-overview.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "android-status.webp",
+            "w": 1440,
+            "complete": true
+          },
+          {
+            "src": "qr-apk.svg",
+            "w": 150,
+            "complete": true
+          },
+          {
+            "src": "b-vinculo-horizontal-reverse.svg",
+            "w": 700,
+            "complete": true
+          }
+        ],
+        "h1": 1,
+        "loader": false,
+        "heroReady": true,
+        "downloadHref": [
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+          "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk"
+        ],
+        "cssLoaded": "rgb(8, 27, 23)"
+      },
+      "overflowX": false,
+      "brokenImages": [],
+      "menuOpen": true,
+      "menuClosed": true,
+      "downloadHref": "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk"
+    }
+  },
+  "shots": [
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\mobile-01-hero.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\mobile-02-idea.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\mobile-03-producto.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\mobile-04-senales.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\mobile-05-panel.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\mobile-06-privacidad.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\mobile-07-descarga.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\mobile-08-preguntas.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\mobile-09-footer.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\mobile-10-menu.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\desktop-01-hero.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\desktop-02-idea.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\desktop-03-producto.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\desktop-04-senales.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\desktop-05-panel.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\desktop-06-privacidad.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\desktop-07-descarga.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\desktop-08-preguntas.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\desktop-09-footer.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\desktop-10-menu.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\wide-01-hero.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\wide-02-idea.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\wide-03-producto.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\wide-04-senales.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\wide-05-panel.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\wide-06-privacidad.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\wide-07-descarga.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\wide-08-preguntas.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\wide-09-footer.png",
+    "C:\\Users\\Usuario\\AppData\\Local\\Temp\\opencode\\verif\\shots\\wide-10-menu.png"
+  ]
+}

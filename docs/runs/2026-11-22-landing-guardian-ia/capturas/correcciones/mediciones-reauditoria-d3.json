@@ -1,0 +1,354 @@
+{
+  "ticker": {
+    "390": {
+      "dataMotion": "reduce",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "ticker": {
+        "x": 0,
+        "w": 390
+      },
+      "track": {
+        "x": 0,
+        "w": 390,
+        "computedWidth": "390px",
+        "justify": "center",
+        "animation": "none"
+      },
+      "copy": {
+        "x": 47,
+        "w": 295.9,
+        "right": 342.9
+      },
+      "mask": "none",
+      "dup": "none",
+      "spans": [
+        {
+          "text": "IA GUARDIAN",
+          "display": "block",
+          "x": 65,
+          "right": 159.8
+        },
+        {
+          "text": "·",
+          "display": "block",
+          "x": 177.8,
+          "right": 186.4
+        },
+        {
+          "text": "VERSIÓN 1.7.17",
+          "display": "block",
+          "x": 204.4,
+          "right": 324.9
+        },
+        {
+          "text": "·",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "YA DISPONIBLE",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "·",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "PRIVACIDAD POR DISEÑO",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "·",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "PROYECTO DE TÍTULO 2026",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        }
+      ],
+      "visibleSpans": [
+        "IA GUARDIAN",
+        "·",
+        "VERSIÓN 1.7.17"
+      ],
+      "firstVisible": {
+        "text": "IA GUARDIAN",
+        "display": "block",
+        "x": 65,
+        "right": 159.8
+      },
+      "lastVisible": {
+        "text": "VERSIÓN 1.7.17",
+        "display": "block",
+        "x": 204.4,
+        "right": 324.9
+      },
+      "firstInside": true,
+      "lastInside": true
+    },
+    "768": {
+      "dataMotion": "reduce",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "ticker": {
+        "x": 0,
+        "w": 768
+      },
+      "track": {
+        "x": 0,
+        "w": 768,
+        "computedWidth": "768px",
+        "justify": "center",
+        "animation": "none"
+      },
+      "copy": {
+        "x": 236,
+        "w": 295.9,
+        "right": 531.9
+      },
+      "mask": "none",
+      "dup": "none",
+      "spans": [
+        {
+          "text": "IA GUARDIAN",
+          "display": "block",
+          "x": 254,
+          "right": 348.8
+        },
+        {
+          "text": "·",
+          "display": "block",
+          "x": 366.8,
+          "right": 375.4
+        },
+        {
+          "text": "VERSIÓN 1.7.17",
+          "display": "block",
+          "x": 393.4,
+          "right": 513.9
+        },
+        {
+          "text": "·",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "YA DISPONIBLE",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "·",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "PRIVACIDAD POR DISEÑO",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "·",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "PROYECTO DE TÍTULO 2026",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        }
+      ],
+      "visibleSpans": [
+        "IA GUARDIAN",
+        "·",
+        "VERSIÓN 1.7.17"
+      ],
+      "firstVisible": {
+        "text": "IA GUARDIAN",
+        "display": "block",
+        "x": 254,
+        "right": 348.8
+      },
+      "lastVisible": {
+        "text": "VERSIÓN 1.7.17",
+        "display": "block",
+        "x": 393.4,
+        "right": 513.9
+      },
+      "firstInside": true,
+      "lastInside": true
+    },
+    "1440": {
+      "dataMotion": "reduce",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "ticker": {
+        "x": 0,
+        "w": 1440
+      },
+      "track": {
+        "x": 0,
+        "w": 1440,
+        "computedWidth": "1440px",
+        "justify": "center",
+        "animation": "none"
+      },
+      "copy": {
+        "x": 572,
+        "w": 295.9,
+        "right": 867.9
+      },
+      "mask": "none",
+      "dup": "none",
+      "spans": [
+        {
+          "text": "IA GUARDIAN",
+          "display": "block",
+          "x": 590,
+          "right": 684.8
+        },
+        {
+          "text": "·",
+          "display": "block",
+          "x": 702.8,
+          "right": 711.4
+        },
+        {
+          "text": "VERSIÓN 1.7.17",
+          "display": "block",
+          "x": 729.4,
+          "right": 849.9
+        },
+        {
+          "text": "·",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "YA DISPONIBLE",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "·",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "PRIVACIDAD POR DISEÑO",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "·",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        },
+        {
+          "text": "PROYECTO DE TÍTULO 2026",
+          "display": "none",
+          "x": 0,
+          "right": 0
+        }
+      ],
+      "visibleSpans": [
+        "IA GUARDIAN",
+        "·",
+        "VERSIÓN 1.7.17"
+      ],
+      "firstVisible": {
+        "text": "IA GUARDIAN",
+        "display": "block",
+        "x": 590,
+        "right": 684.8
+      },
+      "lastVisible": {
+        "text": "VERSIÓN 1.7.17",
+        "display": "block",
+        "x": 729.4,
+        "right": 849.9
+      },
+      "firstInside": true,
+      "lastInside": true
+    }
+  },
+  "focusSection": {
+    "activeTag": "SECTION",
+    "activeId": "producto",
+    "menuOpen": false,
+    "sectionFocus": true,
+    "sectionFocusVisible": true,
+    "outlineStyle": "none",
+    "outlineWidth": "3px",
+    "outlineColor": "rgb(238, 242, 237)",
+    "outlineOffset": "3px",
+    "targetTop": 77,
+    "scrollY": 2443,
+    "scrollPaddingTop": "88px"
+  },
+  "controls": {
+    "brand": {
+      "tag": "A",
+      "cls": "brand",
+      "text": "IA Guardian, inicio",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "outlineColor": "rgb(169, 198, 184)",
+      "outlineOffset": "3px"
+    },
+    "menuButton": {
+      "tag": "BUTTON",
+      "cls": "nav__menu",
+      "text": "Menú",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "outlineColor": "rgb(169, 198, 184)",
+      "outlineOffset": "3px"
+    },
+    "faq": {
+      "tag": "BUTTON",
+      "cls": "faq__trigger",
+      "text": "¿Necesito crear una cuenta?",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "outlineColor": "rgb(169, 198, 184)",
+      "outlineOffset": "3px"
+    },
+    "menuLink": {
+      "tag": "A",
+      "cls": "",
+      "text": "01\n              Inicio",
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "outlineColor": "rgb(169, 198, 184)",
+      "outlineOffset": "3px"
+    }
+  }
+}

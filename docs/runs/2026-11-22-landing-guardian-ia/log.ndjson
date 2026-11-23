@@ -1,0 +1,18 @@
+﻿{"action":"run.created","ts":"2026-11-22T22:36:28","stage":"INIT","result":"ok","evidence":"C:\\Users\\Usuario\\Desktop\\Guardian IA Pagina","gate":"-"}
+{"action":"brief.approved","ts":"2026-11-22T22:36:28","stage":"BRIEF","result":"pass","evidence":"directiva del usuario","gate":"G0"}
+{"action":"plan.approved","ts":"2026-11-22T22:36:28","stage":"PLAN","result":"pass","evidence":"PLAN.md","gate":"G1"}
+{"action":"design.approved","ts":"2026-11-22T22:36:28","stage":"DISENO","result":"pass","evidence":"DISENO.md","gate":"D1"}
+{"action":"delegate","ts":"2026-11-22T22:36:28","stage":"BUILD","result":"pending","evidence":"disenador-ui","gate":"G2"}
+{"action":"static.validate","ts":"2026-11-23T00:39:46","stage":"BUILD","result":"pass","evidence":"html-validate exit 0; css-tree 4/4 OK; node --check OK","gate":"G2"}
+{"action":"runtime.console","ts":"2026-11-23T00:39:46","stage":"BUILD","result":"pass","evidence":"0 console.error, 0 pageerror, 0 request fallidos; 23 imgs con alt; 25 assets locales","gate":"G2"}
+{"action":"playwright.smoke","ts":"2026-11-23T00:39:46","stage":"TEST","result":"pass","evidence":"390/768/1440/2560 sin overflow; menu y FAQ OK; reduced motion OK","gate":"G3"}
+{"action":"axe.wcag","ts":"2026-11-23T00:39:46","stage":"TEST","result":"pass","evidence":"axe-core 4.14: 0 violaciones en home y legal a 390/1440","gate":"G3"}
+{"action":"links.head","ts":"2026-11-23T00:39:46","stage":"TEST","result":"pass","evidence":"5 enlaces externos 200; APK 17.929.961 bytes; 0 anclas rotas","gate":"G3"}
+{"action":"perf.4g","ts":"2026-11-23T00:39:46","stage":"TEST","result":"pass","evidence":"LCP 2488ms, CLS 0.00006, 707KB, 23 requests, 0 long tasks","gate":"G3"}
+{"action":"audit.report","ts":"2026-11-23T11:00:06","stage":"AUDITORIA","result":"fail","evidence":"AUDITORIA-UI.md: 1 CRITICAL (declaracion 1366x768/1440x800/1280x720) + 3 HIGH (targets, 8o tile, demo)","gate":"D3"}
+{"action":"fix.audit","ts":"2026-11-23T11:00:06","stage":"BUILD","result":"ok","evidence":"Titulo min(10.9vw,13.5vh); rootMargin 0; targets 44; 8 tiles; demo visible; frames inert; menu arrow; focus destino; ghost 3.26; ticker reduced; zoom 200","gate":"D3"}
+{"action":"verify.fixes","ts":"2026-11-23T11:00:06","stage":"AUDITORIA","result":"pass","evidence":"1366x768 margen 39; 1440x800 45; 1280x720 28; 1024x768 47; 1440x900 48; 8 tiles; brand/menu 44x44","gate":"D3"}
+{"action":"perf.postfix","ts":"2026-11-23T11:00:06","stage":"TEST","result":"pass","evidence":"LCP 2460ms, CLS 0.00006, 710KB, 23 requests","gate":"G3"}
+{"action":"reaudit.requested","ts":"2026-11-23T11:00:06","stage":"AUDITORIA","result":"pending","evidence":"auditor-ui ses_df7a1cef4ffe7O4quwDc5buCiu","gate":"D3"}
+{"ts":"2026-11-23T14:38:31.486Z","stage":"ship","gate":"G6","action":"Preflight","result":"ok","evidence":"- G5: pass"}
+{"ts":"2026-11-23T14:38:31.487Z","stage":"state","gate":"-","action":"update","result":"ok","evidence":"{\"gates\":{\"G0\":\"pass\",\"G1\":\"pass\",\"D1\":\"pass\",\"G2\":\"pass\",\"D2\":\"pass\",\"G3\":\"pass\",\"D3\":\"pass\",\"G4\":\"pass\",\"G5\":\"pass\",\"G6\":\"pending\"},\"stage\":\"ship\"}"}

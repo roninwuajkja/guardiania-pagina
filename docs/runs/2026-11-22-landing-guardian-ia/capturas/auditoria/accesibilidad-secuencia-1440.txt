@@ -1,0 +1,26 @@
+- region "ASÍ SE VE LA GUARDIA.":
+  - paragraph: El producto
+  - heading "ASÍ SE VE LA GUARDIA." [level=2]
+  - paragraph: Cuatro pantallas reales. Datos sintéticos.
+  - paragraph: "Pantalla actual: 01 / 04"
+  - article:
+    - img "Panel del tutor con el resumen del día y las señales abiertas"
+    - paragraph: Resumen
+    - heading "El día, en una mirada." [level=3]
+    - paragraph: Minutos de uso, señales abiertas y dispositivos activos. Sin transcribir una sola conversación.
+  - article:
+    - img "Lista de alertas con severidad, regla y siguiente paso"
+    - paragraph: Alertas
+    - heading "Cada alerta explica por qué." [level=3]
+    - paragraph: La regla que la generó, la severidad y un siguiente paso concreto. Nunca el contenido.
+  - article:
+    - img "Pantalla Android para vincular el teléfono con QR o código manual"
+    - paragraph: Vinculación
+    - heading "Dos voluntades, un vínculo." [level=3]
+    - paragraph: El tutor declara tutela; el menor otorga asentimiento. QR o código de seis dígitos.
+  - article:
+    - img "Pantalla Android con permisos, última sincronización y opción de desvincular"
+    - paragraph: Agente
+    - heading "El agente muestra lo que ve." [level=3]
+    - paragraph: Permisos, última sincronización y un botón para desvincular. Nada oculto.
+  - paragraph: DEMO · DATOS SINTÉTICOS

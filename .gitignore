@@ -1,0 +1,22 @@
+# Sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Dependencias de herramientas locales
+node_modules/
+_site/
+
+# Entornos y secretos
+.env
+.env.*
+!.env.example
+
+# Logs y cachés
+*.log
+.pytest_cache/
+.cache/
+
+# ciclo
+dist/
+build/

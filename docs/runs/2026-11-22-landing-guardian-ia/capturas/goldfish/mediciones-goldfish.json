@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "run": "2026-11-22-landing-guardian-ia",
+    "url": "http://127.0.0.1:4173/",
+    "date": "2026-11-23",
+    "note": "Medición de entrega de los hallazgos de GOLDFISH.md. axe-core 4.14.1 con reglas por defecto. No es un veredicto de auditoría."
+  },
+  "copy": {
+    "plate": "TEXTOS / ENVIADOS",
+    "plateZero": "0",
+    "figure": "textos enviados",
+    "limit": "No guarda ni envía el texto de los mensajes.",
+    "faqQ": "¿La app guarda los mensajes de mi hijo?",
+    "faqA": "No. Lee metadatos de notificaciones en el teléfono, deriva señales y descarta el texto antes de enviar el vector. El texto no se almacena ni se transmite.",
+    "sequenceSub": "Cuatro pantallas de la demo local. Datos sintéticos.",
+    "scrollName": "Desliza para bajar a la idea",
+    "hasOldFigure": false,
+    "hasOldLimit": false,
+    "mailtos": []
+  },
+  "legal": {
+    "390": {
+      "updated": "Última actualización: 23 de noviembre de 2026 · Versión 1.0",
+      "hasResponsable": true,
+      "hasResponsableText": true,
+      "hasBase": true,
+      "hasProviders": true,
+      "hasGitHubIssues": true,
+      "mailtos": [],
+      "doc": {
+        "scrollWidth": 390,
+        "innerWidth": 390
+      },
+      "height": 5658
+    },
+    "1440": {
+      "updated": "Última actualización: 23 de noviembre de 2026 · Versión 1.0",
+      "hasResponsable": true,
+      "hasResponsableText": true,
+      "hasBase": true,
+      "hasProviders": true,
+      "hasGitHubIssues": true,
+      "mailtos": [],
+      "doc": {
+        "scrollWidth": 1440,
+        "innerWidth": 1440
+      },
+      "height": 4095
+    }
+  },
+  "motion": {
+    "systemReduce": {
+      "390": {
+        "dataMotion": "reduce",
+        "disabled": true,
+        "ariaPressed": "false",
+        "state": "Reducido por el sistema",
+        "toggleRect": {
+          "x": 24,
+          "y": 747.8,
+          "w": 307.1,
+          "h": 44
+        },
+        "foot": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "rect": {
+            "x": 24,
+            "right": 366
+          }
+        },
+        "menu": {
+          "clientWidth": 390,
+          "scrollWidth": 390
+        },
+        "doc": {
+          "scrollWidth": 390,
+          "innerWidth": 390
+        }
+      },
+      "768": {
+        "dataMotion": "reduce",
+        "disabled": true,
+        "ariaPressed": "false",
+        "state": "Reducido por el sistema",
+        "toggleRect": {
+          "x": 384,
+          "y": 769.3,
+          "w": 247.6,
+          "h": 44
+        },
+        "foot": {
+          "clientWidth": 346,
+          "scrollWidth": 346,
+          "rect": {
+            "x": 384,
+            "right": 729.6
+          }
+        },
+        "menu": {
+          "clientWidth": 768,
+          "scrollWidth": 768
+        },
+        "doc": {
+          "scrollWidth": 768,
+          "innerWidth": 768
+        }
+      },
+      "1440": {
+        "dataMotion": "reduce",
+        "disabled": true,
+        "ariaPressed": "false",
+        "state": "Reducido por el sistema",
+        "toggleRect": {
+          "x": 720,
+          "y": 808,
+          "w": 307.1,
+          "h": 44
+        },
+        "foot": {
+          "clientWidth": 648,
+          "scrollWidth": 648,
+          "rect": {
+            "x": 720,
+            "right": 1368
+          }
+        },
+        "menu": {
+          "clientWidth": 1440,
+          "scrollWidth": 1440
+        },
+        "doc": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      }
+    },
+    "normal": {
+      "initial": {
+        "dataMotion": "auto",
+        "disabled": false,
+        "ariaPressed": "true",
+        "state": "Activado",
+        "toggleRect": {
+          "x": 720.2,
+          "y": 808,
+          "w": 196.1,
+          "h": 44
+        },
+        "foot": {
+          "clientWidth": 648,
+          "scrollWidth": 648,
+          "rect": {
+            "x": 720.2,
+            "right": 1368.2
+          }
+        },
+        "menu": {
+          "clientWidth": 1440,
+          "scrollWidth": 1440
+        },
+        "doc": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      },
+      "afterClickReduce": {
+        "dataMotion": "reduce",
+        "disabled": false,
+        "ariaPressed": "false",
+        "state": "Reducido",
+        "toggleRect": {
+          "x": 720,
+          "y": 808,
+          "w": 196.1,
+          "h": 44
+        },
+        "foot": {
+          "clientWidth": 648,
+          "scrollWidth": 648,
+          "rect": {
+            "x": 720,
+            "right": 1368
+          }
+        },
+        "menu": {
+          "clientWidth": 1440,
+          "scrollWidth": 1440
+        },
+        "doc": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      },
+      "afterClickAuto": {
+        "dataMotion": "auto",
+        "disabled": false,
+        "ariaPressed": "true",
+        "state": "Activado",
+        "toggleRect": {
+          "x": 720,
+          "y": 808,
+          "w": 196.1,
+          "h": 44
+        },
+        "foot": {
+          "clientWidth": 648,
+          "scrollWidth": 648,
+          "rect": {
+            "x": 720,
+            "right": 1368
+          }
+        },
+        "menu": {
+          "clientWidth": 1440,
+          "scrollWidth": 1440
+        },
+        "doc": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      },
+      "beforeOsChange": {
+        "dataMotion": "auto",
+        "disabled": false,
+        "ariaPressed": "true",
+        "state": "Activado",
+        "toggleRect": {
+          "x": 719.6,
+          "y": 808,
+          "w": 196.1,
+          "h": 44
+        },
+        "foot": {
+          "clientWidth": 648,
+          "scrollWidth": 648,
+          "rect": {
+            "x": 719.6,
+            "right": 1367.6
+          }
+        },
+        "menu": {
+          "clientWidth": 1440,
+          "scrollWidth": 1443
+        },
+        "doc": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      },
+      "osReduced": {
+        "dataMotion": "reduce",
+        "disabled": true,
+        "ariaPressed": "false",
+        "state": "Reducido por el sistema",
+        "toggleRect": {
+          "x": 720,
+          "y": 808,
+          "w": 307.1,
+          "h": 44
+        },
+        "foot": {
+          "clientWidth": 648,
+          "scrollWidth": 648,
+          "rect": {
+            "x": 720,
+            "right": 1368
+          }
+        },
+        "menu": {
+          "clientWidth": 1440,
+          "scrollWidth": 1440
+        },
+        "doc": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      },
+      "osRestored": {
+        "dataMotion": "auto",
+        "disabled": false,
+        "ariaPressed": "true",
+        "state": "Activado",
+        "toggleRect": {
+          "x": 720,
+          "y": 808,
+          "w": 196.1,
+          "h": 44
+        },
+        "foot": {
+          "clientWidth": 648,
+          "scrollWidth": 648,
+          "rect": {
+            "x": 720,
+            "right": 1368
+          }
+        },
+        "menu": {
+          "clientWidth": 1440,
+          "scrollWidth": 1440
+        },
+        "doc": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      }
+    }
+  },
+  "noJs": {
+    "390": {
+      "loaderDisplay": "none",
+      "htmlLoading": false,
+      "panels": [
+        {
+          "h": 75.2,
+          "rows": "75.1875px",
+          "answerH": 75.2
+        },
+        {
+          "h": 126.4,
+          "rows": "126.375px",
+          "answerH": 126.4
+        },
+        {
+          "h": 75.2,
+          "rows": "75.1875px",
+          "answerH": 75.2
+        },
+        {
+          "h": 100.8,
+          "rows": "100.781px",
+          "answerH": 100.8
+        },
+        {
+          "h": 75.2,
+          "rows": "75.1875px",
+          "answerH": 75.2
+        },
+        {
+          "h": 100.8,
+          "rows": "100.781px",
+          "answerH": 100.8
+        }
+      ],
+      "firstQuestion": "¿Necesito crear una cuenta?",
+      "iconDisplay": "none",
+      "doc": {
+        "scrollWidth": 390,
+        "innerWidth": 390
+      }
+    },
+    "1440": {
+      "loaderDisplay": "none",
+      "htmlLoading": false,
+      "panels": [
+        {
+          "h": 75.2,
+          "rows": "75.1875px",
+          "answerH": 75.2
+        },
+        {
+          "h": 75.2,
+          "rows": "75.1875px",
+          "answerH": 75.2
+        },
+        {
+          "h": 75.2,
+          "rows": "75.1875px",
+          "answerH": 75.2
+        },
+        {
+          "h": 75.2,
+          "rows": "75.1875px",
+          "answerH": 75.2
+        },
+        {
+          "h": 49.6,
+          "rows": "49.5938px",
+          "answerH": 49.6
+        },
+        {
+          "h": 75.2,
+          "rows": "75.1875px",
+          "answerH": 75.2
+        }
+      ],
+      "firstQuestion": "¿Necesito crear una cuenta?",
+      "iconDisplay": "none",
+      "doc": {
+        "scrollWidth": 1440,
+        "innerWidth": 1440
+      }
+    }
+  },
+  "checksum": {
+    "390": {
+      "before": {
+        "open": false,
+        "summary": "Verificar el APK",
+        "codes": [
+          "2719eeaaaf673ef4e7d9917690b4dd94cfac1e4d576abb3187e9b1e2dfc98524",
+          "2790d68383b8e29eb67d26ed064acf82eab823dc2d642901c31ce0fac5504687"
+        ]
+      },
+      "after": {
+        "open": true,
+        "summary": "Verificar el APK",
+        "bodyHeight": 192,
+        "codes": [
+          {
+            "text": "2719eeaaaf673ef4e7d9917690b4dd94cfac1e4d576abb3187e9b1e2dfc98524",
+            "w": 316,
+            "sw": 316
+          },
+          {
+            "text": "2790d68383b8e29eb67d26ed064acf82eab823dc2d642901c31ce0fac5504687",
+            "w": 316,
+            "sw": 316
+          }
+        ],
+        "doc": {
+          "scrollWidth": 390,
+          "innerWidth": 390
+        }
+      }
+    },
+    "1440": {
+      "before": {
+        "open": false,
+        "summary": "Verificar el APK",
+        "codes": [
+          "2719eeaaaf673ef4e7d9917690b4dd94cfac1e4d576abb3187e9b1e2dfc98524",
+          "2790d68383b8e29eb67d26ed064acf82eab823dc2d642901c31ce0fac5504687"
+        ]
+      },
+      "after": {
+        "open": true,
+        "summary": "Verificar el APK",
+        "bodyHeight": 141,
+        "codes": [
+          {
+            "text": "2719eeaaaf673ef4e7d9917690b4dd94cfac1e4d576abb3187e9b1e2dfc98524",
+            "w": 483.84375,
+            "sw": 484
+          },
+          {
+            "text": "2790d68383b8e29eb67d26ed064acf82eab823dc2d642901c31ce0fac5504687",
+            "w": 483.84375,
+            "sw": 484
+          }
+        ],
+        "doc": {
+          "scrollWidth": 1440,
+          "innerWidth": 1440
+        }
+      }
+    }
+  },
+  "axe": {
+    "home-1440": [],
+    "home-390": [],
+    "legal-1440": [],
+    "legal-390": []
+  },
+  "runtime": {
+    "home-1440": {
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "broken": [],
+      "errors": [],
+      "failed": []
+    },
+    "home-768": {
+      "scrollWidth": 768,
+      "innerWidth": 768,
+      "broken": [],
+      "errors": [],
+      "failed": []
+    },
+    "home-390": {
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "broken": [],
+      "errors": [],
+      "failed": []
+    }
+  }
+}

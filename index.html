@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="es-CL" data-motion="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>IA Guardian — Control parental para Android</title>
+  <meta name="description" content="IA Guardian analiza en el dispositivo de tu hijo, descarta el texto y envía solo un vector de señales. Sin analítica. Sin publicidad.">
+  <meta name="theme-color" content="#081B17">
+
+  <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+
+  <link rel="preload" href="assets/fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/R70BjzAei_CDNLfgZxrW6wrZOF2WX5KZmA.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/sections.css">
+  <link rel="stylesheet" href="styles/motion.css">
+
+  <script>
+    (function () {
+      var d = document.documentElement;
+      var motion = "auto";
+      try {
+        var systemReduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var saved = localStorage.getItem("ia-guardian-motion");
+        var reduce = systemReduce || saved === "reduce";
+        motion = reduce ? "reduce" : "auto";
+        if (!reduce && sessionStorage.getItem("ia-guardian-loader") !== "1") {
+          d.classList.add("is-loading");
+        } else {
+          d.classList.add("is-ready");
+        }
+      } catch (error) {
+        d.classList.add("is-ready");
+      }
+      d.dataset.motion = motion;
+      window.setTimeout(function () {
+        if (!d.classList.contains("js-ok")) {
+          d.classList.add("js-fallback");
+          d.dataset.motion = "reduce";
+          d.classList.add("is-ready");
+          d.classList.remove("is-loading");
+          var loader = document.querySelector(".loader");
+          if (loader) loader.remove();
+        }
+      }, 3000);
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader__panel loader__panel--top"></div>
+    <div class="loader__panel loader__panel--bottom"></div>
+    <div class="loader__sweep"></div>
+    <div class="loader__core">
+      <span class="loader__symbol symbol-mask"></span>
+      <p class="loader__name">IA GUARDIAN</p>
+      <span class="loader__track"><span class="loader__fill"></span></span>
+    </div>
+  </div>
+
+  <section class="ticker" aria-label="Anuncio">
+    <p class="sr-only">IA Guardian · Versión 1.7.17 · Ya disponible · Privacidad por diseño · Proyecto de título 2026</p>
+    <div class="ticker__track" aria-hidden="true">
+      <div class="ticker__copy">
+        <span>IA GUARDIAN</span><span class="ticker__sep">·</span><span>VERSIÓN 1.7.17</span><span class="ticker__sep">·</span><span>YA DISPONIBLE</span><span class="ticker__sep">·</span><span>PRIVACIDAD POR DISEÑO</span><span class="ticker__sep">·</span><span>PROYECTO DE TÍTULO 2026</span>
+      </div>
+      <div class="ticker__copy ticker__copy--dup">
+        <span>IA GUARDIAN</span><span class="ticker__sep">·</span><span>VERSIÓN 1.7.17</span><span class="ticker__sep">·</span><span>YA DISPONIBLE</span><span class="ticker__sep">·</span><span>PRIVACIDAD POR DISEÑO</span><span class="ticker__sep">·</span><span>PROYECTO DE TÍTULO 2026</span>
+      </div>
+    </div>
+    <span class="ticker__edge ticker__edge--left symbol-mask" aria-hidden="true"></span>
+    <span class="ticker__edge ticker__edge--right symbol-mask" aria-hidden="true"></span>
+  </section>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="#inicio" aria-label="IA Guardian, inicio">
+        <img class="brand-lockup" src="assets/brand/b-vinculo-horizontal-reverse.svg" alt="" width="700" height="256">
+        <span class="brand-symbol" aria-hidden="true"></span>
+      </a>
+
+      <div class="nav__actions">
+        <a class="btn btn--primary nav__cta" href="https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk" rel="noopener" data-download>
+          <span class="nav__cta-long">Descargar APK</span>
+          <span class="nav__cta-short">APK</span>
+        </a>
+
+        <button class="nav__menu" type="button" aria-label="Menú" aria-expanded="false" aria-controls="site-menu" data-menu-open>
+          <span class="nav__menu-label">Menú</span>
+          <span class="nav__burger" aria-hidden="true"><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <dialog class="menu" id="site-menu" aria-labelledby="menu-title">
+    <div class="menu__panel menu__panel--brand">
+      <span class="menu__symbol symbol-mask" aria-hidden="true"></span>
+      <p class="menu__tagline">Una guardia que acompaña, no que encierra.</p>
+      <p class="menu__meta">v1.7.17 · Android 8+</p>
+      <h2 class="sr-only" id="menu-title">Menú</h2>
+    </div>
+
+    <div class="menu__panel menu__panel--nav">
+      <button class="menu__close" type="button" aria-label="Cerrar menú" data-menu-close>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <nav class="menu__nav" aria-label="Secciones">
+        <ol class="menu__list">
+          <li class="menu__item" style="--i: 0">
+            <a href="#inicio" data-navlink>
+              <span class="menu__num">01</span>
+              <span class="menu__label">Inicio</span>
+              <svg class="menu__arrow" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+            </a>
+          </li>
+          <li class="menu__item" style="--i: 1">
+            <a href="#producto" data-navlink>
+              <span class="menu__num">02</span>
+              <span class="menu__label">Producto</span>
+              <svg class="menu__arrow" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+            </a>
+          </li>
+          <li class="menu__item" style="--i: 2">
+            <a href="#senales" data-navlink>
+              <span class="menu__num">03</span>
+              <span class="menu__label">Señales</span>
+              <svg class="menu__arrow" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+            </a>
+          </li>
+          <li class="menu__item" style="--i: 3">
+            <a href="#privacidad" data-navlink>
+              <span class="menu__num">04</span>
+              <span class="menu__label">Privacidad</span>
+              <svg class="menu__arrow" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+            </a>
+          </li>
+          <li class="menu__item" style="--i: 4">
+            <a href="#descarga" data-navlink>
+              <span class="menu__num">05</span>
+              <span class="menu__label">Descarga</span>
+              <svg class="menu__arrow" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+            </a>
+          </li>
+          <li class="menu__item" style="--i: 5">
+            <a href="#preguntas" data-navlink>
+              <span class="menu__num">06</span>
+              <span class="menu__label">Preguntas</span>
+              <svg class="menu__arrow" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+            </a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="menu__foot">
+        <button class="motion-toggle" type="button" id="motion-toggle" aria-pressed="true" data-motion-toggle>
+          <span class="motion-toggle__label">Movimiento</span>
+          <span class="motion-toggle__track" aria-hidden="true"><span class="motion-toggle__thumb"></span></span>
+          <span class="motion-toggle__state" data-motion-state>Activado</span>
+        </button>
+        <span class="menu__locale">ES · Chile</span>
+      </div>
+    </div>
+  </dialog>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" id="inicio" tabindex="-1" aria-labelledby="hero-title">
+      <div class="hero__rings" aria-hidden="true">
+        <svg class="hero__ring hero__ring--outer" viewBox="0 0 1000 1000" fill="none"><circle cx="500" cy="500" r="498" stroke="currentColor" stroke-width="1"/></svg>
+        <svg class="hero__ring hero__ring--inner" viewBox="0 0 1000 1000" fill="none"><circle cx="500" cy="500" r="498" stroke="currentColor" stroke-width="1"/></svg>
+      </div>
+
+      <div class="hero__inner container">
+        <p class="eyebrow hero__eyebrow">Control parental para Android</p>
+        <h1 class="sr-only" id="hero-title">IA Guardian — control parental para Android</h1>
+
+        <div class="hero__poster" role="img" aria-label="Collage de capturas reales de IA Guardian con el logotipo de la marca al centro">
+          <div class="hero__poster-inner">
+            <div class="hero__tile hero__tile--overview" style="--i: 0">
+              <img src="assets/screens/web-overview.webp" alt="" width="1440" height="1248" fetchpriority="high" decoding="async">
+            </div>
+            <div class="hero__tile hero__tile--android" style="--i: 1">
+              <img src="assets/screens/android-status.webp" alt="" width="1440" height="3120" decoding="async">
+            </div>
+            <div class="hero__tile hero__tile--plate hero__tile--plate-a" style="--i: 2">
+              <span class="hero__plate-symbol symbol-mask" aria-hidden="true"></span>
+              <p class="hero__plate-label">PRIVACIDAD<br>/ POR DISEÑO</p>
+            </div>
+            <div class="hero__tile hero__tile--alerts" style="--i: 3">
+              <img src="assets/screens/web-alerts.webp" alt="" width="1440" height="1411" decoding="async">
+            </div>
+            <div class="hero__tile hero__tile--android-pairing" style="--i: 4">
+              <img src="assets/screens/android-pairing.webp" alt="" width="1100" height="2449" decoding="async">
+            </div>
+            <div class="hero__tile hero__tile--pairing" style="--i: 5">
+              <img src="assets/screens/web-pairing.webp" alt="" width="1440" height="1000" decoding="async">
+            </div>
+            <div class="hero__tile hero__tile--plate hero__tile--plate-b" style="--i: 6">
+              <p class="hero__plate-number"><span data-count="0">0</span></p>
+              <p class="hero__plate-label">TEXTOS<br>/ ENVIADOS</p>
+            </div>
+            <div class="hero__tile hero__tile--mobile" style="--i: 7">
+              <img src="assets/screens/web-mobile.webp" alt="" width="780" height="1688" decoding="async">
+            </div>
+
+            <div class="hero__poster-wash" aria-hidden="true"></div>
+            <div class="hero__lockup-scrim" aria-hidden="true"></div>
+            <div class="hero__lockup" aria-hidden="true">
+              <img class="hero__lockup-wide" src="assets/brand/b-vinculo-horizontal-reverse.svg" alt="" width="700" height="256" fetchpriority="high">
+              <img class="hero__lockup-stacked" src="assets/brand/b-vinculo-stacked-reverse.svg" alt="" width="520" height="480" fetchpriority="high">
+            </div>
+            <span class="hero__corner hero__corner--left" aria-hidden="true">01</span>
+            <span class="hero__corner hero__corner--right" aria-hidden="true">PRIVADO</span>
+          </div>
+        </div>
+
+        <div class="hero__meta">
+          <div class="hero__meta-cell">
+            <p class="eyebrow">Ya disponible</p>
+            <p class="hero__meta-value">Versión 1.7.17 · Android 8+</p>
+          </div>
+
+          <div class="hero__meta-cell hero__meta-cell--cta">
+            <a class="btn btn--primary btn--magnetic hero__download" href="https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk" rel="noopener" data-download>
+              <span>Descargar APK</span>
+              <svg class="btn__icon btn__icon--download" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 3v9.5M10 12.5 5.8 8.3M10 12.5l4.2-4.2M3.5 16.5h13"/></svg>
+            </a>
+            <p class="micro">Gratis · 17,9 MB · .apk</p>
+          </div>
+
+          <div class="hero__meta-cell hero__meta-cell--right">
+            <p class="eyebrow">Privacidad por diseño</p>
+            <p class="hero__meta-value">Sin analítica. Sin publicidad.</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#idea" aria-label="Desliza para bajar a la idea">
+        <span>DESLIZA</span>
+        <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <section class="statement" id="idea" data-scene aria-labelledby="statement-title">
+      <div class="statement__pin">
+        <div class="statement__orbit" aria-hidden="true"><span></span></div>
+        <div class="statement__glow" aria-hidden="true"></div>
+
+        <div class="statement__inner container">
+          <p class="eyebrow" data-reveal style="--d: 0ms">La idea</p>
+          <h2 class="statement__title" id="statement-title" data-reveal style="--d: 60ms">
+            <span class="statement__line"><span>LA CONVERSACIÓN</span></span>
+            <span class="statement__line statement__line--rule"><span><span class="statement__no">NO</span> SALE DEL</span></span>
+            <span class="statement__line"><span>TELÉFONO.</span></span>
+          </h2>
+          <p class="statement__lead" data-reveal style="--d: 260ms">IA Guardian analiza en el dispositivo de tu hijo, descarta el texto y envía solo un vector de señales. Tú recibes alertas que explican qué pasó, sin exponer conversaciones.</p>
+
+          <ul class="statement__figures" data-reveal style="--d: 380ms">
+            <li>
+              <span class="statement__figure-num" data-count="0">0</span>
+              <span class="statement__figure-label">textos enviados</span>
+            </li>
+            <li>
+              <span class="statement__figure-num" data-count="38">38</span>
+              <span class="statement__figure-label">reglas explicables</span>
+            </li>
+            <li>
+              <span class="statement__figure-num" data-count="1">1</span>
+              <span class="statement__figure-label">vector derivado</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="sequence" id="producto" tabindex="-1" data-scene aria-labelledby="sequence-title">
+      <div class="sequence__pin">
+        <div class="sequence__backs" aria-hidden="true">
+          <img class="sequence__back is-active" src="assets/screens/web-overview-bg.webp" alt="" width="48" height="42">
+          <img class="sequence__back" src="assets/screens/web-alerts-bg.webp" alt="" width="48" height="47">
+          <img class="sequence__back" src="assets/screens/android-pairing-bg.webp" alt="" width="48" height="107">
+          <img class="sequence__back" src="assets/screens/android-status-bg.webp" alt="" width="48" height="104">
+        </div>
+
+        <div class="sequence__head container">
+          <div class="sequence__head-text">
+            <p class="eyebrow">El producto</p>
+            <h2 class="sequence__title" id="sequence-title">ASÍ SE VE LA GUARDIA.</h2>
+            <p class="sequence__sub">Cuatro pantallas de la demo local. Datos sintéticos.</p>
+          </div>
+        </div>
+
+        <p class="sequence__counter"><span class="sr-only">Pantalla actual: </span><span data-sequence-current>01</span><span class="sequence__counter-total"> / 04</span></p>
+
+        <div class="sequence__frames">
+          <article class="sequence__frame is-active" data-frame="0">
+            <div class="sequence__device sequence__device--web">
+              <img src="assets/screens/web-overview.webp" alt="Panel del tutor con el resumen del día y las señales abiertas" width="1440" height="1248" loading="lazy" decoding="async">
+            </div>
+            <div class="sequence__foot">
+              <p class="eyebrow">Resumen</p>
+              <h3>El día, en una mirada.</h3>
+              <p>Minutos de uso, señales abiertas y dispositivos activos. Sin transcribir una sola conversación.</p>
+            </div>
+          </article>
+
+          <article class="sequence__frame" data-frame="1">
+            <div class="sequence__device sequence__device--web">
+              <img src="assets/screens/web-alerts.webp" alt="Lista de alertas con severidad, regla y siguiente paso" width="1440" height="1411" loading="lazy" decoding="async">
+            </div>
+            <div class="sequence__foot">
+              <p class="eyebrow">Alertas</p>
+              <h3>Cada alerta explica por qué.</h3>
+              <p>La regla que la generó, la severidad y un siguiente paso concreto. Nunca el texto.</p>
+            </div>
+          </article>
+
+          <article class="sequence__frame" data-frame="2">
+            <div class="sequence__device sequence__device--phone">
+              <img src="assets/screens/android-pairing.webp" alt="Pantalla Android para vincular el teléfono con QR o código manual" width="1100" height="2449" loading="lazy" decoding="async">
+            </div>
+            <div class="sequence__foot">
+              <p class="eyebrow">Vinculación</p>
+              <h3>Dos voluntades, un vínculo.</h3>
+              <p>El tutor declara tutela; el menor otorga asentimiento. QR o código de seis dígitos.</p>
+            </div>
+          </article>
+
+          <article class="sequence__frame" data-frame="3">
+            <div class="sequence__device sequence__device--phone">
+              <img src="assets/screens/android-status.webp" alt="Pantalla Android con permisos y última sincronización" width="1440" height="3120" loading="lazy" decoding="async">
+            </div>
+            <div class="sequence__foot">
+              <p class="eyebrow">Agente</p>
+              <h3>El agente muestra lo que ve.</h3>
+              <p>Permisos, última sincronización y un botón para desvincular. Nada oculto.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="sequence__rail" aria-hidden="true">
+          <span class="is-active"></span><span></span><span></span><span></span>
+        </div>
+
+        <p class="sequence__demo">DEMO · DATOS SINTÉTICOS</p>
+      </div>
+    </section>
+
+    <section class="signals section" id="senales" tabindex="-1" aria-labelledby="signals-title">
+      <div class="container">
+        <div class="signals__head section-head">
+          <p class="eyebrow" data-reveal style="--d: 0ms">Señales</p>
+          <h2 class="section-head__title" id="signals-title" data-reveal style="--d: 70ms">POCAS, CLARAS, EXPLICABLES.</h2>
+          <p class="lead section-head__lead" data-reveal style="--d: 140ms">El motor combina reglas deterministas con una evaluación de IA que solo recibe el vector derivado. Si no hay proveedor configurado, opera en modo heurístico.</p>
+        </div>
+
+        <div class="signals__grid">
+          <article class="signal-card" data-reveal style="--d: 0ms">
+            <div class="signal-visual signal-visual--text" aria-hidden="true">
+              <div class="signal-bubble">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="signal-dots">
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <h3>Nada de texto.</h3>
+            <p>El texto se descarta en memoria antes de calcular el vector. Solo queda la categoría y el conteo.</p>
+            <a class="link-arrow" href="#producto">
+              Ver el detalle
+              <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+            </a>
+          </article>
+
+          <article class="signal-card" data-reveal style="--d: 90ms">
+            <div class="signal-visual signal-visual--rules" aria-hidden="true">
+              <div class="signal-rule"><span class="signal-rule__label">GROOMING</span><span class="signal-rule__line"></span></div>
+              <div class="signal-rule"><span class="signal-rule__label">SELF_HARM</span><span class="signal-rule__line"></span></div>
+              <div class="signal-rule"><span class="signal-rule__label">NOCTURNO</span><span class="signal-rule__line"></span></div>
+              <div class="signal-rule"><span class="signal-rule__label">APUESTAS</span><span class="signal-rule__line"></span></div>
+              <div class="signal-rule"><span class="signal-rule__label">AISLAMIENTO</span><span class="signal-rule__line"></span></div>
+            </div>
+            <h3>38 reglas.</h3>
+            <p>Cada alerta declara qué regla se activó y con qué evidencia. Sin cajas negras.</p>
+            <a class="link-arrow" href="#producto">
+              Ver el detalle
+              <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+            </a>
+          </article>
+
+          <article class="signal-card" data-reveal style="--d: 180ms">
+            <div class="signal-visual signal-visual--revoke" aria-hidden="true">
+              <svg class="signal-ring" viewBox="0 0 120 120" fill="none">
+                <path class="signal-ring__arc signal-ring__arc--a" d="M60 10a50 50 0 0 1 0 100" stroke="currentColor" stroke-width="1.5"/>
+                <path class="signal-ring__arc signal-ring__arc--b" d="M60 10a50 50 0 0 0 0 100" stroke="currentColor" stroke-width="1.5"/>
+                <circle class="signal-ring__dot signal-ring__dot--a" cx="60" cy="10" r="3.5" fill="currentColor"/>
+                <circle class="signal-ring__dot signal-ring__dot--b" cx="60" cy="110" r="3.5" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3>Revocable.</h3>
+            <p>Puede desvincularse sin pedir permiso, y el tutor lo sabe al instante.</p>
+            <a class="link-arrow" href="#producto">
+              Ver el detalle
+              <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="promos section" id="panel" aria-labelledby="promo-a-title">
+      <div class="container">
+        <article class="promo promo--a">
+          <div class="promo__media">
+            <img src="assets/screens/web-overview.webp" alt="Panel del tutor en el navegador con el resumen de señales y dispositivos" width="1440" height="1248" loading="lazy" decoding="async">
+          </div>
+          <div class="promo__body">
+            <p class="eyebrow">Panel del tutor</p>
+            <h3 id="promo-a-title">TODO LO QUE NECESITAS SABER. NADA QUE NO DEBAS LEER.</h3>
+            <p>Alertas, equipos y ajustes desde el navegador o el teléfono. Sesiones con cookies httpOnly, CSRF y actualización en vivo.</p>
+            <a class="btn btn--ghost promo__cta" href="#producto">
+              Ver el producto
+              <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="promo promo--b">
+          <div class="promo__media">
+            <img src="assets/screens/android-status.webp" alt="Pantalla Android con el estado de permisos y la última sincronización" width="1440" height="3120" loading="lazy" decoding="async">
+          </div>
+          <div class="promo__body">
+            <p class="eyebrow">Agente del menor</p>
+            <h3>UN AVISO PERMANENTE. UN BOTÓN PARA SALIR.</h3>
+            <p>El menor ve qué se comparte y cuándo. Puede desvincularse sin pedir permiso, y el tutor lo sabe al instante.</p>
+            <a class="btn btn--ghost promo__cta" href="#senales">
+              Cómo funciona
+              <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="limits" id="privacidad" tabindex="-1" aria-labelledby="limits-title">
+      <div class="limits__sheet">
+        <div class="limits__inner">
+          <div class="limits__head">
+            <p class="eyebrow" data-reveal style="--d: 0ms">Privacidad por diseño</p>
+            <h2 id="limits-title" data-reveal style="--d: 70ms">LO QUE IA GUARDIAN NUNCA HACE.</h2>
+          </div>
+
+          <div class="limits__grid">
+            <ul class="limits__list">
+              <li class="limits__row" data-reveal style="--d: 0ms">
+                <span class="limits__icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="7.5"/><path d="M5 15 15 5"/></svg>
+                </span>
+                <span>No guarda ni envía el texto de los mensajes.</span>
+              </li>
+              <li class="limits__row" data-reveal style="--d: 120ms">
+                <span class="limits__icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="7.5"/><path d="M5 15 15 5"/></svg>
+                </span>
+                <span>No guarda capturas de pantalla.</span>
+              </li>
+              <li class="limits__row" data-reveal style="--d: 240ms">
+                <span class="limits__icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="7.5"/><path d="M5 15 15 5"/></svg>
+                </span>
+                <span>No escucha el micrófono.</span>
+              </li>
+              <li class="limits__row" data-reveal style="--d: 360ms">
+                <span class="limits__icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="7.5"/><path d="M5 15 15 5"/></svg>
+                </span>
+                <span>No rastrea la ubicación.</span>
+              </li>
+            </ul>
+
+            <aside class="limits__send" aria-labelledby="send-title">
+              <p class="eyebrow" id="send-title">Lo que sí envía</p>
+              <ul class="limits__chips">
+                <li data-reveal style="--d: 0ms">categoría</li>
+                <li data-reveal style="--d: 60ms">flags anonimizados</li>
+                <li data-reveal style="--d: 120ms">minutos de uso</li>
+                <li data-reveal style="--d: 180ms">conteos</li>
+                <li data-reveal style="--d: 240ms">hora local</li>
+                <li data-reveal style="--d: 300ms">hash con sal</li>
+              </ul>
+              <p class="limits__close">Un vector. Sin texto, sin fotos, sin contactos en claro.</p>
+            </aside>
+          </div>
+
+          <p class="limits__note">El motor de riesgo no es un diagnóstico ni reemplaza una conversación familiar.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="download" id="descarga" tabindex="-1" aria-labelledby="download-title">
+      <div class="download__watermark symbol-mask" aria-hidden="true"></div>
+      <div class="download__rings" aria-hidden="true">
+        <span></span><span></span>
+      </div>
+
+      <div class="download__inner container">
+        <div class="download__head">
+          <p class="eyebrow" data-reveal style="--d: 0ms">Descarga</p>
+          <h2 class="download__title" id="download-title" data-reveal style="--d: 70ms">
+            <span class="download__line"><span>LLEVA LA GUARDIA</span></span>
+            <span class="download__line"><span>A TU TELÉFONO.</span></span>
+          </h2>
+          <p class="download__lead" data-reveal style="--d: 150ms">APK firmado, sin Play Store. Instálalo en el teléfono del tutor y vincula el del menor.</p>
+        </div>
+
+        <div class="download__row">
+          <div class="download__action" data-reveal style="--d: 220ms">
+            <a class="btn btn--primary btn--lg btn--magnetic download__btn" href="https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk" rel="noopener" data-download>
+              <svg class="btn__icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 3v9.5M10 12.5 5.8 8.3M10 12.5l4.2-4.2M3.5 16.5h13"/></svg>
+              Descargar APK v1.7.17
+            </a>
+            <a class="download__release" href="https://github.com/roninwuajkja/guardiania/releases/tag/v1.7.17" rel="noopener">
+              Ver el release en GitHub <span class="ext-mark" aria-hidden="true">↗</span>
+            </a>
+            <p class="micro download__meta">17,9 MB · Android 8+ · arm64-v8a · armeabi-v7a · v1.7.17</p>
+
+            <details class="download__verify">
+              <summary>Verificar el APK</summary>
+              <div class="download__verify-body">
+                <p class="micro">SHA-256: <code>2719eeaaaf673ef4e7d9917690b4dd94cfac1e4d576abb3187e9b1e2dfc98524</code></p>
+                <p class="micro">Certificado SHA-256: <code>2790d68383b8e29eb67d26ed064acf82eab823dc2d642901c31ce0fac5504687</code></p>
+                <p class="micro">Verificado con apksigner: esquemas v2 y v3, RSA 4096.</p>
+              </div>
+            </details>
+          </div>
+
+          <div class="download__qr" data-reveal style="--d: 280ms">
+            <img src="assets/qr-apk.svg" alt="Código QR de descarga del APK de IA Guardian" width="168" height="168">
+            <p class="download__qr-title">Escanea desde tu Android</p>
+            <p class="download__qr-url">github.com/roninwuajkja/<br>guardiania/releases</p>
+          </div>
+        </div>
+
+        <ol class="download__steps">
+          <li data-reveal style="--d: 0ms">
+            <span class="download__step-num">01</span>
+            <h3>Instala el APK</h3>
+            <p>Descarga el archivo y permite la instalación desde el navegador del teléfono.</p>
+          </li>
+          <li data-reveal style="--d: 90ms">
+            <span class="download__step-num">02</span>
+            <h3>Crea la cuenta del tutor</h3>
+            <p>Verifica tu correo y acepta los consentimientos antes de vincular cualquier dispositivo.</p>
+          </li>
+          <li data-reveal style="--d: 180ms">
+            <span class="download__step-num">03</span>
+            <h3>Vincula el teléfono del menor</h3>
+            <p>Escanea el QR, pide asentimiento y confirma el vínculo desde el panel.</p>
+          </li>
+        </ol>
+
+        <p class="download__notice" data-reveal style="--d: 240ms"><strong>Proyecto de título.</strong> Los datos de la demo son sintéticos. Antes de operar con datos reales de menores se requiere revisión legal chilena y auditoría de seguridad independiente.</p>
+      </div>
+    </section>
+
+    <section class="faq section" id="preguntas" tabindex="-1" aria-labelledby="faq-title">
+      <div class="faq__inner container">
+        <div class="faq__intro">
+          <p class="eyebrow" data-reveal style="--d: 0ms">Preguntas</p>
+          <h2 class="faq__title" id="faq-title" data-reveal style="--d: 70ms">ANTES DE INSTALAR.</h2>
+        </div>
+
+        <div class="faq__list" data-reveal style="--d: 120ms">
+          <div class="faq__item">
+            <h3 class="faq__q">
+              <button class="faq__trigger" type="button" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">
+                <span>¿Necesito crear una cuenta?</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <section class="faq__panel" id="faq-a1" aria-labelledby="faq-q1">
+              <div class="faq__answer"><p>Sí. La cuenta del tutor se verifica por correo y guarda el historial de consentimientos.</p></div>
+            </section>
+          </div>
+
+          <div class="faq__item">
+            <h3 class="faq__q">
+              <button class="faq__trigger" type="button" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">
+                <span>¿La app guarda los mensajes de mi hijo?</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <section class="faq__panel" id="faq-a2" aria-labelledby="faq-q2">
+              <div class="faq__answer"><p>No. Lee metadatos de notificaciones en el teléfono, deriva señales y descarta el texto antes de enviar el vector. El texto no se almacena ni se transmite.</p></div>
+            </section>
+          </div>
+
+          <div class="faq__item">
+            <h3 class="faq__q">
+              <button class="faq__trigger" type="button" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">
+                <span>¿Funciona sin internet?</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <section class="faq__panel" id="faq-a3" aria-labelledby="faq-q3">
+              <div class="faq__answer"><p>El agente captura y encola en SQLCipher; sincroniza cuando vuelve la conexión.</p></div>
+            </section>
+          </div>
+
+          <div class="faq__item">
+            <h3 class="faq__q">
+              <button class="faq__trigger" type="button" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">
+                <span>¿Qué pasa si mi hijo no acepta?</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <section class="faq__panel" id="faq-a4" aria-labelledby="faq-q4">
+              <div class="faq__answer"><p>La vinculación exige su asentimiento. Sin él no hay vínculo, y puede desvincularse cuando quiera.</p></div>
+            </section>
+          </div>
+
+          <div class="faq__item">
+            <h3 class="faq__q">
+              <button class="faq__trigger" type="button" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">
+                <span>¿Es un diagnóstico?</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <section class="faq__panel" id="faq-a5" aria-labelledby="faq-q5">
+              <div class="faq__answer"><p>No. Es una herramienta para conversar; no reemplaza a un profesional.</p></div>
+            </section>
+          </div>
+
+          <div class="faq__item">
+            <h3 class="faq__q">
+              <button class="faq__trigger" type="button" aria-expanded="false" aria-controls="faq-a6" id="faq-q6">
+                <span>¿Dónde están mis datos?</span>
+                <span class="faq__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <section class="faq__panel" id="faq-a6" aria-labelledby="faq-q6">
+              <div class="faq__answer"><p>En el servidor del proyecto, con exportación y eliminación de cuenta. La demo usa datos sintéticos.</p></div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner container">
+      <div class="footer__top">
+        <a class="footer__brand" href="#inicio" aria-label="IA Guardian, inicio">
+          <img src="assets/brand/b-vinculo-horizontal-reverse.svg" alt="" width="700" height="256">
+        </a>
+
+        <div class="footer__cols">
+          <nav class="footer__col" aria-label="Producto">
+            <p class="footer__col-title">Producto</p>
+            <ul>
+              <li><a href="https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk" rel="noopener" data-download>Descargar APK</a></li>
+              <li><a href="https://github.com/roninwuajkja/guardiania/blob/main/CHANGELOG.md" rel="noopener">Changelog <span class="ext-mark" aria-hidden="true">↗</span></a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer__col" aria-label="Legal">
+            <p class="footer__col-title">Legal</p>
+            <ul>
+              <li><a href="legal.html#privacidad">Privacidad</a></li>
+              <li><a href="legal.html#terminos">Términos</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer__col" aria-label="Proyecto">
+            <p class="footer__col-title">Proyecto</p>
+            <ul>
+              <li><a href="https://github.com/roninwuajkja/guardiania" rel="noopener">GitHub <span class="ext-mark" aria-hidden="true">↗</span></a></li>
+              <li><a href="https://roninwuajkja.github.io/guardiania-atlas/" rel="noopener">Memoria del proyecto <span class="ext-mark" aria-hidden="true">↗</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="footer__base">
+        <p>© 2026 IA Guardian · Proyecto de Título · Hecho en Chile</p>
+        <p>Sin analítica. Sin publicidad.</p>
+      </div>
+
+      <p class="footer__wordmark" aria-hidden="true"></p>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,3284 @@
+{
+  "statement": {
+    "1366x768": {
+      "rows": [
+        {
+          "p": 0.1,
+          "scrollY": 851,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 609,
+          "figuresBottom": 719,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 49,
+          "titleFont": "103.68px",
+          "titleH": 275,
+          "pass": true
+        },
+        {
+          "p": 0.25,
+          "scrollY": 943,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 610,
+          "figuresBottom": 721,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 47,
+          "titleFont": "103.68px",
+          "titleH": 277,
+          "pass": true
+        },
+        {
+          "p": 0.5,
+          "scrollY": 1096,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 612,
+          "figuresBottom": 724,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 44,
+          "titleFont": "103.68px",
+          "titleH": 280,
+          "pass": true
+        },
+        {
+          "p": 0.75,
+          "scrollY": 1250,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 614,
+          "figuresBottom": 726,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 42,
+          "titleFont": "103.68px",
+          "titleH": 283,
+          "pass": true
+        },
+        {
+          "p": 0.9,
+          "scrollY": 1342,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 615,
+          "figuresBottom": 728,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 40,
+          "titleFont": "103.68px",
+          "titleH": 284,
+          "pass": true
+        },
+        {
+          "p": 0.99,
+          "scrollY": 1397,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 616,
+          "figuresBottom": 729,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 39,
+          "titleFont": "103.68px",
+          "titleH": 285,
+          "pass": true
+        }
+      ],
+      "allPass": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "1440x800": {
+      "rows": [
+        {
+          "p": 0.1,
+          "scrollY": 864,
+          "pinTop": 0,
+          "pinBottom": 800,
+          "pinPosition": "sticky",
+          "figuresTop": 632,
+          "figuresBottom": 744,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 56,
+          "titleFont": "108px",
+          "titleH": 287,
+          "pass": true
+        },
+        {
+          "p": 0.25,
+          "scrollY": 960,
+          "pinTop": 0,
+          "pinBottom": 800,
+          "pinPosition": "sticky",
+          "figuresTop": 633,
+          "figuresBottom": 746,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 54,
+          "titleFont": "108px",
+          "titleH": 289,
+          "pass": true
+        },
+        {
+          "p": 0.5,
+          "scrollY": 1120,
+          "pinTop": 0,
+          "pinBottom": 800,
+          "pinPosition": "sticky",
+          "figuresTop": 635,
+          "figuresBottom": 749,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 51,
+          "titleFont": "108px",
+          "titleH": 292,
+          "pass": true
+        },
+        {
+          "p": 0.75,
+          "scrollY": 1280,
+          "pinTop": 0,
+          "pinBottom": 800,
+          "pinPosition": "sticky",
+          "figuresTop": 637,
+          "figuresBottom": 752,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 48,
+          "titleFont": "108px",
+          "titleH": 294,
+          "pass": true
+        },
+        {
+          "p": 0.9,
+          "scrollY": 1376,
+          "pinTop": 0,
+          "pinBottom": 800,
+          "pinPosition": "sticky",
+          "figuresTop": 638,
+          "figuresBottom": 754,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 46,
+          "titleFont": "108px",
+          "titleH": 296,
+          "pass": true
+        },
+        {
+          "p": 0.99,
+          "scrollY": 1434,
+          "pinTop": 0,
+          "pinBottom": 800,
+          "pinPosition": "sticky",
+          "figuresTop": 639,
+          "figuresBottom": 755,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 45,
+          "titleFont": "108px",
+          "titleH": 297,
+          "pass": true
+        }
+      ],
+      "allPass": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "1280x720": {
+      "rows": [
+        {
+          "p": 0.1,
+          "scrollY": 845,
+          "pinTop": 0,
+          "pinBottom": 720,
+          "pinPosition": "sticky",
+          "figuresTop": 576,
+          "figuresBottom": 683,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 37,
+          "titleFont": "97.2px",
+          "titleH": 258,
+          "pass": true
+        },
+        {
+          "p": 0.25,
+          "scrollY": 932,
+          "pinTop": 0,
+          "pinBottom": 720,
+          "pinPosition": "sticky",
+          "figuresTop": 577,
+          "figuresBottom": 684,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 36,
+          "titleFont": "97.2px",
+          "titleH": 260,
+          "pass": true
+        },
+        {
+          "p": 0.5,
+          "scrollY": 1076,
+          "pinTop": 0,
+          "pinBottom": 720,
+          "pinPosition": "sticky",
+          "figuresTop": 579,
+          "figuresBottom": 687,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 33,
+          "titleFont": "97.2px",
+          "titleH": 262,
+          "pass": true
+        },
+        {
+          "p": 0.75,
+          "scrollY": 1220,
+          "pinTop": 0,
+          "pinBottom": 720,
+          "pinPosition": "sticky",
+          "figuresTop": 580,
+          "figuresBottom": 690,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 30,
+          "titleFont": "97.2px",
+          "titleH": 265,
+          "pass": true
+        },
+        {
+          "p": 0.9,
+          "scrollY": 1306,
+          "pinTop": 0,
+          "pinBottom": 720,
+          "pinPosition": "sticky",
+          "figuresTop": 581,
+          "figuresBottom": 691,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 29,
+          "titleFont": "97.2px",
+          "titleH": 267,
+          "pass": true
+        },
+        {
+          "p": 0.99,
+          "scrollY": 1358,
+          "pinTop": 0,
+          "pinBottom": 720,
+          "pinPosition": "sticky",
+          "figuresTop": 582,
+          "figuresBottom": 692,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 28,
+          "titleFont": "97.2px",
+          "titleH": 268,
+          "pass": true
+        }
+      ],
+      "allPass": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "1024x768": {
+      "rows": [
+        {
+          "p": 0.1,
+          "scrollY": 851,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 613,
+          "figuresBottom": 711,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 57,
+          "titleFont": "103.68px",
+          "titleH": 275,
+          "pass": true
+        },
+        {
+          "p": 0.25,
+          "scrollY": 943,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 614,
+          "figuresBottom": 713,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 55,
+          "titleFont": "103.68px",
+          "titleH": 277,
+          "pass": true
+        },
+        {
+          "p": 0.5,
+          "scrollY": 1096,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 616,
+          "figuresBottom": 715,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 53,
+          "titleFont": "103.68px",
+          "titleH": 280,
+          "pass": true
+        },
+        {
+          "p": 0.75,
+          "scrollY": 1250,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 617,
+          "figuresBottom": 718,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 50,
+          "titleFont": "103.68px",
+          "titleH": 283,
+          "pass": true
+        },
+        {
+          "p": 0.9,
+          "scrollY": 1342,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 618,
+          "figuresBottom": 720,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 48,
+          "titleFont": "103.68px",
+          "titleH": 284,
+          "pass": true
+        },
+        {
+          "p": 0.99,
+          "scrollY": 1397,
+          "pinTop": 0,
+          "pinBottom": 768,
+          "pinPosition": "sticky",
+          "figuresTop": 619,
+          "figuresBottom": 721,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 47,
+          "titleFont": "103.68px",
+          "titleH": 285,
+          "pass": true
+        }
+      ],
+      "allPass": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "1440x900": {
+      "rows": [
+        {
+          "p": 0.1,
+          "scrollY": 972,
+          "pinTop": 0,
+          "pinBottom": 900,
+          "pinPosition": "sticky",
+          "figuresTop": 728,
+          "figuresBottom": 840,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 60,
+          "titleFont": "121.5px",
+          "titleH": 323,
+          "pass": true
+        },
+        {
+          "p": 0.25,
+          "scrollY": 1080,
+          "pinTop": 0,
+          "pinBottom": 900,
+          "pinPosition": "sticky",
+          "figuresTop": 729,
+          "figuresBottom": 842,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 58,
+          "titleFont": "121.5px",
+          "titleH": 325,
+          "pass": true
+        },
+        {
+          "p": 0.5,
+          "scrollY": 1260,
+          "pinTop": 0,
+          "pinBottom": 900,
+          "pinPosition": "sticky",
+          "figuresTop": 731,
+          "figuresBottom": 845,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 55,
+          "titleFont": "121.5px",
+          "titleH": 328,
+          "pass": true
+        },
+        {
+          "p": 0.75,
+          "scrollY": 1440,
+          "pinTop": 0,
+          "pinBottom": 900,
+          "pinPosition": "sticky",
+          "figuresTop": 733,
+          "figuresBottom": 849,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 51,
+          "titleFont": "121.5px",
+          "titleH": 331,
+          "pass": true
+        },
+        {
+          "p": 0.9,
+          "scrollY": 1548,
+          "pinTop": 0,
+          "pinBottom": 900,
+          "pinPosition": "sticky",
+          "figuresTop": 735,
+          "figuresBottom": 851,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 49,
+          "titleFont": "121.5px",
+          "titleH": 333,
+          "pass": true
+        },
+        {
+          "p": 0.99,
+          "scrollY": 1613,
+          "pinTop": 0,
+          "pinBottom": 900,
+          "pinPosition": "sticky",
+          "figuresTop": 736,
+          "figuresBottom": 852,
+          "opacity": 1,
+          "isIn": true,
+          "gapToPinBottom": 48,
+          "titleFont": "121.5px",
+          "titleH": 334,
+          "pass": true
+        }
+      ],
+      "allPass": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    }
+  },
+  "targets": {
+    "home": {
+      "brand": {
+        "x": 18.4,
+        "w": 44,
+        "h": 44,
+        "pass": true
+      },
+      "menu": {
+        "x": 322.6,
+        "w": 44,
+        "h": 44,
+        "pass": true
+      },
+      "navCta": {
+        "x": 248.1,
+        "w": 62.5,
+        "h": 44,
+        "pass": true
+      },
+      "navBack": null,
+      "lockup": {
+        "x": 0,
+        "w": 0,
+        "h": 0,
+        "pass": false
+      },
+      "symbol": {
+        "x": 23.4,
+        "w": 34,
+        "h": 34,
+        "pass": false
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "legal": {
+      "brand": {
+        "x": 18.4,
+        "w": 44,
+        "h": 44,
+        "pass": true
+      },
+      "menu": null,
+      "navCta": null,
+      "navBack": {
+        "x": 293.7,
+        "w": 72.9,
+        "h": 44,
+        "pass": true
+      },
+      "lockup": {
+        "x": 0,
+        "w": 0,
+        "h": 0,
+        "pass": false
+      },
+      "symbol": {
+        "x": 23.4,
+        "w": 34,
+        "h": 34,
+        "pass": false
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    }
+  },
+  "collage": {
+    "1440x900": {
+      "count": 8,
+      "classes": [
+        "hero__tile hero__tile--overview",
+        "hero__tile hero__tile--android",
+        "hero__tile hero__tile--plate hero__tile--plate-a",
+        "hero__tile hero__tile--alerts",
+        "hero__tile hero__tile--android-pairing",
+        "hero__tile hero__tile--pairing",
+        "hero__tile hero__tile--plate hero__tile--plate-b",
+        "hero__tile hero__tile--mobile"
+      ],
+      "plateA": {
+        "display": "flex",
+        "rect": {
+          "x": 1027.1,
+          "y": 198.5,
+          "w": 146.1,
+          "h": 184.5,
+          "right": 1173.2,
+          "bottom": 383
+        },
+        "text": "PRIVACIDAD\n/ POR DISEÑO"
+      },
+      "plateB": {
+        "display": "flex",
+        "rect": {
+          "x": 1027.1,
+          "y": 389,
+          "w": 146.1,
+          "h": 311.5,
+          "right": 1173.2,
+          "bottom": 700.5
+        },
+        "text": "0\n\nMENSAJES\n/ LEÍDOS"
+      },
+      "lockup": {
+        "x": 544.7,
+        "y": 385.4,
+        "w": 350.5,
+        "h": 128.2,
+        "right": 895.3,
+        "bottom": 513.6
+      },
+      "intersectionA": 0,
+      "intersectionB": 0,
+      "poster": {
+        "x": 257.8,
+        "y": 189.5,
+        "w": 924.4,
+        "h": 520,
+        "right": 1182.2,
+        "bottom": 709.5
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "2560x1440": {
+      "count": 8,
+      "classes": [
+        "hero__tile hero__tile--overview",
+        "hero__tile hero__tile--android",
+        "hero__tile hero__tile--plate hero__tile--plate-a",
+        "hero__tile hero__tile--alerts",
+        "hero__tile hero__tile--android-pairing",
+        "hero__tile hero__tile--pairing",
+        "hero__tile hero__tile--plate hero__tile--plate-b",
+        "hero__tile hero__tile--mobile"
+      ],
+      "plateA": {
+        "display": "flex",
+        "rect": {
+          "x": 1905.7,
+          "y": 199.1,
+          "w": 305.3,
+          "h": 386.1,
+          "right": 2211,
+          "bottom": 585.2
+        },
+        "text": "PRIVACIDAD\n/ POR DISEÑO"
+      },
+      "plateB": {
+        "display": "flex",
+        "rect": {
+          "x": 1905.7,
+          "y": 591.2,
+          "w": 305.3,
+          "h": 647.4,
+          "right": 2211,
+          "bottom": 1238.6
+        },
+        "text": "0\n\nMENSAJES\n/ LEÍDOS"
+      },
+      "lockup": {
+        "x": 923.2,
+        "y": 588.4,
+        "w": 713.6,
+        "h": 261,
+        "right": 1636.8,
+        "bottom": 849.3
+      },
+      "intersectionA": 0,
+      "intersectionB": 0,
+      "poster": {
+        "x": 340,
+        "y": 190.1,
+        "w": 1880,
+        "h": 1057.5,
+        "right": 2220,
+        "bottom": 1247.6
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    }
+  },
+  "demo": {
+    "390-auto": {
+      "display": "block",
+      "position": "relative",
+      "rect": {
+        "x": 23.4,
+        "y": 732.5,
+        "w": 343.2,
+        "h": 15.4,
+        "bottom": 747.8
+      },
+      "text": "DEMO · DATOS SINTÉTICOS",
+      "lastFrame": {
+        "x": 16,
+        "y": -104.8,
+        "w": 358,
+        "h": 813.2,
+        "bottom": 708.5
+      },
+      "intersectionWithLastFrame": 0,
+      "sequence": {
+        "x": 0,
+        "y": -2246.5,
+        "w": 390,
+        "h": 3090.3,
+        "bottom": 843.8
+      },
+      "pin": {
+        "x": 0,
+        "y": -2246.5,
+        "w": 390,
+        "h": 3090.3,
+        "bottom": 843.8
+      },
+      "pinPosition": "relative",
+      "framesOpacity": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "framesAria": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "framesInert": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "pass": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "390-reduced": {
+      "display": "block",
+      "position": "relative",
+      "rect": {
+        "x": 23.4,
+        "y": 732.5,
+        "w": 343.2,
+        "h": 15.4,
+        "bottom": 747.8
+      },
+      "text": "DEMO · DATOS SINTÉTICOS",
+      "lastFrame": {
+        "x": 16,
+        "y": -104.8,
+        "w": 358,
+        "h": 813.2,
+        "bottom": 708.5
+      },
+      "intersectionWithLastFrame": 0,
+      "sequence": {
+        "x": 0,
+        "y": -2246.5,
+        "w": 390,
+        "h": 3090.3,
+        "bottom": 843.8
+      },
+      "pin": {
+        "x": 0,
+        "y": -2246.5,
+        "w": 390,
+        "h": 3090.3,
+        "bottom": 843.8
+      },
+      "pinPosition": "relative",
+      "framesOpacity": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "framesAria": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "framesInert": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "pass": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "1440-reduced": {
+      "display": "block",
+      "position": "relative",
+      "rect": {
+        "x": 86.4,
+        "y": 697.2,
+        "w": 1267.2,
+        "h": 15.4,
+        "bottom": 712.6
+      },
+      "text": "DEMO · DATOS SINTÉTICOS",
+      "lastFrame": {
+        "x": 16,
+        "y": -156.6,
+        "w": 1408,
+        "h": 829.8,
+        "bottom": 673.2
+      },
+      "intersectionWithLastFrame": 0,
+      "sequence": {
+        "x": 0,
+        "y": -4188.6,
+        "w": 1440,
+        "h": 5088.3,
+        "bottom": 899.8
+      },
+      "pin": {
+        "x": 0,
+        "y": -4188.6,
+        "w": 1440,
+        "h": 5088.3,
+        "bottom": 899.8
+      },
+      "pinPosition": "relative",
+      "framesOpacity": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "framesAria": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "framesInert": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "pass": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    }
+  },
+  "frames": {
+    "1440-auto": {
+      "frames": [
+        {
+          "i": "0",
+          "active": false,
+          "opacity": "0",
+          "ariaHidden": "true",
+          "inert": true,
+          "display": "block"
+        },
+        {
+          "i": "1",
+          "active": true,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "block"
+        },
+        {
+          "i": "2",
+          "active": false,
+          "opacity": "0",
+          "ariaHidden": "true",
+          "inert": true,
+          "display": "block"
+        },
+        {
+          "i": "3",
+          "active": false,
+          "opacity": "0",
+          "ariaHidden": "true",
+          "inert": true,
+          "display": "block"
+        }
+      ],
+      "activeCount": 1,
+      "exposedCount": 1,
+      "stacked": false,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "390-auto": {
+      "frames": [
+        {
+          "i": "0",
+          "active": true,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        },
+        {
+          "i": "1",
+          "active": false,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        },
+        {
+          "i": "2",
+          "active": false,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        },
+        {
+          "i": "3",
+          "active": false,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        }
+      ],
+      "activeCount": 1,
+      "exposedCount": 4,
+      "stacked": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "1440-reduced": {
+      "frames": [
+        {
+          "i": "0",
+          "active": true,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        },
+        {
+          "i": "1",
+          "active": false,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        },
+        {
+          "i": "2",
+          "active": false,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        },
+        {
+          "i": "3",
+          "active": false,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        }
+      ],
+      "activeCount": 1,
+      "exposedCount": 4,
+      "stacked": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "390-reduced": {
+      "frames": [
+        {
+          "i": "0",
+          "active": true,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        },
+        {
+          "i": "1",
+          "active": false,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        },
+        {
+          "i": "2",
+          "active": false,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        },
+        {
+          "i": "3",
+          "active": false,
+          "opacity": "1",
+          "ariaHidden": null,
+          "inert": false,
+          "display": "grid"
+        }
+      ],
+      "activeCount": 1,
+      "exposedCount": 4,
+      "stacked": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    }
+  },
+  "menu": {
+    "1440x900": {
+      "marker": {
+        "href": "#inicio",
+        "arrowOpacity": "1",
+        "arrowTransform": "matrix(1, 0, 0, 1, 0, 0)",
+        "arrowRect": {
+          "x": 1344,
+          "y": 213.5,
+          "width": 20,
+          "height": 20,
+          "top": 213.5,
+          "right": 1364,
+          "bottom": 233.5,
+          "left": 1344
+        },
+        "rest": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "focus": {
+        "activeTag": "SECTION",
+        "activeId": "producto",
+        "activeClass": "sequence",
+        "focusVisible": true,
+        "outline": "rgb(169, 198, 184) solid 2px",
+        "outlineOffset": "3px",
+        "scrollY": 2432,
+        "productTop": 88,
+        "dialogOpen": false,
+        "locked": false,
+        "pass": true
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "390x844": {
+      "marker": {
+        "href": "#inicio",
+        "arrowOpacity": "1",
+        "arrowTransform": "matrix(1, 0, 0, 1, 0, 0)",
+        "arrowRect": {
+          "x": 342,
+          "y": 393.96875,
+          "width": 20,
+          "height": 20,
+          "top": 393.96875,
+          "right": 362,
+          "bottom": 413.96875,
+          "left": 342
+        },
+        "rest": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "focus": {
+        "activeTag": "SECTION",
+        "activeId": "producto",
+        "activeClass": "sequence",
+        "focusVisible": true,
+        "outline": "rgb(169, 198, 184) solid 2px",
+        "outlineOffset": "3px",
+        "scrollY": 1407,
+        "productTop": 64,
+        "dialogOpen": false,
+        "locked": false,
+        "pass": true
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    }
+  },
+  "ghost": {
+    "borderColor": "color(srgb 0.662745 0.776471 0.721569 / 0.5)",
+    "borderWidth": "1px",
+    "bg": "color(srgb 0.0313726 0.105882 0.0901961 / 0.18)",
+    "color": "rgb(238, 242, 237)",
+    "bodyBg": "rgba(0, 0, 0, 0)",
+    "rect": {
+      "x": 855.25,
+      "y": 605.15625,
+      "width": 175.671875,
+      "height": 44,
+      "top": 605.15625,
+      "right": 1030.921875,
+      "bottom": 649.15625,
+      "left": 855.25
+    },
+    "errors": {
+      "console": [],
+      "pageerror": [],
+      "failed": []
+    }
+  },
+  "ticker": {
+    "390": {
+      "motion": "reduce",
+      "animation": "none",
+      "track": {
+        "x": 0,
+        "right": 390,
+        "w": 390
+      },
+      "copy": {
+        "x": 47,
+        "right": 342.9,
+        "w": 295.9
+      },
+      "duplicate": "none",
+      "spans": [
+        {
+          "i": 1,
+          "text": "IA GUARDIAN",
+          "display": "block"
+        },
+        {
+          "i": 2,
+          "text": "·",
+          "display": "block"
+        },
+        {
+          "i": 3,
+          "text": "VERSIÓN 1.7.17",
+          "display": "block"
+        },
+        {
+          "i": 4,
+          "text": "·",
+          "display": "none"
+        },
+        {
+          "i": 5,
+          "text": "YA DISPONIBLE",
+          "display": "none"
+        },
+        {
+          "i": 6,
+          "text": "·",
+          "display": "none"
+        },
+        {
+          "i": 7,
+          "text": "PRIVACIDAD POR DISEÑO",
+          "display": "none"
+        },
+        {
+          "i": 8,
+          "text": "·",
+          "display": "none"
+        },
+        {
+          "i": 9,
+          "text": "PROYECTO DE TÍTULO 2026",
+          "display": "none"
+        }
+      ],
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "pass": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "639": {
+      "motion": "reduce",
+      "animation": "none",
+      "track": {
+        "x": 0,
+        "right": 639,
+        "w": 639
+      },
+      "copy": {
+        "x": 171.5,
+        "right": 467.4,
+        "w": 295.9
+      },
+      "duplicate": "none",
+      "spans": [
+        {
+          "i": 1,
+          "text": "IA GUARDIAN",
+          "display": "block"
+        },
+        {
+          "i": 2,
+          "text": "·",
+          "display": "block"
+        },
+        {
+          "i": 3,
+          "text": "VERSIÓN 1.7.17",
+          "display": "block"
+        },
+        {
+          "i": 4,
+          "text": "·",
+          "display": "none"
+        },
+        {
+          "i": 5,
+          "text": "YA DISPONIBLE",
+          "display": "none"
+        },
+        {
+          "i": 6,
+          "text": "·",
+          "display": "none"
+        },
+        {
+          "i": 7,
+          "text": "PRIVACIDAD POR DISEÑO",
+          "display": "none"
+        },
+        {
+          "i": 8,
+          "text": "·",
+          "display": "none"
+        },
+        {
+          "i": 9,
+          "text": "PROYECTO DE TÍTULO 2026",
+          "display": "none"
+        }
+      ],
+      "innerWidth": 639,
+      "scrollWidth": 639,
+      "pass": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "768": {
+      "motion": "reduce",
+      "animation": "none",
+      "track": {
+        "x": 0,
+        "right": 768,
+        "w": 768,
+        "y": 0,
+        "h": 41
+      },
+      "copy": {
+        "x": 236,
+        "right": 531.9,
+        "w": 295.9,
+        "y": 0,
+        "h": 41
+      },
+      "duplicate": "none",
+      "visibleText": "IA GUARDIAN · VERSIÓN 1.7.17",
+      "spansVisible": [
+        "IA GUARDIAN",
+        "·",
+        "VERSIÓN 1.7.17"
+      ],
+      "innerWidth": 768,
+      "scrollWidth": 768,
+      "pass": true,
+      "note": "verificado 2026-11-23: copia reducida de 295,9 px centrada; sin corte"
+    },
+    "390-fixed": {
+      "motion": "reduce",
+      "animation": "none",
+      "track": {
+        "x": 0,
+        "right": 390,
+        "w": 390,
+        "y": 0,
+        "h": 41
+      },
+      "copy": {
+        "x": 47,
+        "right": 342.9,
+        "w": 295.9,
+        "y": 0,
+        "h": 41
+      },
+      "copyCenterX": 194.9,
+      "viewportCenterX": 195,
+      "duplicate": "none",
+      "spans": [
+        {
+          "i": 1,
+          "text": "IA GUARDIAN",
+          "display": "block",
+          "rect": {
+            "x": 65,
+            "right": 159.8,
+            "w": 94.7,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 2,
+          "text": "·",
+          "display": "block",
+          "rect": {
+            "x": 177.8,
+            "right": 186.4,
+            "w": 8.6,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 3,
+          "text": "VERSIÓN 1.7.17",
+          "display": "block",
+          "rect": {
+            "x": 204.4,
+            "right": 324.9,
+            "w": 120.5,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 4,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 5,
+          "text": "YA DISPONIBLE",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 6,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 7,
+          "text": "PRIVACIDAD POR DISEÑO",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 8,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 9,
+          "text": "PROYECTO DE TÍTULO 2026",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        }
+      ],
+      "visibleText": "IA GUARDIAN · VERSIÓN 1.7.17",
+      "visibleCount": 3,
+      "noCut": true,
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "scrollWidthEqual": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "1440-fixed": {
+      "motion": "reduce",
+      "animation": "none",
+      "track": {
+        "x": 0,
+        "right": 1440,
+        "w": 1440,
+        "y": 0,
+        "h": 41
+      },
+      "copy": {
+        "x": 572,
+        "right": 867.9,
+        "w": 295.9,
+        "y": 0,
+        "h": 41
+      },
+      "copyCenterX": 720,
+      "viewportCenterX": 720,
+      "duplicate": "none",
+      "spans": [
+        {
+          "i": 1,
+          "text": "IA GUARDIAN",
+          "display": "block",
+          "rect": {
+            "x": 590,
+            "right": 684.8,
+            "w": 94.7,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 2,
+          "text": "·",
+          "display": "block",
+          "rect": {
+            "x": 702.8,
+            "right": 711.4,
+            "w": 8.6,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 3,
+          "text": "VERSIÓN 1.7.17",
+          "display": "block",
+          "rect": {
+            "x": 729.4,
+            "right": 849.9,
+            "w": 120.5,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 4,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 5,
+          "text": "YA DISPONIBLE",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 6,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 7,
+          "text": "PRIVACIDAD POR DISEÑO",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 8,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 9,
+          "text": "PROYECTO DE TÍTULO 2026",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        }
+      ],
+      "visibleText": "IA GUARDIAN · VERSIÓN 1.7.17",
+      "visibleCount": 3,
+      "noCut": true,
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "scrollWidthEqual": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    }
+  },
+  "zoom": {
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "title": {
+      "x": 25.6,
+      "right": 364.4,
+      "w": 338.8,
+      "font": "42.9px"
+    },
+    "download": {
+      "x": 20,
+      "right": 370,
+      "w": 350,
+      "font": "86.4px"
+    },
+    "faq": {
+      "x": 20,
+      "right": 370,
+      "w": 350,
+      "font": "83.2px"
+    },
+    "signals": {
+      "x": 20,
+      "right": 370,
+      "w": 350,
+      "font": "86.4px"
+    },
+    "titlePass": true,
+    "pagePass": true,
+    "errors": {
+      "console": [],
+      "pageerror": [],
+      "failed": []
+    }
+  },
+  "regressions": {
+    "390x844": {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "overflow": false,
+      "h1": 1,
+      "images": [
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-alerts.webp",
+          "n": [
+            1440,
+            1411
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-pairing.webp",
+          "n": [
+            1100,
+            2449
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-pairing.webp",
+          "n": [
+            1440,
+            1000
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-mobile.webp",
+          "n": [
+            780,
+            1688
+          ],
+          "alt": ""
+        },
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        },
+        {
+          "src": "b-vinculo-stacked-reverse.svg",
+          "n": [
+            520,
+            480
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview-bg.webp",
+          "n": [
+            48,
+            42
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-alerts-bg.webp",
+          "n": [
+            48,
+            47
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-pairing-bg.webp",
+          "n": [
+            48,
+            107
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-status-bg.webp",
+          "n": [
+            48,
+            104
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": "Panel del tutor con el resumen del día y las señales abiertas"
+        },
+        {
+          "src": "web-alerts.webp",
+          "n": [
+            1440,
+            1411
+          ],
+          "alt": "Lista de alertas con severidad, regla y siguiente paso"
+        },
+        {
+          "src": "android-pairing.webp",
+          "n": [
+            1100,
+            2449
+          ],
+          "alt": "Pantalla Android para vincular el teléfono con QR o código manual"
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": "Pantalla Android con permisos y última sincronización"
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": "Panel del tutor en el navegador con el resumen de señales y dispositivos"
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": "Pantalla Android con el estado de permisos y la última sincronización"
+        },
+        {
+          "src": "qr-apk.svg",
+          "n": [
+            150,
+            150
+          ],
+          "alt": "Código QR de descarga del APK de IA Guardian"
+        },
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        }
+      ],
+      "broken": [],
+      "styles": {
+        "heroMeta": {
+          "color": "rgb(238, 242, 237)",
+          "bg": "rgb(8, 27, 23)",
+          "fontSize": "13.5px",
+          "text": "Versión 1.7.17 · Android 8+"
+        },
+        "signalBody": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(18, 48, 41)",
+          "fontSize": "15.5px",
+          "text": "El texto se descarta en memoria antes de"
+        },
+        "promoBody": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "16.5px",
+          "text": "Alertas, equipos y ajustes desde el nave"
+        },
+        "limitsRow": {
+          "color": "rgb(16, 32, 27)",
+          "bg": "rgb(238, 242, 237)",
+          "fontSize": "17px",
+          "text": "No lee el contenido de los mensajes."
+        },
+        "faqAnswer": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(8, 27, 23)",
+          "fontSize": "16px",
+          "text": "Sí. La cuenta del tutor se verifica por "
+        },
+        "footerBase": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "11px",
+          "text": "© 2026 IA Guardian · Proyecto de Título "
+        },
+        "navMenu": {
+          "color": "rgb(238, 242, 237)",
+          "bg": "color(srgb 0 0 0 / 0)",
+          "fontSize": "13px",
+          "text": "Menú"
+        },
+        "ticker": {
+          "color": "rgb(169, 198, 184)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "10.5px",
+          "text": "IA GUARDIAN"
+        }
+      },
+      "dupIds": [],
+      "downloadHrefs": [
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk"
+      ],
+      "contrast": {
+        "heroMeta": 15.74,
+        "signalBody": 5.96,
+        "promoBody": 6.55,
+        "limitsRow": 14.91,
+        "faqAnswer": 6.91,
+        "footerBase": 6.55,
+        "navMenu": 15.74,
+        "ticker": 8.91
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "768x900": {
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "bodyScrollWidth": 768,
+      "overflow": false,
+      "h1": 1,
+      "images": [
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-alerts.webp",
+          "n": [
+            1440,
+            1411
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-pairing.webp",
+          "n": [
+            1100,
+            2449
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-pairing.webp",
+          "n": [
+            1440,
+            1000
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-mobile.webp",
+          "n": [
+            780,
+            1688
+          ],
+          "alt": ""
+        },
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        },
+        {
+          "src": "b-vinculo-stacked-reverse.svg",
+          "n": [
+            520,
+            480
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview-bg.webp",
+          "n": [
+            48,
+            42
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-alerts-bg.webp",
+          "n": [
+            48,
+            47
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-pairing-bg.webp",
+          "n": [
+            48,
+            107
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-status-bg.webp",
+          "n": [
+            48,
+            104
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": "Panel del tutor con el resumen del día y las señales abiertas"
+        },
+        {
+          "src": "web-alerts.webp",
+          "n": [
+            1440,
+            1411
+          ],
+          "alt": "Lista de alertas con severidad, regla y siguiente paso"
+        },
+        {
+          "src": "android-pairing.webp",
+          "n": [
+            1100,
+            2449
+          ],
+          "alt": "Pantalla Android para vincular el teléfono con QR o código manual"
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": "Pantalla Android con permisos y última sincronización"
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": "Panel del tutor en el navegador con el resumen de señales y dispositivos"
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": "Pantalla Android con el estado de permisos y la última sincronización"
+        },
+        {
+          "src": "qr-apk.svg",
+          "n": [
+            150,
+            150
+          ],
+          "alt": "Código QR de descarga del APK de IA Guardian"
+        },
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        }
+      ],
+      "broken": [],
+      "styles": {
+        "heroMeta": {
+          "color": "rgb(238, 242, 237)",
+          "bg": "rgb(8, 27, 23)",
+          "fontSize": "16px",
+          "text": "Versión 1.7.17 · Android 8+"
+        },
+        "signalBody": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(18, 48, 41)",
+          "fontSize": "15.5px",
+          "text": "El texto se descarta en memoria antes de"
+        },
+        "promoBody": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "16.5px",
+          "text": "Alertas, equipos y ajustes desde el nave"
+        },
+        "limitsRow": {
+          "color": "rgb(16, 32, 27)",
+          "bg": "rgb(238, 242, 237)",
+          "fontSize": "22px",
+          "text": "No lee el contenido de los mensajes."
+        },
+        "faqAnswer": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(8, 27, 23)",
+          "fontSize": "16px",
+          "text": "Sí. La cuenta del tutor se verifica por "
+        },
+        "footerBase": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "11px",
+          "text": "© 2026 IA Guardian · Proyecto de Título "
+        },
+        "navMenu": {
+          "color": "rgb(238, 242, 237)",
+          "bg": "color(srgb 0 0 0 / 0)",
+          "fontSize": "13px",
+          "text": "Menú"
+        },
+        "ticker": {
+          "color": "rgb(169, 198, 184)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "10.5px",
+          "text": "IA GUARDIAN"
+        }
+      },
+      "dupIds": [],
+      "downloadHrefs": [
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk"
+      ],
+      "contrast": {
+        "heroMeta": 15.74,
+        "signalBody": 5.96,
+        "promoBody": 6.55,
+        "limitsRow": 14.91,
+        "faqAnswer": 6.91,
+        "footerBase": 6.55,
+        "navMenu": 15.74,
+        "ticker": 8.91
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "1440x900": {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "overflow": false,
+      "h1": 1,
+      "images": [
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-alerts.webp",
+          "n": [
+            1440,
+            1411
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-pairing.webp",
+          "n": [
+            1100,
+            2449
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-pairing.webp",
+          "n": [
+            1440,
+            1000
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-mobile.webp",
+          "n": [
+            780,
+            1688
+          ],
+          "alt": ""
+        },
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        },
+        {
+          "src": "b-vinculo-stacked-reverse.svg",
+          "n": [
+            520,
+            480
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview-bg.webp",
+          "n": [
+            48,
+            42
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-alerts-bg.webp",
+          "n": [
+            48,
+            47
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-pairing-bg.webp",
+          "n": [
+            48,
+            107
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-status-bg.webp",
+          "n": [
+            48,
+            104
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": "Panel del tutor con el resumen del día y las señales abiertas"
+        },
+        {
+          "src": "web-alerts.webp",
+          "n": [
+            1440,
+            1411
+          ],
+          "alt": "Lista de alertas con severidad, regla y siguiente paso"
+        },
+        {
+          "src": "android-pairing.webp",
+          "n": [
+            1100,
+            2449
+          ],
+          "alt": "Pantalla Android para vincular el teléfono con QR o código manual"
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": "Pantalla Android con permisos y última sincronización"
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": "Panel del tutor en el navegador con el resumen de señales y dispositivos"
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": "Pantalla Android con el estado de permisos y la última sincronización"
+        },
+        {
+          "src": "qr-apk.svg",
+          "n": [
+            150,
+            150
+          ],
+          "alt": "Código QR de descarga del APK de IA Guardian"
+        },
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        }
+      ],
+      "broken": [],
+      "styles": {
+        "heroMeta": {
+          "color": "rgb(238, 242, 237)",
+          "bg": "rgb(8, 27, 23)",
+          "fontSize": "16px",
+          "text": "Versión 1.7.17 · Android 8+"
+        },
+        "signalBody": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(18, 48, 41)",
+          "fontSize": "15.5px",
+          "text": "El texto se descarta en memoria antes de"
+        },
+        "promoBody": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "16.5px",
+          "text": "Alertas, equipos y ajustes desde el nave"
+        },
+        "limitsRow": {
+          "color": "rgb(16, 32, 27)",
+          "bg": "rgb(238, 242, 237)",
+          "fontSize": "22px",
+          "text": "No lee el contenido de los mensajes."
+        },
+        "faqAnswer": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(8, 27, 23)",
+          "fontSize": "16px",
+          "text": "Sí. La cuenta del tutor se verifica por "
+        },
+        "footerBase": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "11px",
+          "text": "© 2026 IA Guardian · Proyecto de Título "
+        },
+        "navMenu": {
+          "color": "rgb(238, 242, 237)",
+          "bg": "color(srgb 0 0 0 / 0)",
+          "fontSize": "13px",
+          "text": "Menú"
+        },
+        "ticker": {
+          "color": "rgb(169, 198, 184)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "10.5px",
+          "text": "IA GUARDIAN"
+        }
+      },
+      "dupIds": [],
+      "downloadHrefs": [
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk"
+      ],
+      "contrast": {
+        "heroMeta": 15.74,
+        "signalBody": 5.96,
+        "promoBody": 6.55,
+        "limitsRow": 14.91,
+        "faqAnswer": 6.91,
+        "footerBase": 6.55,
+        "navMenu": 15.74,
+        "ticker": 8.91
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "2560x1440": {
+      "innerWidth": 2560,
+      "clientWidth": 2560,
+      "scrollWidth": 2560,
+      "bodyScrollWidth": 2560,
+      "overflow": false,
+      "h1": 1,
+      "images": [
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-alerts.webp",
+          "n": [
+            1440,
+            1411
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-pairing.webp",
+          "n": [
+            1100,
+            2449
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-pairing.webp",
+          "n": [
+            1440,
+            1000
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-mobile.webp",
+          "n": [
+            780,
+            1688
+          ],
+          "alt": ""
+        },
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        },
+        {
+          "src": "b-vinculo-stacked-reverse.svg",
+          "n": [
+            520,
+            480
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview-bg.webp",
+          "n": [
+            48,
+            42
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-alerts-bg.webp",
+          "n": [
+            48,
+            47
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-pairing-bg.webp",
+          "n": [
+            48,
+            107
+          ],
+          "alt": ""
+        },
+        {
+          "src": "android-status-bg.webp",
+          "n": [
+            48,
+            104
+          ],
+          "alt": ""
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": "Panel del tutor con el resumen del día y las señales abiertas"
+        },
+        {
+          "src": "web-alerts.webp",
+          "n": [
+            1440,
+            1411
+          ],
+          "alt": "Lista de alertas con severidad, regla y siguiente paso"
+        },
+        {
+          "src": "android-pairing.webp",
+          "n": [
+            1100,
+            2449
+          ],
+          "alt": "Pantalla Android para vincular el teléfono con QR o código manual"
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": "Pantalla Android con permisos y última sincronización"
+        },
+        {
+          "src": "web-overview.webp",
+          "n": [
+            1440,
+            1248
+          ],
+          "alt": "Panel del tutor en el navegador con el resumen de señales y dispositivos"
+        },
+        {
+          "src": "android-status.webp",
+          "n": [
+            1440,
+            3120
+          ],
+          "alt": "Pantalla Android con el estado de permisos y la última sincronización"
+        },
+        {
+          "src": "qr-apk.svg",
+          "n": [
+            150,
+            150
+          ],
+          "alt": "Código QR de descarga del APK de IA Guardian"
+        },
+        {
+          "src": "b-vinculo-horizontal-reverse.svg",
+          "n": [
+            700,
+            256
+          ],
+          "alt": ""
+        }
+      ],
+      "broken": [],
+      "styles": {
+        "heroMeta": {
+          "color": "rgb(238, 242, 237)",
+          "bg": "rgb(8, 27, 23)",
+          "fontSize": "16px",
+          "text": "Versión 1.7.17 · Android 8+"
+        },
+        "signalBody": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(18, 48, 41)",
+          "fontSize": "15.5px",
+          "text": "El texto se descarta en memoria antes de"
+        },
+        "promoBody": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "16.5px",
+          "text": "Alertas, equipos y ajustes desde el nave"
+        },
+        "limitsRow": {
+          "color": "rgb(16, 32, 27)",
+          "bg": "rgb(238, 242, 237)",
+          "fontSize": "22px",
+          "text": "No lee el contenido de los mensajes."
+        },
+        "faqAnswer": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(8, 27, 23)",
+          "fontSize": "16px",
+          "text": "Sí. La cuenta del tutor se verifica por "
+        },
+        "footerBase": {
+          "color": "rgba(233, 241, 236, 0.64)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "11px",
+          "text": "© 2026 IA Guardian · Proyecto de Título "
+        },
+        "navMenu": {
+          "color": "rgb(238, 242, 237)",
+          "bg": "color(srgb 0 0 0 / 0)",
+          "fontSize": "13px",
+          "text": "Menú"
+        },
+        "ticker": {
+          "color": "rgb(169, 198, 184)",
+          "bg": "rgb(11, 36, 30)",
+          "fontSize": "10.5px",
+          "text": "IA GUARDIAN"
+        }
+      },
+      "dupIds": [],
+      "downloadHrefs": [
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk",
+        "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk"
+      ],
+      "contrast": {
+        "heroMeta": 15.74,
+        "signalBody": 5.96,
+        "promoBody": 6.55,
+        "limitsRow": 14.91,
+        "faqAnswer": 6.91,
+        "footerBase": 6.55,
+        "navMenu": 15.74,
+        "ticker": 8.91
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    }
+  },
+  "uiRegression": {
+    "390x844": {
+      "open": {
+        "open": true,
+        "locked": true,
+        "expanded": "true",
+        "activeFirst": true,
+        "closeSize": [
+          44,
+          44
+        ]
+      },
+      "closed": {
+        "open": false,
+        "locked": false,
+        "expanded": "false",
+        "focusMenu": true
+      },
+      "faqOpen": {
+        "expanded": "true",
+        "open": true,
+        "panelH": 75,
+        "inert": false
+      },
+      "faqSecond": {
+        "openCount": 1,
+        "first": false,
+        "inertFirst": true,
+        "second": true,
+        "inertSecond": false
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "1440x900": {
+      "open": {
+        "open": true,
+        "locked": true,
+        "expanded": "true",
+        "activeFirst": true,
+        "closeSize": [
+          44,
+          44
+        ]
+      },
+      "closed": {
+        "open": false,
+        "locked": false,
+        "expanded": "false",
+        "focusMenu": true
+      },
+      "faqOpen": {
+        "expanded": "true",
+        "open": true,
+        "panelH": 75,
+        "inert": false
+      },
+      "faqSecond": {
+        "openCount": 1,
+        "first": false,
+        "inertFirst": true,
+        "second": true,
+        "inertSecond": false
+      },
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    }
+  },
+  "reduced390": {
+    "motion": "reduce",
+    "loader": "removed",
+    "statementPin": "relative",
+    "sequencePin": "relative",
+    "demoDisplay": "block",
+    "frames": [
+      {
+        "op": "1",
+        "pos": "relative",
+        "aria": null,
+        "inert": false
+      },
+      {
+        "op": "1",
+        "pos": "relative",
+        "aria": null,
+        "inert": false
+      },
+      {
+        "op": "1",
+        "pos": "relative",
+        "aria": null,
+        "inert": false
+      },
+      {
+        "op": "1",
+        "pos": "relative",
+        "aria": null,
+        "inert": false
+      }
+    ],
+    "hiddenReveals": 0,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "errors": {
+      "console": [],
+      "pageerror": [],
+      "failed": []
+    }
+  },
+  "reduced1440": {
+    "motion": "reduce",
+    "statementPin": "relative",
+    "sequencePin": "relative",
+    "demoDisplay": "block",
+    "frames": [
+      {
+        "op": "1",
+        "aria": null,
+        "inert": false
+      },
+      {
+        "op": "1",
+        "aria": null,
+        "inert": false
+      },
+      {
+        "op": "1",
+        "aria": null,
+        "inert": false
+      },
+      {
+        "op": "1",
+        "aria": null,
+        "inert": false
+      }
+    ],
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "errors": {
+      "console": [],
+      "pageerror": [],
+      "failed": []
+    }
+  },
+  "legal390": {
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "h1": 1,
+    "brand": {
+      "w": 44,
+      "h": 44
+    },
+    "back": {
+      "w": 72.9,
+      "h": 44
+    },
+    "consoleError": [],
+    "errors": {
+      "console": [],
+      "pageerror": [],
+      "failed": []
+    }
+  },
+  "legal1440": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "h1": 1,
+    "brand": {
+      "w": 148,
+      "h": 54.1
+    },
+    "back": {
+      "w": 72.9,
+      "h": 44
+    },
+    "consoleError": [],
+    "errors": {
+      "console": [],
+      "pageerror": [],
+      "failed": []
+    }
+  },
+  "qr": {
+    "errors": {
+      "console": [],
+      "pageerror": [],
+      "failed": []
+    },
+    "src": "http://127.0.0.1:4181/assets/qr-apk.svg"
+  },
+  "tickerFixed": {
+    "768x900": {
+      "motion": "reduce",
+      "animation": "none",
+      "track": {
+        "x": 0,
+        "right": 768,
+        "w": 768,
+        "y": 0,
+        "h": 41
+      },
+      "copy": {
+        "x": 236,
+        "right": 531.9,
+        "w": 295.9,
+        "y": 0,
+        "h": 41
+      },
+      "copyCenterX": 383.9,
+      "viewportCenterX": 384,
+      "duplicate": "none",
+      "spans": [
+        {
+          "i": 1,
+          "text": "IA GUARDIAN",
+          "display": "block",
+          "rect": {
+            "x": 254,
+            "right": 348.8,
+            "w": 94.7,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 2,
+          "text": "·",
+          "display": "block",
+          "rect": {
+            "x": 366.8,
+            "right": 375.4,
+            "w": 8.6,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 3,
+          "text": "VERSIÓN 1.7.17",
+          "display": "block",
+          "rect": {
+            "x": 393.4,
+            "right": 513.9,
+            "w": 120.5,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 4,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 5,
+          "text": "YA DISPONIBLE",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 6,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 7,
+          "text": "PRIVACIDAD POR DISEÑO",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 8,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 9,
+          "text": "PROYECTO DE TÍTULO 2026",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        }
+      ],
+      "visibleText": "IA GUARDIAN · VERSIÓN 1.7.17",
+      "visibleCount": 3,
+      "noCut": true,
+      "scrollWidth": 768,
+      "innerWidth": 768,
+      "scrollWidthEqual": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "390x844": {
+      "motion": "reduce",
+      "animation": "none",
+      "track": {
+        "x": 0,
+        "right": 390,
+        "w": 390,
+        "y": 0,
+        "h": 41
+      },
+      "copy": {
+        "x": 47,
+        "right": 342.9,
+        "w": 295.9,
+        "y": 0,
+        "h": 41
+      },
+      "copyCenterX": 194.9,
+      "viewportCenterX": 195,
+      "duplicate": "none",
+      "spans": [
+        {
+          "i": 1,
+          "text": "IA GUARDIAN",
+          "display": "block",
+          "rect": {
+            "x": 65,
+            "right": 159.8,
+            "w": 94.7,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 2,
+          "text": "·",
+          "display": "block",
+          "rect": {
+            "x": 177.8,
+            "right": 186.4,
+            "w": 8.6,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 3,
+          "text": "VERSIÓN 1.7.17",
+          "display": "block",
+          "rect": {
+            "x": 204.4,
+            "right": 324.9,
+            "w": 120.5,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 4,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 5,
+          "text": "YA DISPONIBLE",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 6,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 7,
+          "text": "PRIVACIDAD POR DISEÑO",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 8,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 9,
+          "text": "PROYECTO DE TÍTULO 2026",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        }
+      ],
+      "visibleText": "IA GUARDIAN · VERSIÓN 1.7.17",
+      "visibleCount": 3,
+      "noCut": true,
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "scrollWidthEqual": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    },
+    "1440x900": {
+      "motion": "reduce",
+      "animation": "none",
+      "track": {
+        "x": 0,
+        "right": 1440,
+        "w": 1440,
+        "y": 0,
+        "h": 41
+      },
+      "copy": {
+        "x": 572,
+        "right": 867.9,
+        "w": 295.9,
+        "y": 0,
+        "h": 41
+      },
+      "copyCenterX": 720,
+      "viewportCenterX": 720,
+      "duplicate": "none",
+      "spans": [
+        {
+          "i": 1,
+          "text": "IA GUARDIAN",
+          "display": "block",
+          "rect": {
+            "x": 590,
+            "right": 684.8,
+            "w": 94.7,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 2,
+          "text": "·",
+          "display": "block",
+          "rect": {
+            "x": 702.8,
+            "right": 711.4,
+            "w": 8.6,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 3,
+          "text": "VERSIÓN 1.7.17",
+          "display": "block",
+          "rect": {
+            "x": 729.4,
+            "right": 849.9,
+            "w": 120.5,
+            "y": 12,
+            "h": 17
+          }
+        },
+        {
+          "i": 4,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 5,
+          "text": "YA DISPONIBLE",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 6,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 7,
+          "text": "PRIVACIDAD POR DISEÑO",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 8,
+          "text": "·",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        },
+        {
+          "i": 9,
+          "text": "PROYECTO DE TÍTULO 2026",
+          "display": "none",
+          "rect": {
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "y": 0,
+            "h": 0
+          }
+        }
+      ],
+      "visibleText": "IA GUARDIAN · VERSIÓN 1.7.17",
+      "visibleCount": 3,
+      "noCut": true,
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "scrollWidthEqual": true,
+      "errors": {
+        "console": [],
+        "pageerror": [],
+        "failed": []
+      }
+    }
+  }
+}

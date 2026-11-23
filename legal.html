@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es-CL" data-motion="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Privacidad y términos — IA Guardian</title>
+  <meta name="description" content="Qué recolecta IA Guardian, qué nunca recolecta, cuánto conserva y cómo ejercer tus derechos.">
+  <meta name="theme-color" content="#081B17">
+
+  <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+
+  <link rel="preload" href="assets/fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/sections.css">
+  <link rel="stylesheet" href="styles/motion.css">
+
+  <script>
+    (function () {
+      var d = document.documentElement;
+      try {
+        var systemReduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var saved = localStorage.getItem("ia-guardian-motion");
+        var reduce = systemReduce || saved === "reduce";
+        d.dataset.motion = reduce ? "reduce" : "auto";
+      } catch (error) {
+        d.dataset.motion = "auto";
+      }
+    })();
+  </script>
+</head>
+<body class="page-legal">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <section class="ticker" aria-label="Anuncio">
+    <p class="sr-only">IA Guardian · Versión 1.7.17 · Ya disponible · Privacidad por diseño · Proyecto de título 2026</p>
+    <div class="ticker__track" aria-hidden="true">
+      <div class="ticker__copy">
+        <span>IA GUARDIAN</span><span class="ticker__sep">·</span><span>VERSIÓN 1.7.17</span><span class="ticker__sep">·</span><span>YA DISPONIBLE</span><span class="ticker__sep">·</span><span>PRIVACIDAD POR DISEÑO</span><span class="ticker__sep">·</span><span>PROYECTO DE TÍTULO 2026</span>
+      </div>
+      <div class="ticker__copy ticker__copy--dup">
+        <span>IA GUARDIAN</span><span class="ticker__sep">·</span><span>VERSIÓN 1.7.17</span><span class="ticker__sep">·</span><span>YA DISPONIBLE</span><span class="ticker__sep">·</span><span>PRIVACIDAD POR DISEÑO</span><span class="ticker__sep">·</span><span>PROYECTO DE TÍTULO 2026</span>
+      </div>
+    </div>
+    <span class="ticker__edge ticker__edge--left symbol-mask" aria-hidden="true"></span>
+    <span class="ticker__edge ticker__edge--right symbol-mask" aria-hidden="true"></span>
+  </section>
+
+  <header class="nav nav--legal">
+    <div class="nav__inner">
+      <a class="brand" href="index.html" aria-label="IA Guardian, inicio">
+        <img class="brand-lockup" src="assets/brand/b-vinculo-horizontal-reverse.svg" alt="" width="700" height="256">
+        <span class="brand-symbol" aria-hidden="true"></span>
+      </a>
+      <a class="nav__back" href="index.html">
+        <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M17 10H4M9 5 4 10l5 5"/></svg>
+        Volver
+      </a>
+    </div>
+  </header>
+
+  <main class="legal-page" id="contenido" tabindex="-1">
+    <div class="container">
+      <article class="legal-sheet">
+        <p class="eyebrow legal-sheet__eyebrow">Legal</p>
+        <h1>Privacidad y términos.</h1>
+        <p class="legal-sheet__lead">Qué recolecta IA Guardian, qué nunca recolecta, cuánto conserva y cómo ejercer tus derechos. En lenguaje claro.</p>
+        <p class="legal-sheet__updated">Última actualización: 23 de noviembre de 2026 · Versión 1.0</p>
+
+        <nav class="legal-toc" aria-label="En esta página">
+          <a href="#privacidad">Privacidad</a>
+          <a href="#terminos">Términos</a>
+        </nav>
+
+        <section class="legal-section" id="privacidad" tabindex="-1">
+          <h2>Privacidad</h2>
+
+          <h3>Responsable</h3>
+          <p>Proyecto de título IA Guardian, 2026, Chile. Responsable del tratamiento: el autor del proyecto, identificado en el repositorio <a class="text-link" href="https://github.com/roninwuajkja/guardiania" rel="noopener">roninwuajkja/guardiania</a>. Contacto operativo: <a class="text-link" href="https://github.com/roninwuajkja/guardiania/issues" rel="noopener">GitHub Issues</a>. El responsable legal y el domicilio se formalizarán antes de operar con datos reales; hasta entonces no uses la app con datos de menores.</p>
+          <p><strong>Base de licitud:</strong> consentimiento del tutor y asentimiento del menor; interés superior del niño.</p>
+
+          <h3>Qué se recolecta</h3>
+          <ul>
+            <li><strong>Un vector derivado:</strong> categoría, flags anonimizados, minutos de uso, conteos, hora local y un hash con sal. Nunca el texto que lo originó.</li>
+            <li><strong>La cuenta del tutor:</strong> correo, alias, hash de contraseña, sesiones y versión del consentimiento aceptado.</li>
+            <li><strong>El dispositivo del menor:</strong> alias, modelo y API, un identificador de instalación hasheado y las fechas de vinculación.</li>
+            <li><strong>Alertas y auditoría:</strong> severidad, regla activada, resumen generado, estado de la alerta y eventos de seguridad.</li>
+          </ul>
+
+          <h3>Qué nunca se recolecta</h3>
+          <ul>
+            <li>El texto de los mensajes o de las notificaciones.</li>
+            <li>Capturas de pantalla.</li>
+            <li>Audio del micrófono.</li>
+            <li>Ubicación.</li>
+            <li>Contactos en claro.</li>
+          </ul>
+          <p>El agente lee metadatos de notificaciones en el dispositivo para derivar señales; el texto se procesa en memoria y se descarta, no se almacena ni se envía. El panel muestra categorías, conteos y explicaciones; no conversaciones.</p>
+
+          <h3>Retención</h3>
+          <ul>
+            <li>Señales derivadas y alertas: <strong>90 días</strong> por defecto.</li>
+            <li>Eventos de auditoría: <strong>365 días</strong>.</li>
+            <li>Sesiones vencidas o revocadas: <strong>30 días</strong>.</li>
+            <li>Copias de seguridad: <strong>35 días</strong> como máximo propuesto.</li>
+          </ul>
+          <p>Al eliminar la cuenta se eliminan los datos asociados. Los registros de auditoría pueden conservarse por obligación de seguridad y trazabilidad.</p>
+
+          <h3>Derechos y contacto</h3>
+          <p>Puedes exportar los datos de tu cuenta y solicitar su eliminación desde el panel. Para ejercer derechos de acceso, rectificación, cancelación u oposición, usa el <a class="text-link" href="https://github.com/roninwuajkja/guardiania/issues" rel="noopener">GitHub Issues del proyecto</a>. El buzón <code>privacidad@guardiania.cl</code> está previsto para producción; el dominio aún no está habilitado. Para este demo, el canal operativo es GitHub Issues. Respondemos en el repositorio; para operar con datos reales se debe habilitar el canal legal.</p>
+
+          <h3>Consentimiento del menor</h3>
+          <p>El tutor declara la tutela y el menor otorga su asentimiento antes de vincular el teléfono. Sin asentimiento no hay vínculo. El menor ve qué se comparte y puede desvincularse cuando quiera; el tutor recibe el aviso.</p>
+
+          <h3>Proveedores</h3>
+          <p>Firebase Cloud Messaging (Google) para notificaciones push; Render para el hosting del backend; proveedor de IA opcional (Groq, Gemini, OpenAI o Anthropic) que recibe solo el vector derivado. Ninguno recibe texto, fotos ni contactos en claro. El proveedor de IA no debe retener el vector ni entrenar con él; si no hay proveedor, el motor opera en modo heurístico. Estos proveedores pueden procesar datos fuera de Chile; se rigen por sus términos y medidas de seguridad. Antes de producción se firmarán los acuerdos de tratamiento y se documentará la región de tratamiento.</p>
+
+          <p class="legal-sheet__note">La demo pública usa datos sintéticos. No se deben ingresar datos reales de menores mientras no exista revisión legal chilena y auditoría de seguridad independiente.</p>
+        </section>
+
+        <section class="legal-section" id="terminos" tabindex="-1">
+          <h2>Términos</h2>
+
+          <h3>Qué es IA Guardian</h3>
+          <p>Una herramienta de apoyo para tutores de menores con Android. No es un diagnóstico clínico, no reemplaza a un profesional y no prueba por sí sola que exista un riesgo.</p>
+
+          <h3>Uso responsable</h3>
+          <ul>
+            <li>Instálala solo en dispositivos que puedas administrar legalmente.</li>
+            <li>La vinculación exige la declaración del tutor y el asentimiento del menor.</li>
+            <li>Las alertas son señales para conversar, no conclusiones sobre una persona.</li>
+            <li>No uses la app para vigilar a alguien sin su conocimiento.</li>
+          </ul>
+
+          <h3>Disponibilidad y límites</h3>
+          <p>El proyecto se ejecuta en infraestructura gratuita: el panel puede tardar en despertar y la entrega de notificaciones puede retrasarse. El agente no puede impedir que el menor desinstale la app, borre sus datos o desactive permisos; puede detectarlo y avisar. La cobertura depende de las notificaciones y del uso que el sistema operativo permita observar.</p>
+
+          <h3>Versiones y cambios</h3>
+          <p>La versión publicada es la 1.7.17. Los cambios y notas de cada versión están en el <a class="text-link" href="https://github.com/roninwuajkja/guardiania/blob/main/CHANGELOG.md" rel="noopener">changelog del proyecto</a>. Podemos actualizar estos términos cuando cambie el alcance del tratamiento; la fecha de la versión queda registrada en el repositorio.</p>
+
+          <h3>Contacto</h3>
+          <p>Privacidad e incidentes de seguridad: <a class="text-link" href="https://github.com/roninwuajkja/guardiania/issues" rel="noopener">GitHub Issues del proyecto</a>. El buzón <code>privacidad@guardiania.cl</code> está previsto para producción; el dominio aún no está habilitado.</p>
+        </section>
+
+        <p class="legal-sheet__note legal-sheet__note--end">Resumen de proyecto de título; no constituye asesoría legal.</p>
+      </article>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var nav = document.querySelector(".nav");
+      var tickerHeight = parseFloat(getComputedStyle(root).getPropertyValue("--ticker-h")) || 42;
+      var sync = function () {
+        var scrolled = window.scrollY > tickerHeight;
+        root.classList.toggle("is-scrolled", scrolled);
+        if (nav) nav.classList.toggle("is-compact", scrolled);
+      };
+      window.addEventListener("scroll", sync, { passive: true });
+      sync();
+    })();
+  </script>
+
+  <footer class="footer">
+    <div class="footer__inner container">
+      <div class="footer__top">
+        <a class="footer__brand" href="index.html" aria-label="IA Guardian, inicio">
+          <img src="assets/brand/b-vinculo-horizontal-reverse.svg" alt="" width="700" height="256">
+        </a>
+
+        <div class="footer__cols">
+          <nav class="footer__col" aria-label="Producto">
+            <p class="footer__col-title">Producto</p>
+            <ul>
+              <li><a href="https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk" rel="noopener">Descargar APK</a></li>
+              <li><a href="https://github.com/roninwuajkja/guardiania/blob/main/CHANGELOG.md" rel="noopener">Changelog <span class="ext-mark" aria-hidden="true">↗</span></a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer__col" aria-label="Legal">
+            <p class="footer__col-title">Legal</p>
+            <ul>
+              <li><a href="#privacidad">Privacidad</a></li>
+              <li><a href="#terminos">Términos</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer__col" aria-label="Proyecto">
+            <p class="footer__col-title">Proyecto</p>
+            <ul>
+              <li><a href="https://github.com/roninwuajkja/guardiania" rel="noopener">GitHub <span class="ext-mark" aria-hidden="true">↗</span></a></li>
+              <li><a href="https://roninwuajkja.github.io/guardiania-atlas/" rel="noopener">Memoria del proyecto <span class="ext-mark" aria-hidden="true">↗</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="footer__base">
+        <p>© 2026 IA Guardian · Proyecto de Título · Hecho en Chile</p>
+        <p>Sin analítica. Sin publicidad.</p>
+      </div>
+
+      <p class="footer__wordmark" aria-hidden="true"></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+name: Publicar landing
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Preparar sitio
+        run: |
+          mkdir -p _site/assets/screens
+          cp index.html legal.html _site/
+          cp -r styles scripts _site/
+          cp -r assets/brand assets/fonts _site/assets/
+          cp assets/qr-apk.svg _site/assets/
+          cp assets/screens/*.webp _site/assets/screens/
+
+      - name: Subir artefacto
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Desplegar
+        id: deployment
+        uses: actions/deploy-pages@v4

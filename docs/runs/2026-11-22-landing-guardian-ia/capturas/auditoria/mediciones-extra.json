@@ -1,0 +1,194 @@
+{
+  "390-images": [
+    {
+      "src": "b-vinculo-horizontal-reverse.svg",
+      "n": [
+        700,
+        256
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "web-overview.webp",
+      "n": [
+        1440,
+        1248
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "android-status.webp",
+      "n": [
+        1440,
+        3120
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "web-alerts.webp",
+      "n": [
+        1440,
+        1411
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "android-pairing.webp",
+      "n": [
+        1100,
+        2449
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "web-pairing.webp",
+      "n": [
+        1440,
+        1000
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "web-mobile.webp",
+      "n": [
+        780,
+        1688
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "b-vinculo-horizontal-reverse.svg",
+      "n": [
+        700,
+        256
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "b-vinculo-stacked-reverse.svg",
+      "n": [
+        520,
+        480
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "web-overview-bg.webp",
+      "n": [
+        48,
+        42
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "web-alerts-bg.webp",
+      "n": [
+        48,
+        47
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "android-pairing-bg.webp",
+      "n": [
+        48,
+        107
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "android-status-bg.webp",
+      "n": [
+        48,
+        104
+      ],
+      "complete": true,
+      "alt": ""
+    },
+    {
+      "src": "web-overview.webp",
+      "n": [
+        1440,
+        1248
+      ],
+      "complete": true,
+      "alt": "Panel del tutor con el resumen del día y las señales abiertas"
+    },
+    {
+      "src": "web-alerts.webp",
+      "n": [
+        1440,
+        1411
+      ],
+      "complete": true,
+      "alt": "Lista de alertas con severidad, regla y siguiente paso"
+    },
+    {
+      "src": "android-pairing.webp",
+      "n": [
+        1100,
+        2449
+      ],
+      "complete": true,
+      "alt": "Pantalla Android para vincular el teléfono con QR o código manual"
+    },
+    {
+      "src": "android-status.webp",
+      "n": [
+        1440,
+        3120
+      ],
+      "complete": true,
+      "alt": "Pantalla Android con permisos, última sincronización y opción de desvincular"
+    },
+    {
+      "src": "web-overview.webp",
+      "n": [
+        1440,
+        1248
+      ],
+      "complete": true,
+      "alt": "Panel del tutor en el navegador con el resumen de señales y dispositivos"
+    },
+    {
+      "src": "android-status.webp",
+      "n": [
+        1440,
+        3120
+      ],
+      "complete": true,
+      "alt": "Pantalla Android con el estado de vinculación, permisos y desvinculación"
+    },
+    {
+      "src": "qr-apk.svg",
+      "n": [
+        150,
+        150
+      ],
+      "complete": true,
+      "alt": "Código QR de descarga del APK de IA Guardian"
+    },
+    {
+      "src": "b-vinculo-horizontal-reverse.svg",
+      "n": [
+        700,
+        256
+      ],
+      "complete": true,
+      "alt": ""
+    }
+  ],
+  "390-fonts": "loaded"
+}

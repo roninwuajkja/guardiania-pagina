@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Archivo Variable";
+  src: url("../assets/fonts/archivo-var-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo Variable";
+  src: url("../assets/fonts/archivo-var-latin-ext.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-display: swap;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Spline Sans Mono";
+  src: url("../assets/fonts/R70BjzAei_CDNLfgZxrW6wrZOF2WX5KZmA.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spline Sans Mono";
+  src: url("../assets/fonts/R70BjzAei_CDNLfgZxrW6wrZOF2WX5yZmF2a.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+:root {
+  color-scheme: dark;
+
+  --pine-950: #081b17;
+  --pine-900: #0b241e;
+  --pine-800: #123029;
+  --pine-700: #1b4a3e;
+  --pine-600: #236052;
+  --sage-500: #5e8f7b;
+  --sage-300: #a9c6b8;
+  --sage-100: #e2ece5;
+  --paper: #eef2ed;
+  --ink: #10201b;
+  --ink-2: #344a42;
+  --oxblood: #a33128;
+  --amber: #8d620f;
+  --amber-on-dark: #e4b968;
+  --line: rgba(226, 236, 229, 0.14);
+  --line-strong: rgba(226, 236, 229, 0.28);
+  --muted: rgba(233, 241, 236, 0.64);
+  --muted-2: rgba(233, 241, 236, 0.44);
+
+  --font-display: "Archivo Variable", "Archivo", system-ui, sans-serif;
+  --font-ui: "Archivo Variable", "Archivo", system-ui, sans-serif;
+  --font-mono: "Spline Sans Mono", ui-monospace, monospace;
+
+  --d-xl: clamp(3.4rem, 10.2vw, 10.5rem);
+  --d-l: clamp(2.7rem, 6.4vw, 6.2rem);
+  --d-m: clamp(1.9rem, 3.4vw, 3.1rem);
+  --d-s: clamp(1.35rem, 2vw, 1.8rem);
+
+  --gutter: clamp(20px, 6vw, 120px);
+  --max: 1760px;
+  --edge: max(var(--gutter), calc((100vw - var(--max)) / 2));
+  --section: clamp(96px, 13vw, 190px);
+  --r-card: 28px;
+  --r-media: 18px;
+  --r-pill: 999px;
+  --shadow-card: 0 30px 80px -40px rgba(0, 0, 0, 0.9);
+  --shadow-poster: 0 60px 160px -60px rgba(0, 0, 0, 0.95), 0 0 0 1px rgba(169, 198, 184, 0.14);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-ref: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --t-fast: 180ms;
+  --t-base: 420ms;
+  --t-slow: 800ms;
+  --t-cinema: 1200ms;
+
+  --ticker-h: 42px;
+  --nav-h: 64px;
+  --header-h: calc(var(--ticker-h) + var(--nav-h));
+  --scrollbar-w: 0px;
+  --device-shell: #0a0f0d;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --nav-h: 72px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --nav-h: 88px;
+  }
+}
+
+@media (min-width: 2200px) {
+  :root {
+    --gutter: 160px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    scroll-behavior: auto;
+  }
+}

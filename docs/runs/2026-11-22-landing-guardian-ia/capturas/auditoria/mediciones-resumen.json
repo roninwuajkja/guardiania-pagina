@@ -1,0 +1,332 @@
+{
+  "note": "Medición Playwright/Brave 1.65.1, 2026-11-23. scroll instantáneo, 900 ms de espera, viewport indicado.",
+  "statementShortHeights": {
+    "1366x768": {
+      "pin": {
+        "top": 0,
+        "height": 768,
+        "overflow": "hidden",
+        "position": "sticky"
+      },
+      "title": {
+        "top": 126,
+        "height": 376
+      },
+      "figures": {
+        "top": 707,
+        "bottom": 816,
+        "opacity": 0,
+        "hasIsIn": false,
+        "clipPx": 48
+      },
+      "sweep": [
+        {
+          "progress": 0,
+          "scrollY": 768,
+          "figures": {
+            "top": 707,
+            "bottom": 816,
+            "opacity": 0,
+            "isIn": false
+          }
+        },
+        {
+          "progress": 0.25,
+          "scrollY": 922,
+          "figures": {
+            "top": 710,
+            "bottom": 820,
+            "opacity": 0,
+            "isIn": false
+          }
+        },
+        {
+          "progress": 0.5,
+          "scrollY": 1075,
+          "figures": {
+            "top": 712,
+            "bottom": 824,
+            "opacity": 0,
+            "isIn": false
+          }
+        },
+        {
+          "progress": 0.75,
+          "scrollY": 1229,
+          "figures": {
+            "top": 715,
+            "bottom": 828,
+            "opacity": 0,
+            "isIn": false
+          }
+        },
+        {
+          "progress": 1,
+          "scrollY": 1382,
+          "figures": {
+            "top": 718,
+            "bottom": 831,
+            "opacity": 0,
+            "isIn": false
+          }
+        },
+        {
+          "afterUnpin": true,
+          "scrollY": 1482,
+          "figures": {
+            "top": 594,
+            "bottom": 707,
+            "opacity": 0.99,
+            "isIn": true
+          }
+        }
+      ]
+    },
+    "1440x800": {
+      "pin": {
+        "height": 800,
+        "overflow": "hidden",
+        "position": "sticky"
+      },
+      "figures": {
+        "top": 734,
+        "bottom": 846,
+        "opacity": 0,
+        "hasIsIn": false,
+        "clipPx": 46
+      },
+      "sweepAllHiddenWhilePinned": true
+    },
+    "1280x720": {
+      "pin": {
+        "height": 720,
+        "overflow": "hidden",
+        "position": "sticky"
+      },
+      "figures": {
+        "top": 674,
+        "bottom": 782,
+        "opacity": 0,
+        "hasIsIn": false,
+        "clipPx": 62
+      },
+      "sweepAllHiddenWhilePinned": true
+    },
+    "1024x768": {
+      "pin": {
+        "height": 768
+      },
+      "figures": {
+        "top": 637,
+        "bottom": 737,
+        "clipPx": 0
+      },
+      "note": "este ancho sí cabe porque el título es menor"
+    },
+    "1440x900": {
+      "pin": {
+        "height": 900
+      },
+      "figures": {
+        "top": 760,
+        "bottom": 887,
+        "opacity": 1,
+        "hasIsIn": true,
+        "clipPx": 0
+      },
+      "note": "cabe por 13 px"
+    },
+    "768x900": {
+      "figures": {
+        "top": 655,
+        "bottom": 748,
+        "clipPx": 0
+      },
+      "hasIsIn": true
+    },
+    "390x844": {
+      "figures": {
+        "top": 425,
+        "bottom": 530,
+        "clipPx": 0
+      },
+      "hasIsIn": true,
+      "pin": "relative"
+    }
+  },
+  "tapTargets370": [
+    {
+      "selector": ".brand",
+      "w": 34,
+      "h": 44,
+      "page": "home + legal"
+    },
+    {
+      "selector": ".nav__menu",
+      "w": 32,
+      "h": 44,
+      "page": "home"
+    }
+  ],
+  "hero": {
+    "tilesDesktop": 7,
+    "expectedTiles": 8,
+    "missing": "panel tipográfico PRIVACIDAD / POR DISEÑO (fragmento 3)",
+    "poster1440": {
+      "width": 924.4,
+      "height": 520,
+      "specWidth84vw": 1209.6
+    },
+    "poster2560": {
+      "width": 1880,
+      "height": 1057.5,
+      "specMax": 1480
+    },
+    "lockup1440": {
+      "width": 351,
+      "pctOfPoster": 38,
+      "spec": "44% / max 640"
+    },
+    "cornerLabelMinContrast": {
+      "768": {
+        "01": 4.91,
+        "PRIVADO": 8.76
+      },
+      "1440": {
+        "01": 3.19,
+        "PRIVADO": 4.65
+      }
+    }
+  },
+  "sequence": {
+    "demoDisplayMobile": "none",
+    "demoDisplayReduced": "none",
+    "demoRectDesktop": {
+      "top": 861,
+      "bottom": 876,
+      "fontSize": 9.5,
+      "color": "rgba(233,241,236,.64)"
+    },
+    "inactiveFramesAtDesktop": {
+      "opacities": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "ariaHidden": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "inert": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "axTree": "las 4 h3 y las 4 imágenes de los frames están expuestas (CDP Accessibility.getFullAXTree)"
+  },
+  "menu": {
+    "active": {
+      "textColor": "rgb(169,198,184)",
+      "restColor": "color(srgb .933333 .94902 .929412 / .72)",
+      "ratioBetweenTextColors": 1.13
+    },
+    "linkNavigation": {
+      "clicked": "#producto",
+      "scrollY": 2432,
+      "productTop": 88,
+      "dialogOpen": false,
+      "activeElement": "BODY"
+    },
+    "focusTrap": {
+      "afterLastControl": "BODY",
+      "inDialog": false,
+      "nextTab": "Cerrar menú"
+    },
+    "scrollLock": {
+      "htmlOverflow": "hidden",
+      "lockedClass": true,
+      "bodyPadRightHeadless": "0px"
+    }
+  },
+  "ghostButton": {
+    "selector": ".btn--ghost",
+    "borderComposite": "rgb(71,92,86)",
+    "borderContrastVsPine900": 2.28,
+    "bgContrastVsPine900": 1.02,
+    "textContrastVsPine900": 14.44
+  },
+  "reducedTicker390": {
+    "animation": "none",
+    "trackWidthPx": 390,
+    "copyWidthPx": 920.5,
+    "copyX": -265,
+    "firstSpanX": -247,
+    "viewport": 390,
+    "note": "copia centrada pero más ancha que el viewport; ambos extremos cortados en reduced motion"
+  },
+  "zoom200Statement390": {
+    "rootFontSizePx": 32,
+    "documentScrollWidth": 530,
+    "viewport": 390,
+    "title": {
+      "x": -63,
+      "right": 453,
+      "width": 515
+    },
+    "bodyOverflowX": "clip",
+    "note": "simulación de texto al 200% (raíz 32px), no zoom de navegador"
+  },
+  "loaderTiming1440": {
+    "isReadyAndHeroAnimationStartMs": 953,
+    "loaderRemovedMs": 1769,
+    "heroTileDurationMs": 1100,
+    "gapMs": 816
+  },
+  "contrastBase": {
+    "paper/pine950": 15.74,
+    "paper/pine900": 14.44,
+    "sage300/pine950": 9.71,
+    "sage300/pine900": 8.91,
+    "muted64/pine950": 6.91,
+    "muted64/pine900": 6.55,
+    "muted64/pine800": 5.96,
+    "ink/paper": 14.91,
+    "ink2/paper": 8.42,
+    "pine700/paper": 8.86,
+    "strikeInk62/paper": 4.56
+  },
+  "qr": {
+    "decodesTo": "https://github.com/roninwuajkja/guardiania/releases/download/v1.7.17/app-release.apk"
+  },
+  "links": {
+    "apk": 200,
+    "releaseTag": 200,
+    "changelog": 200,
+    "github": 200,
+    "atlas": 200,
+    "apkBytes": 17929961
+  },
+  "perf": {
+    "resources": 23,
+    "transferBytes": 723681,
+    "cls": 0,
+    "scrollLongTasks": {
+      "390": 0,
+      "768": 0,
+      "1440": 0,
+      "2560": 0
+    },
+    "avgFrameMs": {
+      "390": 6.3,
+      "768": 6.6,
+      "1440": 6.1,
+      "2560": 5.6
+    },
+    "note": "headless Brave, sin throttling; no representa GPU/CPU de un móvil real"
+  }
+}
