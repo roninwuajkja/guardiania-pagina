@@ -16,6 +16,7 @@ fs.mkdirSync(RUN, { recursive: true });
 fs.mkdirSync(SHOTS, { recursive: true });
 
 const files = ['panel', 'alerts', 'pairing', 'agent', 'signals', 'privacy'];
+const ambient = { name: 'ambient', w: 2560, h: 1440 };
 const url = (f) => pathToFileURL(path.join(ROOT, 'assets', 'art', `${f}.svg`)).href;
 
 const page = (body, w, h) => `<!doctype html><meta charset="utf-8">
@@ -52,6 +53,12 @@ for (const f of files) {
   const out = path.join(RUN, `${f}.png`);
   shoot(page(`<img src="${url(f)}" alt="">`, 1600, 1200), 1600, 1200, out);
   console.log(f.padEnd(9), `${(fs.statSync(out).size / 1024).toFixed(0)} KB`);
+}
+
+for (const a of [ambient]) {
+  const out = path.join(RUN, `${a.name}.png`);
+  shoot(page(`<img src="${url(a.name)}" alt="">`, a.w, a.h), a.w, a.h, out);
+  console.log(a.name.padEnd(9), `${(fs.statSync(out).size / 1024).toFixed(0)} KB`);
 }
 
 // la hoja de contacto se compone aparte (PIL) para evitar el escalado de Edge en ventanas grandes

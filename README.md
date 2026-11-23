@@ -27,7 +27,7 @@ Abre <http://127.0.0.1:4173/> y <http://127.0.0.1:4173/legal.html>. Es la misma 
 | `styles/motion.css` | Loader, reveals, secuencia fijada, parallax y estados de movimiento reducido. |
 | `scripts/main.js` | Loader, nav, menú, toggle de movimiento, reveals, contadores, secuencia y FAQ. |
 | `assets/brand/` | Marca propia: lockups, símbolos, favicons e iconos PWA. |
-| `assets/art/` | Seis ilustraciones vectoriales originales de 1600 × 1200 (`panel`, `alerts`, `pairing`, `agent`, `signals`, `privacy`). Son diagramas de la guardia, sin texto ni datos dentro de la imagen. |
+| `assets/art/` | Seis ilustraciones vectoriales originales de 1600 × 1200 (`panel`, `alerts`, `pairing`, `agent`, `signals`, `privacy`) y `ambient.svg` (2560 × 1440) para los fondos. Son diagramas de la guardia, sin texto ni datos dentro de la imagen. |
 | `tools/art/` | Generadores de desarrollo del set (`build.mjs` y `render.mjs`). No se publican con el sitio. |
 | `assets/fonts/` | Archivo Variable y Spline Sans Mono, autoalojadas en WOFF2. |
 | `assets/qr-apk.svg` | QR de descarga del APK. |
@@ -54,7 +54,7 @@ Select-String -Path index.html,legal.html -Pattern "1\.7\.17"
 | Peso, Android mínimo y ABIs | Línea `download__meta` en `#descarga` (hoy: 17,9 MB · Android 8.0+ · arm64-v8a · armeabi-v7a). |
 | QR | Regenerar `assets/qr-apk.svg` con `qrcode` apuntando al nuevo asset y revisar la leyenda bajo el QR. |
 | Checksum | Actualizar el `<details>` «Verificar el APK» en `#descarga` con el SHA-256 del asset y la huella SHA-256 del certificado. |
-| Ilustraciones | Reemplazar los seis SVG de `assets/art/` manteniendo `viewBox="0 0 1600 1200"` y las dimensiones declaradas en cada `<img>` para no introducir CLS. Para regenerarlos: `node tools/art/build.mjs`; los previews PNG se generan con `node tools/art/render.mjs`. No hay capturas de interfaz. |
+| Ilustraciones | Reemplazar los seis SVG de `assets/art/` manteniendo `viewBox="0 0 1600 1200"` y las dimensiones declaradas en cada `<img>` para no introducir CLS; `ambient.svg` es el fondo de 2560 × 1440. Para regenerarlos: `node tools/art/build.mjs`; los previews PNG se generan con `node tools/art/render.mjs`. No hay capturas de interfaz. |
 
 ## Publicación
 
@@ -68,7 +68,7 @@ No hay service worker, redirecciones, variables de entorno ni reescrituras. Mant
 
 ## Assets y fuentes
 
-- **Ilustraciones:** seis SVG vectoriales originales (`panel`, `alerts`, `pairing`, `agent`, `signals`, `privacy`) de 1600 × 1200, dibujados por código desde `tools/art/build.mjs`. No hay capturas de la app ni imágenes de terceros: cada escena es un diagrama de la guardia sin texto, cuentas ni datos dentro de la imagen. La secuencia las rotula como «DEMO · DATOS SINTÉTICOS».
+- **Ilustraciones:** seis escenas SVG (`panel`, `alerts`, `pairing`, `agent`, `signals`, `privacy`) de 1600 × 1200 y `ambient.svg` de 2560 × 1440 para los fondos, dibujadas por código desde `tools/art/build.mjs`. No hay capturas de la app ni imágenes de terceros: cada escena es un diagrama de la guardia sin texto, cuentas ni datos dentro de la imagen. La secuencia las rotula como «DEMO · DATOS SINTÉTICOS».
 - **Marca:** los archivos `b-vinculo-*`, favicons e iconos PWA son marca propia del proyecto.
 - **Fuentes:** Archivo Variable (latín y latín extendido) para display/UI y Spline Sans Mono para etiquetas y microcopy. Se sirven desde `assets/fonts/`, sin CDN; están bajo SIL Open Font License 1.1 y el texto de la licencia está en `assets/fonts/OFL-Archivo.txt` y `assets/fonts/OFL-SplineSansMono.txt`.
 - **QR:** generado con la librería `qrcode`; según `TEST-EVIDENCE.md` §3.2 apunta al mismo asset del release. La leyenda visible muestra `github.com/roninwuajkja/guardiania/releases`.
@@ -107,6 +107,6 @@ La evidencia completa está en `docs/runs/2026-11-22-landing-guardian-ia/`:
 - `capturas/ilustraciones/` — capturas del set nuevo a 1440, 768, 390 y 2560, estados reducido y sin JS, `reporte.json` con las medidas y `RESUMEN.md`.
 - `BRIEF.md`, `PLAN.md`, `DISENO.md`, `REFERENCIA.md`, `log.ndjson` y `state.json` (etapa y gates del run).
 
-Resumen verificado el 2026-11-23: HTML válido, CSS y JS parseables, 0 errores de consola, 0 requests fallidos, 19 `<img>` con `alt`, 4 CTA al APK en la home, enlaces externos con 200, 0 violaciones de axe con reglas por defecto, APK real y firmado (v2/v3, RSA 4096), SHA-256 `2719ee…8524`, y las seis ilustraciones (≈67 KB) en lugar de capturas. Rendimiento con las ilustraciones: LCP 2,32 s, CLS 0,00006 y 346 KB en 19 requests; la versión anterior con capturas pesaba 791 KB. Auditoría UI independiente con re-auditoría PASS (0 critical, 0 high, 0 medium). El script de humo no está versionado en esta carpeta; los resultados quedan en los JSON del run.
+Resumen verificado el 2026-11-23: HTML válido, CSS y JS parseables, 0 errores de consola, 0 requests fallidos, todas las imágenes con `alt`, 4 CTA al APK en la home, enlaces externos con 200, 0 violaciones de axe con reglas por defecto, APK real y firmado (v2/v3, RSA 4096), SHA-256 `2719ee…8524`, y las seis escenas + ambient (≈123 KB) en lugar de capturas. Rendimiento con las ilustraciones y el fondo: LCP 2,69 s en 4G simulada, CLS 0,00006 y 403 KB en 20 requests; la versión anterior con capturas pesaba 791 KB. Auditoría UI independiente con re-auditoría PASS (0 critical, 0 high, 0 medium). El script de humo no está versionado en esta carpeta; los resultados quedan en los JSON del run.
 
 _Última actualización de este README: 2026-11-23._

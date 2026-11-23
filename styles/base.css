@@ -344,6 +344,14 @@ main section[tabindex="-1"]:focus {
   mix-blend-mode: soft-light;
 }
 
+.ambient {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: url("../assets/art/ambient.svg") center / cover no-repeat;
+  pointer-events: none;
+}
+
 .brand-lockup {
   display: block;
   width: 148px;

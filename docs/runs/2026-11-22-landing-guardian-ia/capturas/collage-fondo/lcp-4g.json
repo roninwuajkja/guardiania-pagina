@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-11-23T19:00:52.709Z",
+  "emulation": {
+    "network": "1,6 Mbps / 150 ms",
+    "cpu": "4x",
+    "viewport": "1440x900",
+    "cache": "disabled"
+  },
+  "wallLoadMs": 2667,
+  "lcp": 2696,
+  "lcpElement": "hero__lockup-wide",
+  "lcpSize": 217488,
+  "cls": 0.00005888846021947873,
+  "longTasks": 2,
+  "marks": {
+    "ready": 3566,
+    "leaving": 3566,
+    "removed": 4342,
+    "loadingOff": 232
+  },
+  "atCurtainRemoval": [
+    {
+      "src": "panel.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "agent.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "alerts.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "pairing.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "privacy.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "signals.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "b-vinculo-horizontal-reverse.svg",
+      "complete": true,
+      "natural": "700x256"
+    },
+    {
+      "src": "b-vinculo-stacked-reverse.svg",
+      "complete": true,
+      "natural": "520x480"
+    }
+  ],
+  "imagesNow": [
+    {
+      "src": "panel.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "agent.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "alerts.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "pairing.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "privacy.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "signals.svg",
+      "complete": true,
+      "natural": "1600x1200"
+    },
+    {
+      "src": "b-vinculo-horizontal-reverse.svg",
+      "complete": true,
+      "natural": "700x256"
+    },
+    {
+      "src": "b-vinculo-stacked-reverse.svg",
+      "complete": true,
+      "natural": "520x480"
+    }
+  ],
+  "lockupOpacity": "1",
+  "lockupRequests": [
+    {
+      "file": "b-vinculo-horizontal-reverse.svg",
+      "start": 210,
+      "end": 854,
+      "transfer": 5065
+    },
+    {
+      "file": "b-vinculo-horizontal-reverse.svg",
+      "start": 1573,
+      "end": 1990,
+      "transfer": 5065
+    }
+  ],
+  "fontRequests": [
+    {
+      "file": "archivo-var-latin.woff2",
+      "start": 207,
+      "end": 2192,
+      "transfer": 90404
+    },
+    {
+      "file": "R70BjzAei_CDNLfgZxrW6wrZOF2WX5KZmA.woff2",
+      "start": 209,
+      "end": 1289,
+      "transfer": 36776
+    }
+  ],
+  "ambientRequests": [
+    {
+      "file": "ambient.svg",
+      "start": 1589,
+      "end": 2364,
+      "transfer": 14725
+    }
+  ],
+  "dcl": 2656,
+  "load": 2659,
+  "requests": 21,
+  "loaderStillPresent": false,
+  "logs": [
+    "info: Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113"
+  ]
+}

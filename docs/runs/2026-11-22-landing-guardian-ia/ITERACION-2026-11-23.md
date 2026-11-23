@@ -94,3 +94,24 @@ Evidencia: `capturas/ilustraciones/` (capturas por viewport, reducido y sin JS),
 ## Nota
 
 Las ilustraciones son diagramas propios del proyecto, no capturas de producción: no contienen texto, cuentas ni datos reales. Las capturas históricas se conservan solo como evidencia en `docs/runs/.../capturas/`; la página ya no las usa. Los gates D3/G4/G5 del run siguen vigentes para el contenido; esta iteración es visual y se verificó con las comprobaciones de arriba.
+
+
+## Feedback: teléfonos, primer collage y fondo
+
+El usuario reportó que los teléfonos de las ilustraciones eran demasiado largos, que el primer collage se sentía alargado y que el fondo quedaba vacío.
+
+### Arte
+
+- `pairing`: teléfonos de 200×350 (ratio 0,57), más juntos, QR de 206, pantallas con contenido y tira de consentimiento. `agent` y `signals`: teléfonos 210×370 con pantallas de permisos/mensajes y más elementos.
+- Las seis escenas se densificaron con tarjetas fantasma, nodos, trazas, corchetes y constelaciones; el foco sigue siendo el elemento de mayor contraste.
+- Nuevo `assets/art/ambient.svg` (2560×1440) con órbitas, constelaciones, tarjetas fantasma y retícula al 10–25 %.
+
+### Collage y fondo
+
+- Rejilla del póster de 12×8 a **12×6**: tiles cuadrados/apaísados; el póster conserva 16:9, lockup y placas. Ajuste tablet 640–1023 para que el lockup no pise la placa «0».
+- Ambient a sangre detrás del póster y capa fija en las secciones oscuras; la hoja clara de límites queda opaca. Los tiles y placas usan `cqi` para no recortarse.
+
+### Rendimiento
+
+- LCP **2,69 s** (mediana de 3 pasadas; 4G 1,6 Mbps/150 ms, CPU 4×), CLS 0,00006, **403 KB en 20 requests**. El elemento LCP es el lockup del hero; el loader quedó en 1500 ms y el lockup entra sin retardo con fade de 400 ms. Sigue 0,19 s sobre el objetivo de 2,5 s por la ruta crítica CSS/fuentes y la rasterización de los seis SVG del collage; se acepta como costo de la densidad visual.
+- 12 imágenes de arte por página, 0 referencias a capturas, 8 tiles, sin solape arte/pie, axe 0 en home/legal, `html-validate`/`css-tree`/`node --check` OK.

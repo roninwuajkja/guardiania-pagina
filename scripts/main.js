@@ -32,7 +32,7 @@
     }
   };
 
-  /* Loader: one visit per session, bounded between 900 ms and 1900 ms. */
+  /* Loader: one visit per session, bounded between 900 ms and 1500 ms. */
   const loader = document.querySelector(".loader");
   let loaderStarted = performance.now();
 
@@ -65,7 +65,7 @@
         return;
       }
       window.addEventListener("load", resolve, { once: true });
-      window.setTimeout(resolve, Math.max(0, 1900 - (performance.now() - loaderStarted)));
+      window.setTimeout(resolve, Math.max(0, 1500 - (performance.now() - loaderStarted)));
     });
 
     Promise.all([minimum, loaded]).then(finishLoader);

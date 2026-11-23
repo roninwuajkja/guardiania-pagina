@@ -154,7 +154,7 @@
   }
 
   html[data-motion="auto"].is-ready .hero__lockup {
-    animation: hero-lockup-in 1100ms var(--ease-out) 500ms backwards;
+    animation: hero-lockup-in 400ms var(--ease-out) both;
   }
 
   html[data-motion="auto"].is-ready .hero__meta {

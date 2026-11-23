@@ -1,0 +1,1262 @@
+{
+  "generatedAt": "2026-11-23T18:49:36.527Z",
+  "base": "http://127.0.0.1:4191",
+  "viewports": {
+    "1440x900": {
+      "poster": {
+        "left": 257.78125,
+        "top": 189.546875,
+        "right": 1182.21875,
+        "bottom": 709.53125,
+        "width": 924.4375,
+        "height": 519.984375
+      },
+      "inner": {
+        "left": 257.78125,
+        "top": 189.546875,
+        "right": 1182.21875,
+        "bottom": 709.53125,
+        "width": 924.4375,
+        "height": 519.984375
+      },
+      "innerPadding": "8px",
+      "innerRows": "78.6562px 78.6562px 78.6562px 78.6562px 78.6562px 78.6562px",
+      "innerCols": "70.0312px 70.0312px 70.0312px 70.0312px 70.0312px 70.0312px 70.0312px 70.0312px 70.0312px 70.0312px 70.0312px 70.0312px",
+      "lockup": {
+        "left": 544.7421875,
+        "top": 385.4375,
+        "right": 895.2578125,
+        "bottom": 513.625,
+        "width": 350.515625,
+        "height": 128.1875
+      },
+      "plateA": {
+        "left": 1027.140625,
+        "top": 198.546875,
+        "right": 1173.21875,
+        "bottom": 361.875,
+        "width": 146.078125,
+        "height": 163.328125
+      },
+      "plateB": {
+        "left": 1027.140625,
+        "top": 367.875,
+        "right": 1173.21875,
+        "bottom": 700.53125,
+        "width": 146.078125,
+        "height": 332.65625
+      },
+      "tiles": [
+        {
+          "cls": "hero__tile hero__tile--overview",
+          "display": "block",
+          "gridColumn": "1 / 5",
+          "gridRow": "1 / 4",
+          "rect": {
+            "left": 266.78125,
+            "top": 198.546875,
+            "right": 564.921875,
+            "bottom": 446.53125,
+            "width": 298.140625,
+            "height": 247.984375
+          },
+          "ratio": 1.202,
+          "img": {
+            "src": "assets/art/panel.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--android",
+          "display": "block",
+          "gridColumn": "5 / 8",
+          "gridRow": "1 / 4",
+          "rect": {
+            "left": 570.921875,
+            "top": 198.546875,
+            "right": 793.03125,
+            "bottom": 446.53125,
+            "width": 222.109375,
+            "height": 247.984375
+          },
+          "ratio": 0.896,
+          "img": {
+            "src": "assets/art/agent.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--plate hero__tile--plate-a",
+          "display": "flex",
+          "gridColumn": "11 / 13",
+          "gridRow": "1 / 3",
+          "rect": {
+            "left": 1027.140625,
+            "top": 198.546875,
+            "right": 1173.21875,
+            "bottom": 361.875,
+            "width": 146.078125,
+            "height": 163.328125
+          },
+          "ratio": 0.894,
+          "img": null
+        },
+        {
+          "cls": "hero__tile hero__tile--alerts",
+          "display": "block",
+          "gridColumn": "8 / 11",
+          "gridRow": "1 / 4",
+          "rect": {
+            "left": 799.03125,
+            "top": 198.546875,
+            "right": 1021.140625,
+            "bottom": 446.53125,
+            "width": 222.109375,
+            "height": 247.984375
+          },
+          "ratio": 0.896,
+          "img": {
+            "src": "assets/art/alerts.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--android-pairing",
+          "display": "block",
+          "gridColumn": "1 / 4",
+          "gridRow": "4 / 7",
+          "rect": {
+            "left": 266.78125,
+            "top": 452.53125,
+            "right": 488.890625,
+            "bottom": 700.53125,
+            "width": 222.109375,
+            "height": 248
+          },
+          "ratio": 0.896,
+          "img": {
+            "src": "assets/art/pairing.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--pairing",
+          "display": "block",
+          "gridColumn": "4 / 9",
+          "gridRow": "4 / 7",
+          "rect": {
+            "left": 494.890625,
+            "top": 452.53125,
+            "right": 869.0625,
+            "bottom": 700.53125,
+            "width": 374.171875,
+            "height": 248
+          },
+          "ratio": 1.509,
+          "img": {
+            "src": "assets/art/privacy.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--plate hero__tile--plate-b",
+          "display": "flex",
+          "gridColumn": "11 / 13",
+          "gridRow": "3 / 7",
+          "rect": {
+            "left": 1027.140625,
+            "top": 367.875,
+            "right": 1173.21875,
+            "bottom": 700.53125,
+            "width": 146.078125,
+            "height": 332.65625
+          },
+          "ratio": 0.439,
+          "img": null
+        },
+        {
+          "cls": "hero__tile hero__tile--mobile",
+          "display": "block",
+          "gridColumn": "9 / 11",
+          "gridRow": "4 / 7",
+          "rect": {
+            "left": 875.0625,
+            "top": 452.53125,
+            "right": 1021.140625,
+            "bottom": 700.53125,
+            "width": 146.078125,
+            "height": 248
+          },
+          "ratio": 0.589,
+          "img": {
+            "src": "assets/art/signals.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        }
+      ],
+      "ambient": {
+        "backgroundImage": "url(\"http://127.0.0.1:4191/assets/art/ambient.svg\")",
+        "opacity": "1",
+        "position": "fixed",
+        "zIndex": "-1",
+        "pointerEvents": "none",
+        "rect": {
+          "left": 0,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "heroAmbient": {
+        "backgroundImage": "url(\"http://127.0.0.1:4191/assets/art/ambient.svg\")",
+        "opacity": "0.62",
+        "position": "absolute",
+        "zIndex": "0",
+        "pointerEvents": "none",
+        "rect": {
+          "left": 0,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "sectionBackgrounds": {
+        ".statement": "rgba(0, 0, 0, 0)",
+        ".sequence": "rgba(0, 0, 0, 0)",
+        ".sequence__pin": "rgba(0, 0, 0, 0)",
+        ".signals": "rgba(0, 0, 0, 0)",
+        ".promos": "rgba(0, 0, 0, 0)",
+        ".limits": "rgba(0, 0, 0, 0)",
+        ".download": "rgba(0, 0, 0, 0)",
+        ".faq": "rgba(0, 0, 0, 0)"
+      },
+      "overflow": {
+        "html": 0,
+        "body": 0,
+        "innerWidth": 1440,
+        "scrollWidth": 1440
+      },
+      "elementsAtHeroText": [
+        "hero__meta-value",
+        "hero__meta-cell",
+        "hero__meta",
+        "hero__inner container"
+      ],
+      "tileIntersections": {
+        "lockupA": {
+          "w": 0,
+          "h": 0,
+          "area": 0
+        },
+        "lockupB": {
+          "w": 0,
+          "h": 128.19,
+          "area": 0
+        },
+        "plateAB": {
+          "w": 146.08,
+          "h": 0,
+          "area": 0
+        },
+        "tileCount": 8,
+        "tileAspects": [
+          {
+            "cls": "hero__tile--overview",
+            "ratio": 1.202
+          },
+          {
+            "cls": "hero__tile--android",
+            "ratio": 0.896
+          },
+          {
+            "cls": "hero__tile--plate hero__tile--plate-a",
+            "ratio": 0.894
+          },
+          {
+            "cls": "hero__tile--alerts",
+            "ratio": 0.896
+          },
+          {
+            "cls": "hero__tile--android-pairing",
+            "ratio": 0.896
+          },
+          {
+            "cls": "hero__tile--pairing",
+            "ratio": 1.509
+          },
+          {
+            "cls": "hero__tile--plate hero__tile--plate-b",
+            "ratio": 0.439
+          },
+          {
+            "cls": "hero__tile--mobile",
+            "ratio": 0.589
+          }
+        ]
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4191/assets/art/ambient.svg",
+          "initiatorType": "css",
+          "transferSize": 14725,
+          "decodedBodySize": 14425
+        }
+      ],
+      "console": []
+    },
+    "2560x1440": {
+      "poster": {
+        "left": 340,
+        "top": 190.09375,
+        "right": 2220,
+        "bottom": 1247.59375,
+        "width": 1880,
+        "height": 1057.5
+      },
+      "inner": {
+        "left": 340,
+        "top": 190.09375,
+        "right": 2220,
+        "bottom": 1247.59375,
+        "width": 1880,
+        "height": 1057.5
+      },
+      "innerPadding": "8px",
+      "innerRows": "168.25px 168.25px 168.25px 168.25px 168.25px 168.25px",
+      "innerCols": "149.656px 149.656px 149.656px 149.656px 149.656px 149.656px 149.656px 149.672px 149.656px 149.656px 149.672px 149.672px",
+      "lockup": {
+        "left": 923.1875,
+        "top": 588.359375,
+        "right": 1636.8125,
+        "bottom": 849.328125,
+        "width": 713.625,
+        "height": 260.96875
+      },
+      "plateA": {
+        "left": 1905.65625,
+        "top": 199.09375,
+        "right": 2211,
+        "bottom": 541.59375,
+        "width": 305.34375,
+        "height": 342.5
+      },
+      "plateB": {
+        "left": 1905.65625,
+        "top": 547.59375,
+        "right": 2211,
+        "bottom": 1238.59375,
+        "width": 305.34375,
+        "height": 691
+      },
+      "tiles": [
+        {
+          "cls": "hero__tile hero__tile--overview",
+          "display": "block",
+          "gridColumn": "1 / 5",
+          "gridRow": "1 / 4",
+          "rect": {
+            "left": 349,
+            "top": 199.09375,
+            "right": 965.65625,
+            "bottom": 715.84375,
+            "width": 616.65625,
+            "height": 516.75
+          },
+          "ratio": 1.193,
+          "img": {
+            "src": "assets/art/panel.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--android",
+          "display": "block",
+          "gridColumn": "5 / 8",
+          "gridRow": "1 / 4",
+          "rect": {
+            "left": 971.65625,
+            "top": 199.09375,
+            "right": 1432.65625,
+            "bottom": 715.84375,
+            "width": 461,
+            "height": 516.75
+          },
+          "ratio": 0.892,
+          "img": {
+            "src": "assets/art/agent.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--plate hero__tile--plate-a",
+          "display": "flex",
+          "gridColumn": "11 / 13",
+          "gridRow": "1 / 3",
+          "rect": {
+            "left": 1905.65625,
+            "top": 199.09375,
+            "right": 2211,
+            "bottom": 541.59375,
+            "width": 305.34375,
+            "height": 342.5
+          },
+          "ratio": 0.892,
+          "img": null
+        },
+        {
+          "cls": "hero__tile hero__tile--alerts",
+          "display": "block",
+          "gridColumn": "8 / 11",
+          "gridRow": "1 / 4",
+          "rect": {
+            "left": 1438.65625,
+            "top": 199.09375,
+            "right": 1899.65625,
+            "bottom": 715.84375,
+            "width": 461,
+            "height": 516.75
+          },
+          "ratio": 0.892,
+          "img": {
+            "src": "assets/art/alerts.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--android-pairing",
+          "display": "block",
+          "gridColumn": "1 / 4",
+          "gridRow": "4 / 7",
+          "rect": {
+            "left": 349,
+            "top": 721.84375,
+            "right": 810,
+            "bottom": 1238.59375,
+            "width": 461,
+            "height": 516.75
+          },
+          "ratio": 0.892,
+          "img": {
+            "src": "assets/art/pairing.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--pairing",
+          "display": "block",
+          "gridColumn": "4 / 9",
+          "gridRow": "4 / 7",
+          "rect": {
+            "left": 816,
+            "top": 721.84375,
+            "right": 1588.328125,
+            "bottom": 1238.59375,
+            "width": 772.328125,
+            "height": 516.75
+          },
+          "ratio": 1.495,
+          "img": {
+            "src": "assets/art/privacy.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--plate hero__tile--plate-b",
+          "display": "flex",
+          "gridColumn": "11 / 13",
+          "gridRow": "3 / 7",
+          "rect": {
+            "left": 1905.65625,
+            "top": 547.59375,
+            "right": 2211,
+            "bottom": 1238.59375,
+            "width": 305.34375,
+            "height": 691
+          },
+          "ratio": 0.442,
+          "img": null
+        },
+        {
+          "cls": "hero__tile hero__tile--mobile",
+          "display": "block",
+          "gridColumn": "9 / 11",
+          "gridRow": "4 / 7",
+          "rect": {
+            "left": 1594.328125,
+            "top": 721.84375,
+            "right": 1899.65625,
+            "bottom": 1238.59375,
+            "width": 305.328125,
+            "height": 516.75
+          },
+          "ratio": 0.591,
+          "img": {
+            "src": "assets/art/signals.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        }
+      ],
+      "ambient": {
+        "backgroundImage": "url(\"http://127.0.0.1:4191/assets/art/ambient.svg\")",
+        "opacity": "1",
+        "position": "fixed",
+        "zIndex": "-1",
+        "pointerEvents": "none",
+        "rect": {
+          "left": 0,
+          "top": 0,
+          "right": 2560,
+          "bottom": 1440,
+          "width": 2560,
+          "height": 1440
+        }
+      },
+      "heroAmbient": {
+        "backgroundImage": "url(\"http://127.0.0.1:4191/assets/art/ambient.svg\")",
+        "opacity": "0.62",
+        "position": "absolute",
+        "zIndex": "0",
+        "pointerEvents": "none",
+        "rect": {
+          "left": 0,
+          "top": 0,
+          "right": 2560,
+          "bottom": 1461.59375,
+          "width": 2560,
+          "height": 1461.59375
+        }
+      },
+      "sectionBackgrounds": {
+        ".statement": "rgba(0, 0, 0, 0)",
+        ".sequence": "rgba(0, 0, 0, 0)",
+        ".sequence__pin": "rgba(0, 0, 0, 0)",
+        ".signals": "rgba(0, 0, 0, 0)",
+        ".promos": "rgba(0, 0, 0, 0)",
+        ".limits": "rgba(0, 0, 0, 0)",
+        ".download": "rgba(0, 0, 0, 0)",
+        ".faq": "rgba(0, 0, 0, 0)"
+      },
+      "overflow": {
+        "html": 0,
+        "body": 0,
+        "innerWidth": 2560,
+        "scrollWidth": 2560
+      },
+      "elementsAtHeroText": [
+        "hero__meta-value",
+        "hero__meta-cell",
+        "hero__meta",
+        "hero__inner container"
+      ],
+      "tileIntersections": {
+        "lockupA": {
+          "w": 0,
+          "h": 0,
+          "area": 0
+        },
+        "lockupB": {
+          "w": 0,
+          "h": 260.97,
+          "area": 0
+        },
+        "plateAB": {
+          "w": 305.34,
+          "h": 0,
+          "area": 0
+        },
+        "tileCount": 8,
+        "tileAspects": [
+          {
+            "cls": "hero__tile--overview",
+            "ratio": 1.193
+          },
+          {
+            "cls": "hero__tile--android",
+            "ratio": 0.892
+          },
+          {
+            "cls": "hero__tile--plate hero__tile--plate-a",
+            "ratio": 0.892
+          },
+          {
+            "cls": "hero__tile--alerts",
+            "ratio": 0.892
+          },
+          {
+            "cls": "hero__tile--android-pairing",
+            "ratio": 0.892
+          },
+          {
+            "cls": "hero__tile--pairing",
+            "ratio": 1.495
+          },
+          {
+            "cls": "hero__tile--plate hero__tile--plate-b",
+            "ratio": 0.442
+          },
+          {
+            "cls": "hero__tile--mobile",
+            "ratio": 0.591
+          }
+        ]
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4191/assets/art/ambient.svg",
+          "initiatorType": "css",
+          "transferSize": 14725,
+          "decodedBodySize": 14425
+        }
+      ],
+      "console": []
+    },
+    "390x844": {
+      "poster": {
+        "left": 20,
+        "top": 184.09375,
+        "right": 370,
+        "bottom": 650.75,
+        "width": 350,
+        "height": 466.65625
+      },
+      "inner": {
+        "left": 20,
+        "top": 184.09375,
+        "right": 370,
+        "bottom": 650.75,
+        "width": 350,
+        "height": 466.65625
+      },
+      "innerPadding": "5px",
+      "innerRows": "34.2188px 34.2188px 34.2188px 34.2188px 34.2188px 34.2188px 34.2188px 34.2188px 34.2188px 34.2188px 34.2188px 34.2188px",
+      "innerCols": "24.5px 24.5px 24.5px 24.5px 24.5px 24.5px 24.5px 24.5px 24.5px 24.5px 24.5px 24.5px",
+      "lockup": {
+        "left": 104.5234375,
+        "top": 333.90625,
+        "right": 285.4765625,
+        "bottom": 500.9375,
+        "width": 180.953125,
+        "height": 167.03125
+      },
+      "plateA": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "plateB": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "tiles": [
+        {
+          "cls": "hero__tile hero__tile--overview",
+          "display": "block",
+          "gridColumn": "1 / 8",
+          "gridRow": "1 / 6",
+          "rect": {
+            "left": 26,
+            "top": 190.09375,
+            "right": 221.5,
+            "bottom": 377.1875,
+            "width": 195.5,
+            "height": 187.09375
+          },
+          "ratio": 1.045,
+          "img": {
+            "src": "assets/art/panel.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--android",
+          "display": "block",
+          "gridColumn": "8 / 13",
+          "gridRow": "1 / 8",
+          "rect": {
+            "left": 225.5,
+            "top": 190.09375,
+            "right": 364,
+            "bottom": 453.640625,
+            "width": 138.5,
+            "height": 263.546875
+          },
+          "ratio": 0.526,
+          "img": {
+            "src": "assets/art/agent.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--plate hero__tile--plate-a",
+          "display": "none",
+          "gridColumn": "11 / 13",
+          "gridRow": "1 / 3",
+          "rect": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "ratio": null,
+          "img": null
+        },
+        {
+          "cls": "hero__tile hero__tile--alerts",
+          "display": "none",
+          "gridColumn": "8 / 11",
+          "gridRow": "1 / 4",
+          "rect": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "ratio": null,
+          "img": {
+            "src": "assets/art/alerts.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--android-pairing",
+          "display": "block",
+          "gridColumn": "1 / 7",
+          "gridRow": "6 / 13",
+          "rect": {
+            "left": 26,
+            "top": 381.1875,
+            "right": 193,
+            "bottom": 644.75,
+            "width": 167,
+            "height": 263.5625
+          },
+          "ratio": 0.634,
+          "img": {
+            "src": "assets/art/pairing.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--pairing",
+          "display": "none",
+          "gridColumn": "4 / 9",
+          "gridRow": "4 / 7",
+          "rect": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "ratio": null,
+          "img": {
+            "src": "assets/art/privacy.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--plate hero__tile--plate-b",
+          "display": "none",
+          "gridColumn": "11 / 13",
+          "gridRow": "3 / 7",
+          "rect": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "ratio": null,
+          "img": null
+        },
+        {
+          "cls": "hero__tile hero__tile--mobile",
+          "display": "block",
+          "gridColumn": "7 / 13",
+          "gridRow": "8 / 13",
+          "rect": {
+            "left": 197,
+            "top": 457.640625,
+            "right": 364,
+            "bottom": 644.75,
+            "width": 167,
+            "height": 187.109375
+          },
+          "ratio": 0.893,
+          "img": {
+            "src": "assets/art/signals.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        }
+      ],
+      "ambient": {
+        "backgroundImage": "url(\"http://127.0.0.1:4191/assets/art/ambient.svg\")",
+        "opacity": "1",
+        "position": "fixed",
+        "zIndex": "-1",
+        "pointerEvents": "none",
+        "rect": {
+          "left": 0,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 844
+        }
+      },
+      "heroAmbient": {
+        "backgroundImage": "url(\"http://127.0.0.1:4191/assets/art/ambient.svg\")",
+        "opacity": "0.62",
+        "position": "absolute",
+        "zIndex": "0",
+        "pointerEvents": "none",
+        "rect": {
+          "left": 0,
+          "top": 0,
+          "right": 390,
+          "bottom": 852.9375,
+          "width": 390,
+          "height": 852.9375
+        }
+      },
+      "sectionBackgrounds": {
+        ".statement": "rgba(0, 0, 0, 0)",
+        ".sequence": "rgba(0, 0, 0, 0)",
+        ".sequence__pin": "rgba(0, 0, 0, 0)",
+        ".signals": "rgba(0, 0, 0, 0)",
+        ".promos": "rgba(0, 0, 0, 0)",
+        ".limits": "rgba(0, 0, 0, 0)",
+        ".download": "rgba(0, 0, 0, 0)",
+        ".faq": "rgba(0, 0, 0, 0)"
+      },
+      "overflow": {
+        "html": 0,
+        "body": 0,
+        "innerWidth": 390,
+        "scrollWidth": 390
+      },
+      "elementsAtHeroText": [
+        "hero__meta-value",
+        "hero__meta-cell",
+        "hero__meta",
+        "hero__inner container"
+      ],
+      "tileIntersections": {
+        "lockupA": {
+          "w": 0,
+          "h": 0,
+          "area": 0
+        },
+        "lockupB": {
+          "w": 0,
+          "h": 0,
+          "area": 0
+        },
+        "plateAB": {
+          "w": 0,
+          "h": 0,
+          "area": 0
+        },
+        "tileCount": 4,
+        "tileAspects": [
+          {
+            "cls": "hero__tile--overview",
+            "ratio": 1.045
+          },
+          {
+            "cls": "hero__tile--android",
+            "ratio": 0.526
+          },
+          {
+            "cls": "hero__tile--android-pairing",
+            "ratio": 0.634
+          },
+          {
+            "cls": "hero__tile--mobile",
+            "ratio": 0.893
+          }
+        ]
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4191/assets/art/ambient.svg",
+          "initiatorType": "css",
+          "transferSize": 14725,
+          "decodedBodySize": 14425
+        }
+      ],
+      "console": []
+    },
+    "768x900": {
+      "poster": {
+        "left": 46.078125,
+        "top": 259.46875,
+        "right": 721.921875,
+        "bottom": 639.625,
+        "width": 675.84375,
+        "height": 380.15625
+      },
+      "inner": {
+        "left": 46.078125,
+        "top": 259.46875,
+        "right": 721.921875,
+        "bottom": 639.625,
+        "width": 675.84375,
+        "height": 380.15625
+      },
+      "innerPadding": "8px",
+      "innerRows": "55.3594px 55.3594px 55.3594px 55.3594px 55.3594px 55.3594px",
+      "innerCols": "49.3125px 49.3125px 49.3125px 49.3125px 49.3125px 49.3281px 49.3125px 49.3125px 49.3125px 49.3125px 49.3125px 49.3125px",
+      "lockup": {
+        "left": 255.9765625,
+        "top": 402.734375,
+        "right": 512.0234375,
+        "bottom": 496.359375,
+        "width": 256.046875,
+        "height": 93.625
+      },
+      "plateA": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "plateB": {
+        "left": 552.953125,
+        "top": 452.546875,
+        "right": 712.921875,
+        "bottom": 630.625,
+        "width": 159.96875,
+        "height": 178.078125
+      },
+      "tiles": [
+        {
+          "cls": "hero__tile hero__tile--overview",
+          "display": "block",
+          "gridColumn": "1 / 6",
+          "gridRow": "1 / 4",
+          "rect": {
+            "left": 55.078125,
+            "top": 268.46875,
+            "right": 325.671875,
+            "bottom": 446.546875,
+            "width": 270.59375,
+            "height": 178.078125
+          },
+          "ratio": 1.52,
+          "img": {
+            "src": "assets/art/panel.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--android",
+          "display": "block",
+          "gridColumn": "6 / 9",
+          "gridRow": "1 / 4",
+          "rect": {
+            "left": 331.671875,
+            "top": 268.46875,
+            "right": 491.640625,
+            "bottom": 446.546875,
+            "width": 159.96875,
+            "height": 178.078125
+          },
+          "ratio": 0.898,
+          "img": {
+            "src": "assets/art/agent.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--plate hero__tile--plate-a",
+          "display": "none",
+          "gridColumn": "11 / 13",
+          "gridRow": "1 / 3",
+          "rect": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "ratio": null,
+          "img": null
+        },
+        {
+          "cls": "hero__tile hero__tile--alerts",
+          "display": "block",
+          "gridColumn": "9 / 13",
+          "gridRow": "1 / 4",
+          "rect": {
+            "left": 497.640625,
+            "top": 268.46875,
+            "right": 712.921875,
+            "bottom": 446.546875,
+            "width": 215.28125,
+            "height": 178.078125
+          },
+          "ratio": 1.209,
+          "img": {
+            "src": "assets/art/alerts.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--android-pairing",
+          "display": "none",
+          "gridColumn": "1 / 4",
+          "gridRow": "4 / 7",
+          "rect": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "width": 0,
+            "height": 0
+          },
+          "ratio": null,
+          "img": {
+            "src": "assets/art/pairing.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--pairing",
+          "display": "block",
+          "gridColumn": "1 / 7",
+          "gridRow": "4 / 7",
+          "rect": {
+            "left": 55.078125,
+            "top": 452.546875,
+            "right": 381,
+            "bottom": 630.625,
+            "width": 325.921875,
+            "height": 178.078125
+          },
+          "ratio": 1.83,
+          "img": {
+            "src": "assets/art/privacy.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        },
+        {
+          "cls": "hero__tile hero__tile--plate hero__tile--plate-b",
+          "display": "flex",
+          "gridColumn": "10 / 13",
+          "gridRow": "4 / 7",
+          "rect": {
+            "left": 552.953125,
+            "top": 452.546875,
+            "right": 712.921875,
+            "bottom": 630.625,
+            "width": 159.96875,
+            "height": 178.078125
+          },
+          "ratio": 0.898,
+          "img": null
+        },
+        {
+          "cls": "hero__tile hero__tile--mobile",
+          "display": "block",
+          "gridColumn": "7 / 10",
+          "gridRow": "4 / 7",
+          "rect": {
+            "left": 387,
+            "top": 452.546875,
+            "right": 546.953125,
+            "bottom": 630.625,
+            "width": 159.953125,
+            "height": 178.078125
+          },
+          "ratio": 0.898,
+          "img": {
+            "src": "assets/art/signals.svg",
+            "natural": "1600x1200",
+            "fit": "cover",
+            "complete": true
+          }
+        }
+      ],
+      "ambient": {
+        "backgroundImage": "url(\"http://127.0.0.1:4191/assets/art/ambient.svg\")",
+        "opacity": "1",
+        "position": "fixed",
+        "zIndex": "-1",
+        "pointerEvents": "none",
+        "rect": {
+          "left": 0,
+          "top": 0,
+          "right": 768,
+          "bottom": 900,
+          "width": 768,
+          "height": 900
+        }
+      },
+      "heroAmbient": {
+        "backgroundImage": "url(\"http://127.0.0.1:4191/assets/art/ambient.svg\")",
+        "opacity": "0.62",
+        "position": "absolute",
+        "zIndex": "0",
+        "pointerEvents": "none",
+        "rect": {
+          "left": 0,
+          "top": 0,
+          "right": 768,
+          "bottom": 900,
+          "width": 768,
+          "height": 900
+        }
+      },
+      "sectionBackgrounds": {
+        ".statement": "rgba(0, 0, 0, 0)",
+        ".sequence": "rgba(0, 0, 0, 0)",
+        ".sequence__pin": "rgba(0, 0, 0, 0)",
+        ".signals": "rgba(0, 0, 0, 0)",
+        ".promos": "rgba(0, 0, 0, 0)",
+        ".limits": "rgba(0, 0, 0, 0)",
+        ".download": "rgba(0, 0, 0, 0)",
+        ".faq": "rgba(0, 0, 0, 0)"
+      },
+      "overflow": {
+        "html": 0,
+        "body": 0,
+        "innerWidth": 768,
+        "scrollWidth": 768
+      },
+      "elementsAtHeroText": [
+        "hero__meta-value",
+        "hero__meta-cell",
+        "hero__meta",
+        "hero__inner container"
+      ],
+      "tileIntersections": {
+        "lockupA": {
+          "w": 0,
+          "h": 0,
+          "area": 0
+        },
+        "lockupB": {
+          "w": 0,
+          "h": 43.81,
+          "area": 0
+        },
+        "plateAB": {
+          "w": 0,
+          "h": 0,
+          "area": 0
+        },
+        "tileCount": 6,
+        "tileAspects": [
+          {
+            "cls": "hero__tile--overview",
+            "ratio": 1.52
+          },
+          {
+            "cls": "hero__tile--android",
+            "ratio": 0.898
+          },
+          {
+            "cls": "hero__tile--alerts",
+            "ratio": 1.209
+          },
+          {
+            "cls": "hero__tile--pairing",
+            "ratio": 1.83
+          },
+          {
+            "cls": "hero__tile--plate hero__tile--plate-b",
+            "ratio": 0.898
+          },
+          {
+            "cls": "hero__tile--mobile",
+            "ratio": 0.898
+          }
+        ]
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4191/assets/art/ambient.svg",
+          "initiatorType": "css",
+          "transferSize": 14725,
+          "decodedBodySize": 14425
+        }
+      ],
+      "console": []
+    }
+  },
+  "console": {},
+  "axe": {
+    "home-1440": [],
+    "home-390": [],
+    "legal-1440": [],
+    "legal-390": []
+  },
+  "resources": {}
+}

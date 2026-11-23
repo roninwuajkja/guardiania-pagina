@@ -74,3 +74,39 @@ adaptando la estructura de la secuencia y las promos. No cambiar el resto del di
 - Axe 0 en home/legal; `html-validate`/`css-tree` OK.
 - La página no debe contener ninguna imagen de `assets/screens` ni referencias muertas.
 - Capturas nuevas para el run y deploy de Pages.
+
+
+## 6. Ajuste por feedback — collage y fondo
+
+El usuario reportó que los teléfonos se ven demasiado largos y que el primer collage y el fondo se sienten vacíos.
+
+### Collage 12×6
+
+Mantén el póster 16:9, pero cambia la rejilla interior de 12×8 a **12×6** para que los tiles sean cuadrados o apaisados, no tiras verticales:
+
+| Tile | Cols | Rows |
+|---|---|---|
+| overview | 1/5 | 1/4 |
+| android | 5/8 | 1/4 |
+| alerts | 8/11 | 1/4 |
+| plate-a (privacidad) | 11/13 | 1/3 |
+| android-pairing | 1/4 | 4/7 |
+| pairing | 4/9 | 4/7 |
+| mobile | 9/11 | 4/7 |
+| plate-b (0) | 11/13 | 3/7 |
+
+- Mantén el lockup, las dos placas, el marco y el foco centrado.
+- El póster conserva 16:9 y su ancho; los tiles dejan de ser altos.
+- Revisa 1440/2560: el lockup no debe pisar las placas; los tiles no deben cortar teléfonos de forma extrema.
+
+### Fondo con contenido
+
+- Añade `assets/art/ambient.svg` como capa de fondo del hero (detrás del póster y de los anillos), a sangre y con opacidad controlada.
+- Añade una capa ambiental sutil en las secciones oscuras (statement, secuencia, señales, promos, descarga, FAQ) para que el pine no quede plano. Puede ser la misma ambient con `background-attachment` fijo o capas por sección; la hoja clara de límites queda opaca encima.
+- Mantén la legibilidad: líneas al 10–25 %, sin tapar texto ni capturas; el contenido sigue siendo el protagonista.
+
+### Verificación
+
+- Collage: 8 tiles, sin teléfonos estirados, lockup/placas sin solape, 1440/2560.
+- Fondo: la ambient carga, no introduce overflow ni tapa el contenido; el contraste del texto se mantiene.
+- Axe 0, sin consola, sin requests fallidos.
