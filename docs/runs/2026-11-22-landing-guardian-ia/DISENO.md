@@ -522,9 +522,9 @@ No se agregan imágenes generadas ni de terceros. Los logos de Android se repres
 El pine sigue siendo el lienzo; las secciones de contenido ganan islas de papel para bajar la saturación sin perder la identidad.
 
 ```css
---card-bg: #F7F9F4;
---card-line: rgba(16, 32, 27, 0.14);
---card-line-strong: rgba(16, 32, 27, 0.28);
+--card-bg: #E6EFE9; /* verde niebla */
+--card-line: rgba(16, 32, 27, 0.16);
+--card-line-strong: rgba(16, 32, 27, 0.30);
 --card-shadow: 0 24px 60px -40px rgba(0, 0, 0, 0.55);
 ```
 

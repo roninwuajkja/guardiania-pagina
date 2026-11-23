@@ -2158,7 +2158,7 @@ html.is-loading .loader {
   z-index: 0;
   inset: 4px -12px;
   border-radius: 12px;
-  background: color-mix(in srgb, var(--sage-100) 45%, transparent);
+  background: color-mix(in srgb, #f8fbf7 65%, transparent);
   pointer-events: none;
 }
 

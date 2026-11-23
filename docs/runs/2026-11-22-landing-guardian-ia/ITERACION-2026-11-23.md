@@ -171,3 +171,20 @@ El usuario pidió reducir la saturación verde con cards de fondo blanco. Se man
 - Movimiento reducido y sin JS: cards claras, texto legible, sin overflow.
 - `html-validate` exit 0; `css-tree` 4/4; `node --check scripts/main.js` exit 0.
 - Evidencia: `capturas/papel/` (capturas por viewport, foco, hover, FAQ abierta, reduced, no-JS, `reporte.json` y `RESUMEN.md`).
+
+## Iteración: verde niebla en las cards
+
+El usuario pidió cambiar el papel cálido por un verde niebla frío y más amable. Se conserva el sistema «papel sobre pine»; solo cambia la superficie de las cards.
+
+- `--card-bg` pasa de `#F7F9F4` a `#E6EFE9`; los hairlines suben a `0.16 / 0.30` para no perderse sobre el tono más profundo.
+- El velo del FAQ abierto pasa de sage-100 al 45 % a `color-mix(in srgb, #F8FBF7 65%, transparent)`: efectivo `#F2F7F2` (1,08:1 sobre la card), radio 12 y sin mover layout.
+- Revisados: botón sage de descarga (1,56:1 con la card; etiqueta pine-950 9,71:1), QR blanco (1,17:1, delimitado por borde y por el propio QR) y CTA outline de promos (borde 1,88:1; texto 13,92:1). No se añadieron colores ni se cambió el layout.
+- `motion.css` no requirió cambios: los hover de señales, FAQ y CTA ya estaban resueltos con tokens pine/card.
+
+### Verificación
+
+- 1440×900, 390×844, 1024×768 y 2560×1440: 0 overflow, 0 errores de consola y 0 requests fallidos; axe 0 en home y legal a 1440 y 390.
+- Contraste: ink/card 14,37:1; ink-2/card 8,12:1; pine-600/card 6,24:1; pine-700/card 8,54:1.
+- Movimiento reducido y sin JS: cards en `#E6EFE9` y texto legible; sin overflow.
+- `html-validate` 11.21.1 exit 0; `css-tree` 4/4; `node --check scripts/main.js` exit 0.
+- Evidencia: `capturas/verde-niebla/` (`reporte.json` y `RESUMEN.md` incluidos).

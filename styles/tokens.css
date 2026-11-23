@@ -56,9 +56,9 @@
   --muted: rgba(233, 241, 236, 0.64);
   --muted-2: rgba(233, 241, 236, 0.44);
 
-  --card-bg: #f7f9f4;
-  --card-line: rgba(16, 32, 27, 0.14);
-  --card-line-strong: rgba(16, 32, 27, 0.28);
+  --card-bg: #e6efe9;
+  --card-line: rgba(16, 32, 27, 0.16);
+  --card-line-strong: rgba(16, 32, 27, 0.30);
 
   --font-display: "Archivo Variable", "Archivo", system-ui, sans-serif;
   --font-ui: "Archivo Variable", "Archivo", system-ui, sans-serif;
